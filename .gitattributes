@@ -1,3 +1,1 @@
 *.js linguist-generated=true
-*.c linguist-detectable=true
-*.h linguist-detectable=true
