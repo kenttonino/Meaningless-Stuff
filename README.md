@@ -1,2 +1,3 @@
-# notes-computer-engineering
-Anything I learned related to Computer Engineering.
+## Notes: Computer Engineering
+
+> - Anything I learned related to Computer Engineering.
