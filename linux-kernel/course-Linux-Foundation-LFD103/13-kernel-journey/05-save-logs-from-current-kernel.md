@@ -1,0 +1,92 @@
+## $\textnormal{Save the Logs from the Current Kernel}$
+
+> - Now it is time to reboot the system to boot the <br />
+    newly installed kernel.
+
+> - Before we do that, let's save the logs from the <br />
+    current kernel to compare and look for regressions <br />
+    and new errors, if any.
+
+```sh
+dmesg -t > dmesg_current
+dmesg -t -k > dmesg_kernel
+dmesg -t -l emerg > dmesg_current_emerg
+dmesg -t -l alert > dmesg_current_alert
+dmesg -t -l crit > dmesg_current_crit
+dmesg -t -l err > dmesg_current_err
+dmesg -t -l warn > dmesg_current_warn
+```
+
+> - In general, `dmesg` should be clean with no `emerg`, <br />
+    `alert`, `crit`, and `err` level messages.
+
+> - If you see any of these, it might indicate some <br />
+    hardware and/or kernel problem.
+
+```sh
+-----------------------------------------------------------------------------------------------------------------------
+dmesg_checks.sh
+     # !/bin/bash
+     #
+     #SPDX-License-Identifier: GPL-2.0
+     # Copyright(c) Shuah Khan <skhan@linuxfoundation.org>
+     #
+     # License: GPLv2​
+
+          if [ "$1" == "" ]; then
+             echo "$0 " <old name -r>
+             exit -1
+     fi
+
+release=`uname -r`
+echo "Start dmesg regression check for $release" > dmesg_checks_results
+
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t -l emerg > $release.dmesg_emerg
+echo "dmesg emergency regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_emerg $release.dmesg_emerg >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t -l crit > $release.dmesg_crit
+echo "dmesg critical regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_crit $release.dmesg_crit >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t -l alert > $release.dmesg_alert
+echo "dmesg alert regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_alert $release.dmesg_alert >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t -l err > $release.dmesg_err
+echo "dmesg err regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_err $release.dmesg_err >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t -l warn > $release.dmesg_warn
+echo "dmesg warn regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_warn $release.dmesg_warn >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t > $release.dmesg
+echo "dmesg regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg $release.dmesg >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+dmesg -t > $release.dmesg_kern
+echo "dmesg_kern regressions" >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+diff $1.dmesg_kern $release.dmesg_kern >> dmesg_checks_results
+echo "--------------------------" >> dmesg_checks_results
+
+echo "--------------------------" >> dmesg_checks_results
+
+echo "End dmesg regression check for $release" >> dmesg_checks_results
+----------------------------------------------------------------------------------------------------------
+```
