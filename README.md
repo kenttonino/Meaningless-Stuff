@@ -1,3 +1,3 @@
-## Notes: Computer Engineering
+## $\textnormal{Notes Computer Engineering}$
 
 > - Anything I learned related to Computer Engineering.
