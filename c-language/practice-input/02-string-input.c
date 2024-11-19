@@ -6,7 +6,6 @@ void add_newline(void) { printf("\n"); }
 void clear_terminal(void) { system("clear"); }
 
 int main(void) {
-  // Clear terminal.
   clear_terminal();
   add_newline();
   add_newline();
