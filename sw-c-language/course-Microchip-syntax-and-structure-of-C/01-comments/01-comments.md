@@ -1,4 +1,4 @@
-## $\textnormal{Comments}$
+## Comments
 
 > - Some the think code should document itself.
 
@@ -13,7 +13,7 @@
 
 
 
-## $\textnormal{Two Types of Comments}$
+## Two Types of Comments
 
 > - Block comments -> `/**/`.
 
