@@ -25,3 +25,6 @@ echo "Hello World from $(hostname) ${hostname -I}" > /var/html/html
     an VM instance is launched.
 
 > - In VM, you can configure startup script to bootstrap.
+
+> - As you create the VM instance, make sure to go to `Management` <br />
+    and look for `Startup script`.
