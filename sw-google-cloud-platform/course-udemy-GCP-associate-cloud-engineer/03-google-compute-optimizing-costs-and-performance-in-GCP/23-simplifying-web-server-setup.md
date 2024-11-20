@@ -23,3 +23,5 @@ echo "Hello World from $(hostname) ${hostname -I}" > /var/html/html
 
 > - `Bootstrapping` is installing OS patches or software when <br />
     an VM instance is launched.
+
+> - In VM, you can configure startup script to bootstrap.
