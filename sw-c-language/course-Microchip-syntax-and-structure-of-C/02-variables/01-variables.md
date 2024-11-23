@@ -14,3 +14,14 @@
 | ------------ |
 | [Code Variable Types](./code-variable-types.c) |
 
+
+<br />
+<br />
+
+
+
+## Data Types and Qualifiers
+
+<br />
+
+![qualified-types](./images/01-data-types-and-qualifiers.png)
