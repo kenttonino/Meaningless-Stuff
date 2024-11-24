@@ -18,3 +18,5 @@
 - (Recommendation) Hardening an Image - Customize
   images to your corporate security standards.
 ```
+
+> - Prefer using custom image to startup script.
