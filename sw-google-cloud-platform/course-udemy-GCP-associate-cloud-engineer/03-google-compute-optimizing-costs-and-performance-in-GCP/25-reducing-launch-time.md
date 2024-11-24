@@ -9,4 +9,9 @@
 ```plaintext
 - Can be created from an instance, a persistent disk,
   a snapshot, another image, or a file in Cloud Storage.
+
+- Can be shared across projects.
+
+- (Recommendation) Deprecate old images and specify
+  replacement image.
 ```
