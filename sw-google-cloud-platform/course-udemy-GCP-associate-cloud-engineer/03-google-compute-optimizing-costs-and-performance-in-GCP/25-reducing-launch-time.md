@@ -3,4 +3,10 @@
 > - Increases `OS` patches and software at launch of <br />
     VM instances increases boot up time.
 
-> -
+> - How about creating a custom image with OS patches <br />
+    and software `pre-installed`?
+
+```plaintext
+- Can be created from an instance, a persistent disk,
+  a snapshot, another image, or a file in Cloud Storage.
+```
