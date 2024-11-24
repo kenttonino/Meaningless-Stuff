@@ -14,4 +14,7 @@
 
 - (Recommendation) Deprecate old images and specify
   replacement image.
+
+- (Recommendation) Hardening an Image - Customize
+  images to your corporate security standards.
 ```
