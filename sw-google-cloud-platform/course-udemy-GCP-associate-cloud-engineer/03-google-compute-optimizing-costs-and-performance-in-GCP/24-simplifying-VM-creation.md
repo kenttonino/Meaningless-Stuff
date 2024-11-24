@@ -18,3 +18,11 @@
 ```plaintext
 - To make a change, copy an existing template and modify it.
 ```
+
+<br />
+
+| VM Startup Script |
+| ----------------- |
+| ![startup-script](./images/image-vm-instance-ssh.png) |
+
+<br />
