@@ -14,4 +14,7 @@
 ## Instance Template
 
 > - Cannot be updated.
-> -- To make a change, copy an existing template and modify it.
+
+```plaintext
+- To make a change, copy an existing template and modify it.
+```
