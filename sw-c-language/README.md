@@ -1,4 +1,4 @@
-## $\textnormal{C Language}$
+## C Language Notes
 
 > - All things I learned about C language.
 
