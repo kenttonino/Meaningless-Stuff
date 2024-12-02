@@ -1,5 +1,9 @@
 ## Spot VM
 
+| Link |
+| ---- |
+| https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/learn/lecture/33630164#overview |
+
 > - Latest version of preemtible VMs.
 
 | Spot VM |

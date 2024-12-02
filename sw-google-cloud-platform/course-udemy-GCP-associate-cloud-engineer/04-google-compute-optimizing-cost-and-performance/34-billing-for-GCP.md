@@ -1,5 +1,11 @@
 ## Understanding Billing for Google Comptue Engine
 
+| Link |
+| ---- |
+| https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/learn/lecture/25121408#overview |
+
+<br />
+
 > - You are billed by the second (after a minimum of 1 minute).
 
 > - You are not billed for compute when a compute instance <br />
