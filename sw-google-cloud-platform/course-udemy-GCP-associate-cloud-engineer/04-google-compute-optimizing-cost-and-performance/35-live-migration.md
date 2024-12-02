@@ -31,3 +31,7 @@
   due to non-user-initiated reasons (maintenance event, hardware
   failure, etc.)
 ```
+
+| Availability Policies |
+| --------------------- |
+| [availability-policies](./images/02-availability-policy.png) |
