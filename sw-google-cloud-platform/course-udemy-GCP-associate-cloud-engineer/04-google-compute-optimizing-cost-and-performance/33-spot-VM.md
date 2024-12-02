@@ -11,3 +11,12 @@
 ```plaintext
 - Traditional VM preemptible VMs have a maximum runtime of 24 hours only.
 ```
+
+> - Other features similart to traditional premptible VMs.
+
+```plaintext
+- May be reclaimed at any time with 30-second notice.
+- NOT always available.
+- Dynamic Pricing: 60 - 91% discount compared to on-demand VMs.
+- Free Tier credits not applicable.
+```
