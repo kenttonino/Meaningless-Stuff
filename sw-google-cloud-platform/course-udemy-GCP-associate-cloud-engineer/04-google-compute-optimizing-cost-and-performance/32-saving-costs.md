@@ -20,8 +20,7 @@
 
 ```plaintext
 - Can be stopped by GCP any time (preempted) within 24 hours.
-- Can be instances get 30 second warning (to save anything
-  they want to save).
+- Can be instances get 30 second warning (to save anything they want to save).
 ```
 
 > - Use `Preempt VM's if`:
@@ -30,4 +29,12 @@
 - Your application are fault tolerant.
 - Your are very cost sensitive.
 - Your workload is NOT immediate.
+- None immediate batch processing jobs.
+```
+
+> - Restrictions:
+
+```plaintext
+- Not always available.
+- No SLA (Service Level Agreement) and cannot be migrated to regular VMs.
 ```
