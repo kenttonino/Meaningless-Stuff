@@ -1,5 +1,7 @@
 ## Achieving High Availability with Live Migration and Automatic Report
 
+<br />
+
 | Link |
 | ---- |
 | https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/learn/lecture/25121402#overview |
@@ -31,6 +33,8 @@
   due to non-user-initiated reasons (maintenance event, hardware
   failure, etc.)
 ```
+
+<br />
 
 | Availability Policies |
 | --------------------- |
