@@ -37,4 +37,6 @@
 ```plaintext
 - Not always available.
 - No SLA (Service Level Agreement) and cannot be migrated to regular VMs.
+- No Automatic restarts.
+- Free tier credits not applicable.
 ```
