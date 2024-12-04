@@ -27,3 +27,7 @@
 ```
 
 > - Automatic basic monitoring is enabled.
+
+```plaintext
+- Default metrics: CPU utilization, Network Bytes (in/out), Disk Throughput/IOPS.
+```
