@@ -33,3 +33,21 @@
 ```plaintext
 - Go to Compute Engine -> VM Manager -> OS Patch Management.
 ```
+
+> - Logging in to VM instance to install software.
+
+```plaintext
+- Use SSH.
+```
+
+> - Not exposing a VM to internet.
+
+```plaintext
+- DO not assign an external IP.
+```
+
+> - Allow HTTP traffic to VM.
+
+```plaintext
+- Configure firewall rules.
+```
