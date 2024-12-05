@@ -65,3 +65,13 @@ int = 32 bits ???
 
 > - If qualifier are not specified, the compiler will decide what <br />
     qualifier to choose.
+
+<br />
+<br />
+
+
+
+## Data Type Qualifiers
+
+> - In `XC16` compiler, if you did not specify the qualifier, it <br />
+    will assume that you wanted a `signed`, `short`, and `integer`.
