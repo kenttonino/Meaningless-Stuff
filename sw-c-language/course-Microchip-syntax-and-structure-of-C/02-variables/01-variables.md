@@ -24,4 +24,15 @@
 
 <br />
 
-![qualified-types](./images/01-data-types-and-qualifiers.png)
+| Types |
+| ----- |
+| ![qualified-types](./images/01-data-types-and-qualifiers.png) |
+
+<br />
+
+> - `Note`: The `char` is considered an integer type.
+
+```c
+char num_1 = 1;
+signed char num_2 = -128;
+```
