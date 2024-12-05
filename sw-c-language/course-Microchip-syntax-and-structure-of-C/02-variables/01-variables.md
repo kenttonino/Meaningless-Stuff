@@ -75,3 +75,7 @@ int = 32 bits ???
 
 > - In `XC16` compiler, if you did not specify the qualifier, it <br />
     will assume that you wanted a `signed`, `short`, and `integer`.
+
+```c
+int x = signed short int x
+```
