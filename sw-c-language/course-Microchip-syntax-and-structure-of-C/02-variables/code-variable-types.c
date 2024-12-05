@@ -17,6 +17,7 @@ int main() {
   long int myVar = 0x12345678;
   long z;
   char first = 'a', second, third = 'c';
+  signed char signed_char = 's';
   float big_number = 6.02e+23;
 
   // Cleanup the screen.
@@ -39,6 +40,8 @@ int main() {
   printf("Sizeof Long z: %ld", sizeof(z));
   add_newline();
   printf("Sizeof Character first: %ld", sizeof(first));
+  add_newline();
+  printf("Sizeof Signed Char: %ld", sizeof(signed_char));
   add_newline();
   printf("Sizeof Character second: %ld", sizeof(second));
   add_newline();
