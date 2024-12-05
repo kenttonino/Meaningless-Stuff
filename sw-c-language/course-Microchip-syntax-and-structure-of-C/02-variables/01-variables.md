@@ -36,3 +36,32 @@
 char num_1 = 1;
 signed char num_2 = -128;
 ```
+
+> - For instance, for some compilers the `int` have different bits.
+
+```c
+// XC16 compiler.
+// Link: https://developerhelp.microchip.com/xwiki/bin/view/software-tools/xc16/install/
+// All check the compiler manual.
+int = 16 bits
+int = 18 bits
+int = 32 bits ???
+```
+
+<br />
+<br />
+
+
+
+## Data Qualifiers
+
+> - All data types have qualifiers.
+
+> - It always has `Signed` or `Unsigned` qualifier.
+
+> - Or `Short` or `Long` qualifier.
+
+> - Qualifier change the physical `size` and range of the data type.
+
+> - If qualifier are not specified, the compiler will decide what <br />
+    qualifier to choose.
