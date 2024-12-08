@@ -40,3 +40,6 @@
 
 > - Committed use discounts: 1 year or 3 year reservations for workloads <br />
     with predictable needs.
+
+> - Preemptible VM: short-lived cheaper (upto 80%) compute instances for <br />
+    non-time critical fault-tolerant workloads.
