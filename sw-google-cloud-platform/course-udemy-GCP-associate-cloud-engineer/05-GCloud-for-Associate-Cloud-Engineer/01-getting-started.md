@@ -48,5 +48,12 @@
 > - Connecting to GCP:
 
 ```plaintext
-gcloud init - Initialize or reinitialize gcloud.
+gcloud init
+    - Initialize or reinitialize gcloud.
+    - Authorize gcloud to use user account credentials.
+    - Setup configurations:
+        - Includes current project, default zone etc.
+
+gcloud config list
+    - Lists all properties of the active configuration.
 ```
