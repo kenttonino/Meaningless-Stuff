@@ -37,3 +37,6 @@
 
 > - Sustained use discounts: automatic discounts for running VM instances <br />
     for significant portion of the billing month.
+
+> - Committed use discounts: 1 year or 3 year reservations for workloads <br />
+    with predictable needs.
