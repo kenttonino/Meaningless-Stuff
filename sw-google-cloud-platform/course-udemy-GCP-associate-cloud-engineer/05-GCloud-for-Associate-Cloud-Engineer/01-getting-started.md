@@ -36,4 +36,17 @@
 - Kubernetes - kubectl (used to manage clusters)
 ```
 
-> - You can access GCP either in `gcloud` or `cloud shell`.
+<br />
+<br />
+
+
+
+## GCloud - Getting Started
+
+> - You can use GCP either using `gcloud` or `cloud shell`.
+
+> - Connecting to GCP:
+
+```plaintext
+gcloud init - Initialize or reinitialize gcloud.
+```
