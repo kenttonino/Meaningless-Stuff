@@ -35,3 +35,5 @@
 - Cloud Bigtable - cbt
 - Kubernetes - kubectl (used to manage clusters)
 ```
+
+> - You can access GCP either in `gcloud` or `cloud shell`.
