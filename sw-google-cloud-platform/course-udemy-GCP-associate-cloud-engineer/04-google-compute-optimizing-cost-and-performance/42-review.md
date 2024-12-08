@@ -34,3 +34,6 @@
 
 > - Instance templates: Pre-configured templates simplifying the creation <br />
     of VM instances.
+
+> - Sustained use discounts: automatic discounts for running VM instances <br />
+    for significant portion of the billing month.
