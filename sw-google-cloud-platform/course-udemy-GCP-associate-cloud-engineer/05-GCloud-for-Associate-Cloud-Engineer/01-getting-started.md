@@ -23,3 +23,15 @@
 - Database.
 - And many more.
 ```
+
+> - You can `create`/`delete`/`update`/`read` existing resources and <br />
+    perform actions like deployments as well.
+
+> - Some GCP services have specific CLI tools.
+
+```plaintext
+- Cloud Storage - gsutil
+- Cloud BigQuery - bq
+- Cloud Bigtable - cbt
+- Kubernetes - kubectl (used to manage clusters)
+```
