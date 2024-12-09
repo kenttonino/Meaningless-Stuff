@@ -28,3 +28,8 @@ gcloud config set compute/region VALUE
 gcloud config set compute/zone VALUE
 gcloud config set core/verbosity VALUE(debug)
 ```
+
+```plaintext
+Sections: core, compute, etc.
+Properties: project, region, zone
+```
