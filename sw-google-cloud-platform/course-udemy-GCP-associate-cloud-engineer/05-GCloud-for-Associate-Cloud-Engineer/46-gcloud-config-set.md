@@ -26,4 +26,5 @@ gcloud config list compute/region
 gcloud config set core/project VALUE
 gcloud config set compute/region VALUE
 gcloud config set compute/zone VALUE
+gcloud config set core/verbosity VALUE(debug)
 ```
