@@ -25,4 +25,5 @@ gcloud config list compute/region
 ```sh
 gcloud config set core/project VALUE
 gcloud config set compute/region VALUE
+gcloud config set compute/zone VALUE
 ```
