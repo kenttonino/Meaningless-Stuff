@@ -14,4 +14,9 @@
 gcloud config list account
 ```
 
-> -
+> - Show the region.
+
+```sh
+gcloud config list compute/region
+```
+
