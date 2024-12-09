@@ -8,4 +8,10 @@
 
 <br />
 
+> - List the account that being used.
+
+```sh
+gcloud config list account
+```
+
 > -
