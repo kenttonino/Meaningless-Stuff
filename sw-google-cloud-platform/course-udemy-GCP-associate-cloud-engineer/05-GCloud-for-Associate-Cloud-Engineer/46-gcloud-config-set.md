@@ -20,3 +20,8 @@ gcloud config list account
 gcloud config list compute/region
 ```
 
+> - Sets the specific property in active configuration.
+
+```sh
+gcloud config set core/project VALUE
+```
