@@ -31,3 +31,13 @@
     device, usually stored within the `ROM` or `flash memory`.
 
 > - These bootloaders usually do the following tasks:
+
+```plaintext
+- Power-on self-tests (POST): check if everything in your hardware is
+  working as it should.
+
+- Load the kernel: That is your OS's heart.
+
+- Give control: Once the kernel is loaded, it is their cue to step
+  aside and give room for the OS.
+```
