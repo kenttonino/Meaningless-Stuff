@@ -212,3 +212,16 @@ Corrupted Bootloader
     - Usually necessitates using recovery tools.
 ```
 
+<br />
+<br />
+
+
+
+## Resources
+
+| Resources |
+| --------- |
+| [GRUB](https://www.gnu.org/software/grub/manual/grub/) |
+| [U-Boot](https://docs.u-boot.org/en/latest/) |
+| [Linux/86](https://www.kernel.org/doc/html/v5.6/x86/boot.html) |
+| [Android Bootloader](https://source.android.com/docs/core/architecture/bootloader) |
