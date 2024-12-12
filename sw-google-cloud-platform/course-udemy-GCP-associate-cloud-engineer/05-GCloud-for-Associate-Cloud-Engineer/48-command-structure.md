@@ -27,4 +27,9 @@ gcloud GROUP SUBGROUP ACTION ...
 
 ```sh
 gcloud compute instances list
+gcloud compute zones list
+gcloud compute regions list
+gcloud compute machine-types list
+gcloud compute machine-types list --filter="zone:us-central1-b"
+gcloud compute machine-types list --filter="zone:(us-central1-b europe-west1-d)"
 ```
