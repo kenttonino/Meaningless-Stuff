@@ -86,3 +86,58 @@ OS kernel. This includes:
     - Passing essential parameters to the kernel.
     - Jumping to the kernel's entry point to let it take over.
 ```
+
+<br />
+<br />
+
+
+
+## Steps in the Boot Process
+
+> - `Power-On and POST`:
+
+```plaintext
+- When you press the power button, the device powers up and
+  runs firmware Power-On Self-Tests (POST).
+
+- If POST detects hardware issues, this process halts, and
+  you're likely to see an error message or hear a series
+  of ominous beeps.
+```
+
+> - `Finding the Bootloader`:
+
+```plaintext
+- The firmware searches for the primary bootloader in a
+  predefined location, typically in flash memory.
+```
+
+> - `Primary Bootloader Execution`:
+
+```plaintext
+- The primary bootloader initializes basic hardware and
+  fetches the secondary bootloader.
+```
+
+> - `Secondary Bootloader Execution`:
+
+```plaintext
+- The seconary bootloader configures advanced hardware settings
+  and ensures the kernel is ready to take charge.
+```
+
+> - `Loading the Kernel`:
+
+```plaintext
+- The bootloader loads the operating system kernel into memory.
+
+- If you are lucky there's no kernel panic.
+```
+
+> - `Kernel Takes Over`:
+
+```plaintext
+- It does its job and passes on control, where it is taken up
+  by the kernel to handle all user interfaces, processes, and
+  all other things you relate with when using a device.
+```
