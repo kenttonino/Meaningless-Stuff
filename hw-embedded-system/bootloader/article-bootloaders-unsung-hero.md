@@ -3,8 +3,8 @@
 <br />
 
 | Reference |
-| ---- |
-| https://www.linkedin.com/pulse/bootloaders-unsung-heroes-your-devices-morning-routine-peshkar-mfkmf/?trackingId=Y4MepgkqxVl1pAnm0t16nA%3D%3D |
+| --------- |
+| [LinkedIn: Bootloaders - The Unsung Heroes of Your Device](https://www.linkedin.com/pulse/bootloaders-unsung-heroes-your-devices-morning-routine-peshkar-mfkmf/?trackingId=Y4MepgkqxVl1pAnm0t16nA%3D%3D) |
 
 <br />
 <br />
@@ -219,7 +219,7 @@ Corrupted Bootloader
 
 ## Resources
 
-| Resources |
+| Links |
 | --------- |
 | [GRUB](https://www.gnu.org/software/grub/manual/grub/) |
 | [U-Boot](https://docs.u-boot.org/en/latest/) |
