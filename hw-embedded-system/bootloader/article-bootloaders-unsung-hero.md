@@ -51,14 +51,29 @@
 
 > - `Stage 1: Primary Bootloader`:
 
-```c
-/*
+```plaintext
 This is the first code executed when you power on your device. Its
 main goals are:
-    - Hardware Initialization: It tests that the CPU, RAM, and storage
-      are operational/functional.
+    a. Hardware Initialization:
+        - It tests that the CPU, RAM, and storage are operational or functional.
 
-    - Locate the Secondary Bootloader: Like a scout searching for the
-      main forces, it locates and loads the next stage.
-*/
+    b. Locate the Secondary Bootloader:
+        - Like a scout searching for the main forces, it locates and loads the next stage.
+```
+
+> - `Stage 2: Secondary Bootloader`:
+
+```plaintext
+Once it is loaded, the secondary bootloader takes over. This
+stage includes:
+    a. Hardware Abstraction
+        - It becomes more specific about hardware configuration,
+          so that the kernel can understand the device.
+
+    b. Kernel Loading
+        - It locates the operating system kernel in storage
+          and loads it into memory.
+
+    c. Security Checks
+        - Ensures the kernel is legitimate and hasn't been tampered with.
 ```
