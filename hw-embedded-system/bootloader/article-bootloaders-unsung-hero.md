@@ -192,3 +192,23 @@ Android Bootloader
     - Most android devices have a bootloader that's either locked or unlocked.
     - Unlocking it lets you root your device.
 ```
+
+<br />
+<br />
+
+
+
+## Common Bootloader Issues
+
+```plaintext
+Boot Loops
+    - Sample are the infinite loading screen, that's called boot loop.
+
+Kernel Panic
+    - When the kernel doesn't like something, it throws a fit called a kernel panic.
+
+Corrupted Bootloader
+    - If the bootloader gets corrupted, then you have big trouble.
+    - Usually necessitates using recovery tools.
+```
+
