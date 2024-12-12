@@ -167,3 +167,28 @@ Customization
     - It is also the method by which most people flash custom ROMs onto
       Android devices.
 ```
+
+<br />
+<br />
+
+
+
+## A Tour of Some Popular Bootloaders
+
+> - Famous bootloaders:
+
+```plaihtext
+GRUB (GNU GRUB)
+    - Flexible, supports multiple OS installations, and has a CLI for
+      troubleshooting.
+
+U-Boot (Das U-Boot)
+    - Designed for embedded systems,
+
+LILO (Linux Loader)
+    - Though largely replaced by GRUB, LILO was once the go-to choice of Linux users.
+
+Android Bootloader
+    - Most android devices have a bootloader that's either locked or unlocked.
+    - Unlocking it lets you root your device.
+```
