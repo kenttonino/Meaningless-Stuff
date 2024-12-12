@@ -41,3 +41,24 @@
 - Give control: Once the kernel is loaded, it is their cue to step
   aside and give room for the OS.
 ```
+
+<br />
+<br />
+
+
+
+## The Stages of Bootloader
+
+> - `Stage 1: Primary Bootloader`:
+
+```c
+/*
+This is the first code executed when you power on your device. Its
+main goals are:
+    - Hardware Initialization: It tests that the CPU, RAM, and storage
+      are operational/functional.
+
+    - Locate the Secondary Bootloader: Like a scout searching for the
+      main forces, it locates and loads the next stage.
+*/
+```
