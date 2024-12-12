@@ -77,3 +77,12 @@ stage includes:
     c. Security Checks
         - Ensures the kernel is legitimate and hasn't been tampered with.
 ```
+
+> - `Stage 3: Handing Off to the Kernel`:
+
+```plaintext
+The last act of the bootloader is to hand over control to the
+OS kernel. This includes:
+    - Passing essential parameters to the kernel.
+    - Jumping to the kernel's entry point to let it take over.
+```
