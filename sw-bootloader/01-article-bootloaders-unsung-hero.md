@@ -8,3 +8,9 @@
 
 <br />
 
+> - When you hit the power button on your computer and milliseconds before <br />
+    that delightful boot screen logo appears, an unsung hero is hard at <br />
+    work: `bootloader`.
+
+> - `Bootloaders` whip up everything your operating system needs to wake <br />
+    up and function.
