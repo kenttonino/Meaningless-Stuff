@@ -24,3 +24,7 @@ gcloud GROUP SUBGROUP ACTION ...
     machine-types or regions or zones.
 
 > - `ACTION` can create or list or start or s  top or describe ...
+
+```sh
+gcloud compute instances list
+```
