@@ -141,3 +141,29 @@ OS kernel. This includes:
   by the kernel to handle all user interfaces, processes, and
   all other things you relate with when using a device.
 ```
+
+<br />
+<br />
+
+
+
+## Bootloader Features
+
+> - Capabilities:
+
+```plaintext
+Dual Boot
+    - Want to run both Linux and Windows? Your bootloader covers you.
+    - Popular bootloaders like GRUB allow selecting which OS to load
+      at boot time.
+
+Recovery Mode
+    - Most devices have a recovery bootloader that lets you run diagnostics,
+      updates, or even a full system reset.
+
+Customization
+    - Unlocking and modifying bootloaders is a favourite pastime of tech
+      enthusiasts.
+    - It is also the method by which most people flash custom ROMs onto
+      Android devices.
+```
