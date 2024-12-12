@@ -14,3 +14,10 @@
 
 > - `Bootloaders` whip up everything your operating system needs to wake <br />
     up and function.
+
+> - `Bootloader` is a small but very powerful program that runs before your <br />
+    operating system kicks in.
+
+> - It `load` and `initialize` the operating system.
+
+> - Without `bootloaders`, your operating system would not know where to start.
