@@ -219,6 +219,8 @@ Corrupted Bootloader
 
 ## Resources
 
+<br />
+
 | Links |
 | --------- |
 | [GRUB](https://www.gnu.org/software/grub/manual/grub/) |
