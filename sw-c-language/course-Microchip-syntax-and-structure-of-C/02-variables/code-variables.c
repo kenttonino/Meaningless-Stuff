@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Custom types.
+// Minimum 16 bits.
+// Maximum 32 bits.
+typedef unsigned int uint16_t;
+
 void clear_terminal() {
   system("clear");
 }
@@ -9,10 +14,9 @@ void add_newline() {
   printf("\n");
 }
 
-
 int main() {
-  unsigned int x;
-  unsigned y = 12;
+  uint16_t x;
+  uint16_t y = 12;
   int a, b, c;
   long int myVar = 0x12345678;
   long z;

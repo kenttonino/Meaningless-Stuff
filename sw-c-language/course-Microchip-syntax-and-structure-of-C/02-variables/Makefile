@@ -1,3 +1,3 @@
-code-variable-types:
-	gcc -g -o ./bin/code-variable-types code-variable-types.c
-	./bin/code-variable-types
+code-variables:
+	gcc -g -o ./bin/code-variables code-variables.c
+	./bin/code-variables
