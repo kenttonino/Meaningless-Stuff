@@ -4,7 +4,8 @@
 
 | Link |
 | ---- |
-| https://mu.microchip.com/syntax-and-structure-of-c/615246 |
+| Lecture: https://mu.microchip.com/syntax-and-structure-of-c/615246 |
+| Code: [Typedef](./code-variables.c) |
 
 <br />
 
