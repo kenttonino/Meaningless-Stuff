@@ -31,3 +31,9 @@
 
 <br />
 
+| Master Process with AsyncIO Worker |
+| ---------------------------------- |
+| ![asyncio-worker](./images/04-master-process-asyncio-worker.png) |
+
+<br />
+
