@@ -22,4 +22,9 @@ TTIN (Thread Trigger Increase Number)
     - Useful for dynamically scaling the number of workers to handle
       increased load without restarting the Gunicorn server.
 
+TTOU (Thread Trigger Out Decrease)
+    - Trigger to scale out workers.
+    - A UNIX signal used to decrease the numbner of worker processes by one.
+    - Dynamically reduce the number of workers to save resources during
+      periods of low load, without restarting the Gunicorn server.
 ```
