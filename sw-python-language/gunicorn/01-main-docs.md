@@ -1,4 +1,4 @@
-## Description
+## Design
 
 <br />
 
@@ -8,4 +8,4 @@
 
 <br />
 
-> - Anything related to `Gunicorn` library.
+> - A bried description of the architecture of `Gunicorn`.
