@@ -27,4 +27,10 @@ TTOU (Thread Trigger Out Decrease)
     - A UNIX signal used to decrease the numbner of worker processes by one.
     - Dynamically reduce the number of workers to save resources during
       periods of low load, without restarting the Gunicorn server.
+
+CHLD (Child)
+    - A UNIX signal used to indicate that a child process has terminated.
+    - Gunicorn's master process uses this signal to detect the termination
+      of workers and can take appropriate action, such as restarting the
+      workers to maintain the desired number of processes.
 ```
