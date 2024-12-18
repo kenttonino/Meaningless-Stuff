@@ -15,13 +15,12 @@
 
 | Master Process with Sync Worker |
 | ------------------------------- |
-| [sync-worker](./images/01-master-process-sync-worker.png) |
+| ![sync-worker](./images/01-master-process-sync-worker.png) |
 
 <br />
 
 | Master Process with Async Worker |
 | -------------------------------- |
-| [async-worker](./images/02-master-process-async-worker.png) |
+| ![async-worker](./images/02-master-process-async-worker.png) |
 
 <br />
-
