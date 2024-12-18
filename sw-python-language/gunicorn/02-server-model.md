@@ -24,3 +24,10 @@
 | ![async-worker](./images/02-master-process-async-worker.png) |
 
 <br />
+
+| Master Process with Tornado Worker |
+| ---------------------------------- |
+| ![tornado-worker](./images/03-master-process-tornado-worker.png) |
+
+<br />
+
