@@ -57,8 +57,8 @@ void main(void) {
 
 <br />
 
-| Example |
-| ------- |
+| Example (XC16 Compiler) |
+| ----------------------- |
 | ![header-file](./images/02-header-file-sample.png) |
 
 <br />
