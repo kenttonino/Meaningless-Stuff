@@ -35,6 +35,14 @@ void main(void) {
 
 ## `#include` Directive
 
+<br />
+
+| Code |
+| ---- |
+| [code-header-file](./code-variables.c) |
+
+<br />
+
 > - Two ways to use `#include`.
 
 ```plaintext
@@ -46,3 +54,11 @@ void main(void) {
 ```
 
 > - Can be relative or absolute path.
+
+<br />
+
+| Example |
+| ------- |
+| ![header-file](./images/02-header-file-sample.png) |
+
+<br />
