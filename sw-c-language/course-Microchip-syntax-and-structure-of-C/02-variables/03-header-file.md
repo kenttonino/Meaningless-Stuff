@@ -27,3 +27,22 @@ void main(void) {
     TakeOverTheWorld();
 }
 ```
+
+<br />
+<br />
+
+
+
+## `#include` Directive
+
+> - Two ways to use `#include`.
+
+```plaintext
+#include "main.h"
+    - Look in the project directory for the header file.
+
+#include <math.h>
+    - Will tell the compiler in the compiler search path.
+```
+
+> - Can be relative or absolute path.
