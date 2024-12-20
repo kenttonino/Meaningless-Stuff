@@ -13,7 +13,7 @@
 
 ## GCloud Compute Instances Create
 
-> - Createing compute instances.
+> - Creating compute instances.
 
 ```sh
 # Below are sample options.
@@ -21,6 +21,11 @@
 # --custom-cpu 6 --custom-memory 3072MB --custom-vm-type n2
 # --image or --image-family or --source-snapshot or --source-instance-template or --source-machine-image
 # --service-account or --no-service-account
+# --zone=us-central1-b
+# --tags (Allow network firewall rules and routes to be applied to VM instances.)
+# --preemptible
+# --restart-on-failure (default) --no-restart-on-failure --maintenance-policy (MIGRATE (default) / TERMINATE)
+# --boot-disk-size --boot-disk-type --boot-disk-auto-delete (default) ---no-boot-disk-auto-delete
 gcloud compute instances create [NAME]
 
 # Show all the machine types.
