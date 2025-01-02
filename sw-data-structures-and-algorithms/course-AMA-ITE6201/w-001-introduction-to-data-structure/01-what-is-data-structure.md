@@ -12,4 +12,8 @@
     must be supported. Examples of basic operations include
     inserting a data item into the data structure, deleting a data
     item from the data structure, and finding a specified data item.
+
+(2) Quantify the resource constraints for each operation.
+
+(3) Select the data structure that best meets these requirements.
 ```
