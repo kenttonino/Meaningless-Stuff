@@ -1,1 +1,15 @@
 ## What is Data Structure?
+
+> - In solving a problem with or without a computer it is necessary <br />
+    to choose an abstraction of reality, i.e., to define a set of <br />
+    data that is to represent the real situation.
+
+> - When selecting a data structure to solve a problem, you should <br />
+    follow these steps:
+
+```plaintext
+(1) Analyze your problem to determine the basic operations that
+    must be supported. Examples of basic operations include
+    inserting a data item into the data structure, deleting a data
+    item from the data structure, and finding a specified data item.
+```
