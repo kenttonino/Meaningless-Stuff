@@ -17,3 +17,6 @@
 
 (3) Select the data structure that best meets these requirements.
 ```
+
+> - `Data Structure` is a way of storing and organizing data in a <br />
+    computer so that it can be used efficiently.
