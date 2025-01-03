@@ -20,3 +20,10 @@
 
 > - `Data Structure` is a way of storing and organizing data in a <br />
     computer so that it can be used efficiently.
+
+
+> - `Data Structure` is a specialized format for organizing and <br />
+    storing data.
+
+> - `Data Structure` types includes arrays, linked list, stacks, <br />
+    queues, trees, graphs and so on.
