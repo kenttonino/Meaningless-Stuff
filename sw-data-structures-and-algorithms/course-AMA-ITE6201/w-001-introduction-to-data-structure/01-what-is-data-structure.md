@@ -27,3 +27,6 @@
 
 > - `Data Structure` types includes arrays, linked list, stacks, <br />
     queues, trees, graphs and so on.
+
+> - The term `Data  Structure` often refers to data stored in a computer's <br />
+    main memory.
