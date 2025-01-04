@@ -30,3 +30,16 @@
 
 > - The term `Data  Structure` often refers to data stored in a computer's <br />
     main memory.
+
+<br />
+<br />
+
+
+
+##  Data Structures are Classified into Two Types
+
+<br />
+
+| (1) Linear Data Structure |
+| ------------------------- |
+| Elements are accessed in a sequencial order but <br /> is not compulsory to store all elements sequentially. |
