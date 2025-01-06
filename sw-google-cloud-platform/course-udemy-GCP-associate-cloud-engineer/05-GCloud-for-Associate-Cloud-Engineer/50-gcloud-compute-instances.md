@@ -28,6 +28,7 @@
 # --boot-disk-size --boot-disk-type --boot-disk-auto-delete (default) ---no-boot-disk-auto-delete
 # --deletion-protection --no-deletion-protection (default)
 # --metadata/metadata-from-file startup-script/startup-script-url
+# (OR) --metadata-from-file startup-script=/local/path/to/script OR --metadata startup-script="echo 'Hello World!'"
 gcloud compute instances create [NAME]
 
 # Show all the machine types.
