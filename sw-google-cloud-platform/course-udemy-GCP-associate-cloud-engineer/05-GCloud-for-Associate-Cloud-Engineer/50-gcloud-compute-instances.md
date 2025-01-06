@@ -27,6 +27,7 @@
 # --restart-on-failure (default) --no-restart-on-failure --maintenance-policy (MIGRATE (default) / TERMINATE)
 # --boot-disk-size --boot-disk-type --boot-disk-auto-delete (default) ---no-boot-disk-auto-delete
 # --deletion-protection --no-deletion-protection (default)
+# --metadata/metadata-from-file startup-script/startup-script-url
 gcloud compute instances create [NAME]
 
 # Show all the machine types.
