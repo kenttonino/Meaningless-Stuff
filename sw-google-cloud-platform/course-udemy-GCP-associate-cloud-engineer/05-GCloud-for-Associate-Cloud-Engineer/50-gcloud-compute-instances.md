@@ -37,3 +37,9 @@ gcloud compute instances create [NAME]
 # Show all the machine types.
 gcloud compute machine-types list
 ```
+
+> - Further documentations:
+
+```plaintext
+https://cloud.google.com/sdk/gcloud/reference/compute/instances/create
+```
