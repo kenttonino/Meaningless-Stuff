@@ -31,6 +31,7 @@
 # (OR) --metadata-from-file startup-script=/local/path/to/script OR --metadata startup-script="echo 'Hello World!'"
 # (OR) --shutdown-script
 # --network --subnet --network-tier (PREMIEUM (default), STANDARD)
+# --accelerator="type=nvidia-tesla-v100,count=8" --metadata="install-nvidia-driver=True" (GPU)
 gcloud compute instances create [NAME]
 
 # Show all the machine types.
