@@ -29,6 +29,7 @@
 # --deletion-protection --no-deletion-protection (default)
 # --metadata/metadata-from-file startup-script/startup-script-url
 # (OR) --metadata-from-file startup-script=/local/path/to/script OR --metadata startup-script="echo 'Hello World!'"
+# (OR) --shutdown-script
 gcloud compute instances create [NAME]
 
 # Show all the machine types.
