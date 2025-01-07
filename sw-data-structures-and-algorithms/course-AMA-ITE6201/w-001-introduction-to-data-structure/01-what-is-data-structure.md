@@ -43,4 +43,3 @@
 | (1) Linear Data Structure |
 | ------------------------- |
 | Elements are accessed in a sequencial order but <br /> is not compulsory to store all elements sequentially. |
-| Test |
