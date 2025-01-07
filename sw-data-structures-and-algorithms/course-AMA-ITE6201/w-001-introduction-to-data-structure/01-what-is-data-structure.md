@@ -58,3 +58,33 @@
 | All the data elements in non-linear data <br /> structure cannot be traversed in single run. |
 | Examples: `Binary Tree`, `Heap`, `Hash Table`, and `Graph`. |
 | ![01-non-linear-data-structure](./images/02-non-linear-data-structure.png) |
+
+<br />
+<br />
+
+
+
+## Language in Data Structures
+
+<br />
+
+| Ruby and Python |
+| --------------- |
+| Are high level languages. |
+| Can be good but it also be confusing for beginners <br /> and it can be harder to catch errors since <br /> they won't be apparent until runtime. |
+
+<br />
+
+| C |
+| - |
+| A low level programming language which is very <br /> good in abstraction. |
+| Also good in memory management. |
+| Not an object oriented programming language. |
+
+<br />
+
+| Java |
+| ---- |
+| An object oriented programming language. |
+| It shows an errors during compiling and even before runtime. |
+| Has extremely low memory leak which obviously <br /> can be fixed and has no segmentation faults. |
