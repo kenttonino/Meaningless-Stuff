@@ -57,3 +57,4 @@
 | A data elements of the nonlinear data structure <br /> could be connected to more than one elements to <br /> reflect a special relationship among them. |
 | All the data elements in non-linear data <br /> structure cannot be traversed in single run. |
 | Examples: `Binary Tree`, `Heap`, `Hash Table`, and `Graph`. |
+| ![01-non-linear-data-structure](./images/02-non-linear-data-structure.png) |
