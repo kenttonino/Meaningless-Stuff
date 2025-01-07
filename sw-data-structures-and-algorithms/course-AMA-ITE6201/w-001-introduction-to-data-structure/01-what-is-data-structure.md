@@ -97,3 +97,8 @@
 | More like Java with the capabilities of the modern language. |
 
 <br />
+
+| C++ |
+| --- |
+| An object oriented programming language and <br /> includes inheritance, polymorphism, data abstraction <br /> and encapsulation. |
+| Support easy declaration of data types. |
