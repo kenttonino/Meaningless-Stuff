@@ -45,3 +45,5 @@
 | Elements are accessed in a sequencial order but <br /> is not compulsory to store all elements sequentially. |
 | Data elements in a linear data structure are <br /> traversed one after the other and only one element can <br /> be directly reached while traversing. |
 | All the data items in linear data strucutre can <br /> be traversed in a single run. |
+| Are very easy to implement because memory of <br /> computer is also organized in a linear fashion. |
+| ![01-linear-data-structure](./images/01-linear-data-structure.png) |
