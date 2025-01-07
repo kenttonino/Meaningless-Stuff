@@ -88,3 +88,12 @@
 | An object oriented programming language. |
 | It shows an errors during compiling and even before runtime. |
 | Has extremely low memory leak which obviously <br /> can be fixed and has no segmentation faults. |
+
+<br />
+
+| C# |
+| -- |
+| Similar to Java. |
+| More like Java with the capabilities of the modern language. |
+
+<br />
