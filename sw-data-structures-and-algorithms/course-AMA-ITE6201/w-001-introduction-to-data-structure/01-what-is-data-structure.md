@@ -44,3 +44,4 @@
 | ------------------------- |
 | Elements are accessed in a sequencial order but <br /> is not compulsory to store all elements sequentially. |
 | Data elements in a linear data structure are <br /> traversed one after the other and only one element can <br /> be directly reached while traversing. |
+| All the data items in linear data strucutre can <br /> be traversed in a single run. |
