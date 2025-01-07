@@ -102,3 +102,20 @@
 | --- |
 | An object oriented programming language and <br /> includes inheritance, polymorphism, data abstraction <br /> and encapsulation. |
 | Support easy declaration of data types. |
+
+<br />
+<br />
+
+
+
+## Concepts of Object Oriented Programming
+
+<br />
+
+| Inheritance |
+| ----------- |
+| The capability of a class to derive properties <br /> and characteristics from another class. |
+| One of the most important features of OOP. |
+
+<br />
+
