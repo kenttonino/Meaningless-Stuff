@@ -46,4 +46,13 @@
 | Data elements in a linear data structure are <br /> traversed one after the other and only one element can <br /> be directly reached while traversing. |
 | All the data items in linear data strucutre can <br /> be traversed in a single run. |
 | Are very easy to implement because memory of <br /> computer is also organized in a linear fashion. |
+| Example: `Array`, `Linked List`, `Stack`, and `Queue`. |
 | ![01-linear-data-structure](./images/01-linear-data-structure.png) |
+
+<br />
+
+| (1) Non-linear Data Structure |
+| ----------------------------- |
+| Elements of this data structure are accessed in <br /> a non-linear order. |
+| A data elements of the nonlinear data structure <br /> could be connected to more than one elements to <br /> reflect a special relationship among them. |
+| All the data elements in non-linear data <br /> structure cannot be traversed in single run. |
