@@ -1,4 +1,4 @@
-## ITE6201 - Data Structures and Algorithms
+## Description
 
 > - This course covers overview of `C++`, concepts of data structures, <br />
     advance topics in programming including its algorithm of the <br />
@@ -10,6 +10,8 @@
 > - Course description:
 
 ```plaintext
+Course #: ITE6201
+Course Title: Data Structures and Algorithms
 Professor: Ervin Moran
 Link: https://oedlms.amauonline.com/course/view.php?id=228
 ```
