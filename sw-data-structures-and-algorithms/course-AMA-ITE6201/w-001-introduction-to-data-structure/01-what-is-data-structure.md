@@ -43,4 +43,79 @@
 | (1) Linear Data Structure |
 | ------------------------- |
 | Elements are accessed in a sequencial order but <br /> is not compulsory to store all elements sequentially. |
-| Test |
+| Data elements in a linear data structure are <br /> traversed one after the other and only one element can <br /> be directly reached while traversing. |
+| All the data items in linear data strucutre can <br /> be traversed in a single run. |
+| Are very easy to implement because memory of <br /> computer is also organized in a linear fashion. |
+| Example: `Array`, `Linked List`, `Stack`, and `Queue`. |
+| ![01-linear-data-structure](./images/01-linear-data-structure.png) |
+
+<br />
+
+| (1) Non-linear Data Structure |
+| ----------------------------- |
+| Elements of this data structure are accessed in <br /> a non-linear order. |
+| A data elements of the nonlinear data structure <br /> could be connected to more than one elements to <br /> reflect a special relationship among them. |
+| All the data elements in non-linear data <br /> structure cannot be traversed in single run. |
+| Examples: `Binary Tree`, `Heap`, `Hash Table`, and `Graph`. |
+| ![01-non-linear-data-structure](./images/02-non-linear-data-structure.png) |
+
+<br />
+<br />
+
+
+
+## Language in Data Structures
+
+<br />
+
+| Ruby and Python |
+| --------------- |
+| Are high level languages. |
+| Can be good but it also be confusing for beginners <br /> and it can be harder to catch errors since <br /> they won't be apparent until runtime. |
+
+<br />
+
+| C |
+| - |
+| A low level programming language which is very <br /> good in abstraction. |
+| Also good in memory management. |
+| Not an object oriented programming language. |
+
+<br />
+
+| Java |
+| ---- |
+| An object oriented programming language. |
+| It shows an errors during compiling and even before runtime. |
+| Has extremely low memory leak which obviously <br /> can be fixed and has no segmentation faults. |
+
+<br />
+
+| C# |
+| -- |
+| Similar to Java. |
+| More like Java with the capabilities of the modern language. |
+
+<br />
+
+| C++ |
+| --- |
+| An object oriented programming language and <br /> includes inheritance, polymorphism, data abstraction <br /> and encapsulation. |
+| Support easy declaration of data types. |
+
+<br />
+<br />
+
+
+
+## Concepts of Object Oriented Programming
+
+<br />
+
+| Inheritance |
+| ----------- |
+| The capability of a class to derive properties <br /> and characteristics from another class. |
+| One of the most important features of OOP. |
+
+<br />
+
