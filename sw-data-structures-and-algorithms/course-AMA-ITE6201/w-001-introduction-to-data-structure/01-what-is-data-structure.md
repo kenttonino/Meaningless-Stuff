@@ -118,3 +118,7 @@
 | One of the most important features of OOP. |
 
 <br />
+
+| Data Encapsulation |
+| ------------------ |
+| A mechanism of bundling the data, and the functions that use them. |
