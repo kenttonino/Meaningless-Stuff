@@ -129,3 +129,9 @@
 | ---------------- |
 | A mechanism of exposing only the interfaces and <br /> hiding the implementation details from the user. |
 | Data abstraction refers to providing only essential <br /> information about the data to the outside world, <br /> hiding the background details or implementations. |
+
+<br />
+
+| Polymorphism |
+| ------------ |
+| Having many forms. Typically, polymorphism occurs when <br /> there is a heirarchy of classes and they are related by inheritance. |
