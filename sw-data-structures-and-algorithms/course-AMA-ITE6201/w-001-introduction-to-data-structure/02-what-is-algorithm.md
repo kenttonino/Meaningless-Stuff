@@ -19,3 +19,16 @@
 
 > - In this module, we will see that the data structures exists <br />
     as the end products of algorithms.
+
+> - From the data structure point of view, following are some <br />
+    important categories of algorithms:
+
+<br />
+
+| Algorithm |   |
+| --------- | - |
+| Search | Algorithm to search an item in a data structure. |
+| Sort | Algorithm to sort items in a certain order. |
+| Insert | Algorithm to insert item in a data structure. |
+| Update | Algorithm to update an existing item in a data structure. |
+| Delete | Algorithm to delete an existing item from a data structure. |
