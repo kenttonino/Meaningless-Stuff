@@ -9,3 +9,4 @@
 | Output | Should produce some value as output, and should <br /> match the desired output. |
 | Finiteness | Must terminate after a finite number of steps. |
 | Effectiveness | All of the operations to be performed must be <br /> sufficiently basic that they can in principle be done <br /> exactly and in finite time by a person using only <br />  pencil and paper. |
+| Independent | Should have step-by-step directions, which should <br /> be independent of any programming code. |
