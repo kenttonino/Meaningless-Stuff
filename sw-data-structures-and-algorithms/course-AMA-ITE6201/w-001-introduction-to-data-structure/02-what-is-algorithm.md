@@ -13,3 +13,9 @@
     data involved in the computation.
 
 > - The objects that are created in this way are called `data structures`.
+
+> - `Algorithm` and `Data Structures` are the central objects of <br />
+    study in computer science.
+
+> - In this module, we will see that the data structures exists <br />
+    as the end products of algorithms.
