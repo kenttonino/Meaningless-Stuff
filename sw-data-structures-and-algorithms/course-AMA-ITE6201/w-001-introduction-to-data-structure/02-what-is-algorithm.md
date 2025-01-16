@@ -12,4 +12,4 @@
 > - Most algorithms of interest involve methods of organizing the <br />
     data involved in the computation.
 
-> - The objects that are created in this way are called `data strucutres`.
+> - The objects that are created in this way are called `data structures`.
