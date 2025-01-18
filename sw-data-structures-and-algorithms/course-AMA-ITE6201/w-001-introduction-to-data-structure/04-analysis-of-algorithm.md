@@ -35,5 +35,11 @@
 
 
 
-## Common Used Rates of Growth
+## Rate of Growth
 
+> - The rate of growth is the rate at which the running time increases <br />
+    as a function of input.
+
+> - Let's say we have this polynomial function.
+
+$f(x) = n^2 + 8n + 2$
