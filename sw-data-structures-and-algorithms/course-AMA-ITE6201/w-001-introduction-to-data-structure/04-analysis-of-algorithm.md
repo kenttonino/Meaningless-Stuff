@@ -50,3 +50,20 @@ $f(x) = n^2 + 8n + 2$
 > - Thus, we can remove the low order terms because as the number of <br />
     inputs grow larger, the only significant variable will be $n^2$ <br />
     and the $n^2$ will be the rate of growth of this function.
+
+<br />
+<br />
+
+
+
+## Commonly Used Rates of Growth
+
+| Time Complexity | Name | Example |
+| --------------- | ---- | ------- |
+| $1$ | Constant | Adding an element to the front of a linked list. |
+| $logn$ | Logarithmic | Finding an element in a sorted array. |
+| $n$ | Linear | Finding an element in an unsorted array. |
+| $nlogn$ | Linear Logarithmic | Sorting $n$ items by `divide-and-conquer` (Merge Sort). |
+| $n^2$ | Quadratic | Shortest path between two nodes in graph. |
+| $n^3$ | Cubic | Matrix multiplication. |
+| $2^n$ | Exponential | The towers of hanoi problem. |
