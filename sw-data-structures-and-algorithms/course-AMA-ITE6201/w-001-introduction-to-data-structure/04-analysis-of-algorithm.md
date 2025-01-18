@@ -17,3 +17,15 @@
 
 ## Running Time Analysis
 
+> - `Running time analysis` is the process of determining how processing <br />
+    time increases as the size of the problem increases.
+
+> - Input size is the number of elements in the input, and depending on <br />
+    the problem type, the input may be of different types.
+
+| Common Types of Inputs |
+| ---------------------- |
+| Size of an Array |
+| Polynomial Degree |
+| Number of Elements in a Matrix |
+| Vertices and Edges in a Graph |
