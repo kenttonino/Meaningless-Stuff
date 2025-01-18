@@ -67,3 +67,20 @@ $f(x) = n^2 + 8n + 2$
 | $n^2$ | Quadratic | Shortest path between two nodes in graph. |
 | $n^3$ | Cubic | Matrix multiplication. |
 | $2^n$ | Exponential | The towers of hanoi problem. |
+
+<br />
+<br />
+
+
+
+## Types of Analysis
+
+> - To analyze a given algorithm, we need to know which inputs <br />
+    the algorithm takes less time and with which inputs the <br />
+    algorithm takes a long time.
+
+> - An algorithm can be represented in the form of an expression.
+
+> - That means, we can represent the algorithms with multiple <br />
+    expressions: one for the case where it takes less time and <br />
+    another for the case where it takes more time.
