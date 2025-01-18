@@ -84,3 +84,15 @@ $f(x) = n^2 + 8n + 2$
 > - That means, we can represent the algorithms with multiple <br />
     expressions: one for the case where it takes less time and <br />
     another for the case where it takes more time.
+
+> - In general, the first case is called the best case and <br />
+    the latter is called the worst case for the algorithm.
+
+> - To analyze an algorithm, we need syntax, and that forms <br />
+    the base for asymptotic analysis.
+
+| Types of Analysis | Description |
+| ----------------- | ----------- |
+| Worst Case | Defines the input for which the algorithm takes <br /> a slowest time to complete. |
+| Best Case | Defines the input for which the algorithm takes <br /> the fastest time to complete. |
+| Average Case | Provides a prediction about the running time <br /> of the algorithm, or the mean of the all the <br /> running time of the algorithm given that it <br /> has been executed multiple times. |
