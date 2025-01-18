@@ -43,3 +43,10 @@
 > - Let's say we have this polynomial function.
 
 $f(x) = n^2 + 8n + 2$
+
+> - As you can see on the equation above, the polynomial function has <br />
+    the highest order of `2`.
+
+> - Thus, we can remove the low order terms because as the number of <br />
+    inputs grow larger, the only significant variable will be $n^2$ <br />
+    and the $n^2$ will be the rate of growth of this function.
