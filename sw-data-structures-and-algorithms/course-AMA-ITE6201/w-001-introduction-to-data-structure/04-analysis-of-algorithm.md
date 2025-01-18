@@ -29,3 +29,11 @@
 | Polynomial Degree |
 | Number of Elements in a Matrix |
 | Vertices and Edges in a Graph |
+
+<br />
+<br />
+
+
+
+## Common Used Rates of Growth
+
