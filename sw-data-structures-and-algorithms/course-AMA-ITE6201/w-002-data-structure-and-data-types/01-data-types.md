@@ -24,3 +24,21 @@
     as integer.
 
 > - A data type decreases the coding effort.
+
+> - At the top level, there are two types of data types:
+
+| (1) System Defined Data Types |
+| ----------------------------- |
+| Also called as primitive data types. |
+| Are data types which are defined by the system. |
+| The common primitive data types in most programming languages <br /> are: `int`, `float`, `char`, `double`, `Boolean`, etc. |
+| The number of bits allocated for each primitive data type <br /> depends on the programming languages, compiler, <br /> and operating system. |
+| Below table are common system data types: |
+
+| Data Type | Values | Representation | Operations |
+| --------- | ------ | -------------- | ---------- |
+| boolean | True, False | 1 Byte | \|\| && ! |
+| char | ASCII ('A', 'B') | 2 Bytes | As for int |
+| int | Negative, Zero, Positive Integers | 32 Bit Signed Integers | + - / *  < <= == >= > |
+| float | Negative, Zero, Positive Floating-Point Numbers | IEEE 32 Bit Floating-Point | + - / *  < <= == >= > |
+| String | "Hello, World!" | Array of Characters | strcpy() strlen |
