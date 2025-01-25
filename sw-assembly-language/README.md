@@ -1,3 +1,3 @@
-## $\textnormal{Tinkering Assembly Language}$
+## Description
 
 > - This repository includes all things I learned related to assembly language.
