@@ -1,3 +1,3 @@
-## $\textnormal{Description}$
+## Description
 
 > - Anything related to computer vision.
