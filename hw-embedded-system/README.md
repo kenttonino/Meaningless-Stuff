@@ -1,3 +1,3 @@
-## Embedded System
+## Description
 
-> - This section will be anything related to `Embedded System`.
+> - be anything related to `Embedded System`.
