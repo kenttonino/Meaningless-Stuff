@@ -1,3 +1,3 @@
-## C Language Notes
+## Description
 
 > - All things I learned about C language.
