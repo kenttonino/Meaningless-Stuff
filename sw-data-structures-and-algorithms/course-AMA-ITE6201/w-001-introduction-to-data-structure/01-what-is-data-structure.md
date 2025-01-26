@@ -121,7 +121,7 @@
 
 | Data Encapsulation |
 | ------------------ |
-| A mechanism of bundling the data, and the functions that use them. |
+| A mechanism of bundling the data, and the <br /> functions that use them. |
 
 <br />
 
