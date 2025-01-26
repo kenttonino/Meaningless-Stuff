@@ -20,7 +20,7 @@
 > - In this module, we will see that the data structures exists <br />
     as the end products of algorithms.
 
-> - From the data structure point of view, following are some <br />
+> - From the data structure point of view, the following are some <br />
     important categories of algorithms:
 
 <br />
