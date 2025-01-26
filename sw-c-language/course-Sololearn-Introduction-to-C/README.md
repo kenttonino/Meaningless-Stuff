@@ -1,5 +1,4 @@
-### Description
-#
+## Description
 
 > - This tutorial covers basic concepts, data types, arrays, pointers,
     conditional statements, loops, functions, strings, structures,
