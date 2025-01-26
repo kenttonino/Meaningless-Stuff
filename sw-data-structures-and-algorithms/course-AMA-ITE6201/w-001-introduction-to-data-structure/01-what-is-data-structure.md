@@ -134,4 +134,4 @@
 
 | Polymorphism |
 | ------------ |
-| Having many forms. Typically, polymorphism occurs when <br /> there is a heirarchy of classes and they are related by inheritance. |
+| Having many forms. Typically, polymorphism occurs <br /> when there is a heirarchy of classes and they are <br /> related by inheritance. |
