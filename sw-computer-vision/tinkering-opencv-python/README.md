@@ -1,4 +1,4 @@
-## $\textnormal{OpenCV Python}$
+## OpenCV Python
 
 > - Installation guides for Python.
 
