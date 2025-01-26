@@ -1,4 +1,4 @@
-## $\textnormal{Description}$
+## Description
 
 > - Go deeper into C with this course.
 
