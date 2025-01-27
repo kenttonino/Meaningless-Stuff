@@ -42,3 +42,22 @@
 | int | Negative, Zero, Positive Integers | 32 Bit Signed Integers | + - / *  < <= == >= > |
 | float | Negative, Zero, Positive Floating-Point Numbers | IEEE 32 Bit Floating-Point | + - / *  < <= == >= > |
 | String | "Hello, World!" | Array of Characters | strcpy() strlen |
+
+<br />
+
+| (2) User Defined Data Types |
+| --------------------------- |
+| If the system defined data types are not enough,  <br /> then most programming languages allows the users <br /> to define their own data types called <br /> `user defined data types`. |
+| Good example of user defined data types are <br /> structures `struct` in C/C++, and classes in Java. |
+| For example, we will combine many system defined <br /> data types and called it as user defined data type <br /> with name `newClass`. |
+| This gives more flexibility and comfort in dealing <br /> with computer memory. |
+
+```cpp
+Class newClass {
+    int intData;
+    float floatData;
+    string stringData;
+    char charData;
+    ...
+}
+```
