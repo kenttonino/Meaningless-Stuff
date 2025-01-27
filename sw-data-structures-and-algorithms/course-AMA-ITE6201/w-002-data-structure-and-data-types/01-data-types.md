@@ -61,3 +61,21 @@ Class newClass {
     ...
 }
 ```
+
+<br />
+<br />
+
+
+
+## Basic Operations
+
+| (1) Traversing |
+| ---------- |
+| Traversing means moving through a structure sequentially, <br /> node by node. |
+
+| Traversing follows a general pattern that is: |
+| --------------------------------------------- |
+| `Begin` at the first node. |
+| `Process` the current node. |
+| `Move` to the next node. |
+| `Repeat` until there are no more nodes. |
