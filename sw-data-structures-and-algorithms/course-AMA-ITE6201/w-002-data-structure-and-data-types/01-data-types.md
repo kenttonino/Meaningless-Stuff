@@ -70,7 +70,7 @@ Class newClass {
 ## Basic Operations
 
 | (1) Traversing |
-| ---------- |
+| -------------- |
 | Traversing means moving through a structure sequentially, <br /> node by node. |
 
 | Traversing follows a general pattern that is: |
@@ -79,3 +79,15 @@ Class newClass {
 | `Process` the current node. |
 | `Move` to the next node. |
 | `Repeat` until there are no more nodes. |
+
+<br />
+
+| (2) Searching |
+| ------------- |
+| Traversing and Searching go hand-in-hand because the <br /> common reason to traverse a structure is to <br /> some particular element value. |
+
+| Various aways of dealing with a search operations: |
+| -------------------------------------------------- |
+| Return `True` if the item is in the structure, <br /> `False` if not. |
+| Return `True` and also the location of the item, <br /> `False` if the item is not found. |
+| Return the address of the item, `NULL` if not found. |
