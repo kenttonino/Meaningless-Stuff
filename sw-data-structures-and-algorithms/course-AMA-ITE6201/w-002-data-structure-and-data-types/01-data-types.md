@@ -111,3 +111,9 @@ Class newClass {
 | ----------- |
 | Refers to the technique of arranging and rearranging <br /> sets of data according to some specific ordering condition. |
 | It arranges the data in a sequence which makes searching easier. |
+
+<br />
+
+| (6) Merging |
+| ----------- |
+| Combine elements in such a way that the resulting <br /> structure has the same operations, type <br /> as the individual elements. |
