@@ -11,5 +11,5 @@
     can be viewed as ADT's, just as integersm, reals, and Booleans are <br />
     data types.
 
-> - Integerse, floats, and Booleans have operations associated with them <br />
+> - Integers, floats, and Booleans have operations associated with them <br />
     and so do ADTs.
