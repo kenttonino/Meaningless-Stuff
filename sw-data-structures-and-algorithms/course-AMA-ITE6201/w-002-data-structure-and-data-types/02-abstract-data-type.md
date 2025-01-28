@@ -13,3 +13,7 @@
 
 > - Integers, floats, and Booleans have operations associated with them <br />
     and so do ADTs.
+
+> - ADT is a mathematical model with a collection of operations defined <br />
+    on model.
+
