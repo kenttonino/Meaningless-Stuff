@@ -50,4 +50,7 @@
 
 ## Implementation
 
-> - Give the
+| An implementation of the Abstract Data Type requires: |
+| ----------------------------------------------------- |
+| - Choosing a data representation. |
+| - Choosing a suitable algorithm for each of the operations. |
