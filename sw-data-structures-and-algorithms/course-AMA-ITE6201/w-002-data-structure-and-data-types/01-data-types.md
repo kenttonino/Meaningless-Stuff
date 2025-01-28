@@ -91,3 +91,10 @@ Class newClass {
 | Return `True` if the item is in the structure, <br /> `False` if not. |
 | Return `True` and also the location of the item, <br /> `False` if the item is not found. |
 | Return the address of the item, `NULL` if not found. |
+
+<br />
+
+| (3) Insertion |
+| ------------- |
+| Insert one or more data elements into a structure. |
+| Based on the requirement, new element can be at the <br /> beginning, end or at any given index. |
