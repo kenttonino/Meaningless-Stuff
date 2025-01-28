@@ -60,3 +60,20 @@
 
 > - And the chosen algorithms must be consistent with the chosen <br />
     representation.
+
+<br />
+<br />
+
+
+
+## Collection ADTs
+
+| Examples |
+| --------- |
+| - A `stack` of plates in the dishwasher. |
+| - A `queue` of customers in a restaurant. |
+| - A `list` of places to visit. |
+| - A `set` of items on a menu. |
+| - A `table` of formulas for each problem. |
+| - A family `tree`. |
+| - A road `network`. |
