@@ -104,3 +104,10 @@ Class newClass {
 | (4) Deletion |
 | ------------ |
 | Removing an existing data element from a structure <br /> and re-organizing all of the elements that is left <br /> after the removal. |
+
+<br />
+
+| (5) Sorting |
+| ----------- |
+| Refers to the technique of arranging and rearranging <br /> sets of data according to some specific ordering condition. |
+| It arranges the data in a sequence which makes searching easier. |
