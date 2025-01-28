@@ -17,3 +17,14 @@
 > - ADT is a mathematical model with a collection of operations defined <br />
     on model.
 
+> - An ADT should have a `contract` (or specification) that:
+
+| (1) Declaration of Data |
+| ----------------------- |
+| Specifies the set of values of the abstract data type. |
+
+<br />
+
+| (2) Declaration of Operations |
+| ----------------------------- |
+| Specifies each operations of the abstract data type <br /> (i.e. specifies the operation's name, its parameter, types, results, etc. |
