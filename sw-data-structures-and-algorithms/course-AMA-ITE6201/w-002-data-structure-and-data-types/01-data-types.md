@@ -98,3 +98,9 @@ Class newClass {
 | ------------- |
 | Insert one or more data elements into a structure. |
 | Based on the requirement, new element can be at the <br /> beginning, end or at any given index. |
+
+<br />
+
+| (4) Deletion |
+| ------------ |
+| Removing an existing data element from a structure <br /> and re-organizing all of the elements that is left <br /> after the removal. |
