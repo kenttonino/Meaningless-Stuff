@@ -54,3 +54,9 @@
 | ----------------------------------------------------- |
 | - Choosing a data representation. |
 | - Choosing a suitable algorithm for each of the operations. |
+
+> - The chosen data representation must represent all possible <br />
+    values of the Abstract Data type.
+
+> - And the chosen algorithms must be consistent with the chosen <br />
+    representation.
