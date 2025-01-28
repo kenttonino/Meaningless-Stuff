@@ -28,3 +28,17 @@
 | (2) Declaration of Operations |
 | ----------------------------- |
 | Specifies each operations of the abstract data type <br /> (i.e. specifies the operation's name, its parameter, types, results, etc. |
+
+<br />
+
+> - The noticeable behavior of an operation is the effect <br />
+    of that operation as observed by the code.
+
+> - Consider the example where there is an operation that <br />
+    sorts a sequence of values.
+
+> - The code that calls this operation will be able to <br />
+    tell that the values has been sorted.
+
+> - But cannot observe the detailed step-by-step by which <br />
+    the operation achieves the result.
