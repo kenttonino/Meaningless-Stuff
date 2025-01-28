@@ -6,3 +6,10 @@
 > - Abstract data types are mathematical concepts; nowhere in an ADT's <br />
     definition is there any mention of how the set of operations is <br />
     implemented.
+
+> - Objects such as lists, sets, and graphs, along with their operations, <br />
+    can be viewed as ADT's, just as integersm, reals, and Booleans are <br />
+    data types.
+
+> - Integerse, floats, and Booleans have operations associated with them <br />
+    and so do ADTs.
