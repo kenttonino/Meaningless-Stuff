@@ -125,3 +125,5 @@
 | It is a collection of items stored at the adjacent memory locations. |
 | The idea is to store multiple objects of the same type together in <br /> one structure. |
 | Thus, making it easier to get the location of each element (values <br /> or variables) by simply adding an offset to the initial value (i.e. <br /> the memory allocation of the first element of the array) . |
+| It is a sequential arrangement of data elements paired with the <br /> index of the data element. |
+| ![array-memory-allocation](./images/01-array-memory-allocation.png) |
