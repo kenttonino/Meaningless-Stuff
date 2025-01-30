@@ -113,3 +113,13 @@
 > - And some of the commonly used ADTs to represent collection <br />
     include: `Array`, `Linked List`, `Binary Trees`, and `Hash Tables`.
 
+> - For example, `Array` is a sequential arrangement of data elements.
+
+> - Thus, it can represent the stack by using the index associated <br />
+    with each element.
+
+> - Below are some example of `Data Structures`:
+
+| (1) Array |
+| --------- |
+|  |
