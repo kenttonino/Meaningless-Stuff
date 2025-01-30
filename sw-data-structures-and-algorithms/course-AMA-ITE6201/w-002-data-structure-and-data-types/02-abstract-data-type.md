@@ -165,3 +165,9 @@
 | (6) Queue |
 | --------- |
 | It is similar to Stack but the the order of operation is <br /> only FIFO (First in First Out). |
+
+<br />
+
+| (7) Heap |
+| -------- |
+| It is a special case of Tree data structure where the <br /> data in the parent node is either strictly greater than <br /> or equal to the child nodes or strictly less than <br /> it's child nodes. |
