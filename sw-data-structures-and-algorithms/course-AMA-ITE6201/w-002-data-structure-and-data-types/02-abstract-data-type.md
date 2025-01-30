@@ -152,3 +152,10 @@
 | -------------- |
 | A data structure which is made of arrays associated with <br /> each other using a hash function. |
 | It retrieves values using keys rather than index from a <br /> data element. |
+
+<br />
+
+| (5) Stack |
+| --------- |
+| It is a data structure which follows only to specific <br /> order of operation. |
+| LIFO (Last in First Out) or FILO (First in Last Out). |
