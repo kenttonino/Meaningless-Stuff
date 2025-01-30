@@ -159,3 +159,9 @@
 | --------- |
 | It is a data structure which follows only to specific <br /> order of operation. |
 | LIFO (Last in First Out) or FILO (First in Last Out). |
+
+<br />
+
+| (6) Queue |
+| --------- |
+| It is similar to Stack but the the order of operation is <br /> only FIFO (First in First Out). |
