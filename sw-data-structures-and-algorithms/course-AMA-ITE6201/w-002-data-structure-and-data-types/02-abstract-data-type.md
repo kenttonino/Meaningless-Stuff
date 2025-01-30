@@ -137,3 +137,8 @@
 | A `linked list` is a linear data structure, in which the elements <br /> are not stored at adjacent memory locations. |
 | The elements in a linked list are linked using pointers. |
 | Each data element contains a link to another element along with <br /> the data present in it. |
+
+<br />
+
+| (3) Binary Tree |
+| --------------- |
