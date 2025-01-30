@@ -142,3 +142,9 @@
 
 | (3) Binary Tree |
 | --------------- |
+| Binary Trees are hierarchical data structures. |
+| Thus, there is a topmost node which is called the root node. |
+| It is a data structure where each data element can be <br /> connected to maximum two other data elements and <br /> it starts with a root node. |
+
+<br />
+
