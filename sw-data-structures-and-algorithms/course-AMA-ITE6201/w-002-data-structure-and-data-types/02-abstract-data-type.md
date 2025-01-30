@@ -69,7 +69,7 @@
 ## Collection ADTs
 
 | Examples |
-| --------- |
+| -------- |
 | - A `stack` of plates in the dishwasher. |
 | - A `queue` of customers in a restaurant. |
 | - A `list` of places to visit. |
@@ -86,3 +86,30 @@
 
 > - The elements of a given collection are typically all of the <br />
     same type.
+
+> - Each kind of collection has its own unique properties. <br />
+
+> - For example, the elements of stacks, queues, and lists have <br />
+    a fixed order, while the elements of sets and maps have no <br />
+    particular order.
+
+> - As a result, each kind of collection is equipped with its <br />
+    own characteristic operations.
+
+> - A `stack` allows us to add and delete elements at the same <br />
+    end only.
+
+> - A `queue` allows us to add and delete elements at opposite <br />
+    ends only.
+
+> - A `list` allows us to add and remove elements at any given <br />
+    location.
+
+> - A set allows us simply to add and remove elements: its <br />
+    elements have no particular order.
+
+> - These collection ADTs can be represented by some data structures.
+
+> - And some of the commonly used ADTs to represent collection <br />
+    include: `Array`, `Linked List`, `Binary Trees`, and `Hash Tables`.
+
