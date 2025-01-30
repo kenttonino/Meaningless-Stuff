@@ -77,3 +77,12 @@
 | - A `table` of formulas for each problem. |
 | - A family `tree`. |
 | - A road `network`. |
+
+> - This ADTs are know as `collections`.
+
+> - A `collection` consists of zero or more elements (objects), <br />
+    and is equipped with operations to add elements to the <br />
+    collection, or to remove elements from the collection.
+
+> - The elements of a given collection are typically all of the <br />
+    same type.
