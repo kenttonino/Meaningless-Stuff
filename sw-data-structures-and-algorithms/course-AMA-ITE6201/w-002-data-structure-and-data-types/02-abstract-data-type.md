@@ -129,3 +129,9 @@
 | ![array-memory-allocation](./images/01-array-memory-allocation.png) |
 | The image above is the visualization of a character array. |
 | The index `0` denotes the first element of the array having the <br /> memory location of `500` and value of `H`. |
+
+<br />
+
+| (2) Linked List |
+| --------------- |
+|  |
