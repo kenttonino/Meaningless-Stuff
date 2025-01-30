@@ -148,3 +148,7 @@
 
 <br />
 
+| (4) Hash Table |
+| -------------- |
+| A data structure which is made of arrays associated with <br /> each other using a hash function. |
+| It retrieves values using keys rather than index from a <br /> data element. |
