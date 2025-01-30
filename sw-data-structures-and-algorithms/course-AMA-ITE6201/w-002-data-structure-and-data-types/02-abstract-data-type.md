@@ -134,4 +134,5 @@
 
 | (2) Linked List |
 | --------------- |
-|  |
+| A `linked list` is a linear data structure, in which the elements <br /> are not stored at adjacent memory locations. |
+| The elements in a linked list are linked using pointers. |
