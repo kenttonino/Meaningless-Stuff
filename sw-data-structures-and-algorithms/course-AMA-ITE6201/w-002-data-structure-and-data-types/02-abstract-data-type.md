@@ -171,3 +171,9 @@
 | (7) Heap |
 | -------- |
 | It is a special case of Tree data structure where the <br /> data in the parent node is either strictly greater than <br /> or equal to the child nodes or strictly less than <br /> it's child nodes. |
+
+<br />
+
+| (8) Graph |
+| --------- |
+| It is an arrangement of vertices and nodes where some <br /> of the nodes are connected to each other through links. |
