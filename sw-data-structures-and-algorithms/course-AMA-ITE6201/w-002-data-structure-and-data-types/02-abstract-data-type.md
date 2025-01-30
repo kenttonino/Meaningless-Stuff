@@ -127,3 +127,5 @@
 | Thus, making it easier to get the location of each element (values <br /> or variables) by simply adding an offset to the initial value (i.e. <br /> the memory allocation of the first element of the array) . |
 | It is a sequential arrangement of data elements paired with the <br /> index of the data element. |
 | ![array-memory-allocation](./images/01-array-memory-allocation.png) |
+| The image above is the visualization of a character array. |
+| The index `0` denotes the first element of the array having the <br /> memory location of `500` and value of `H`. |
