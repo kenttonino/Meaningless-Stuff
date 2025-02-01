@@ -8,7 +8,7 @@
     implemented.
 
 > - Objects such as lists, sets, and graphs, along with their operations, <br />
-    can be viewed as ADT's, just as integersm, reals, and Booleans are <br />
+    can be viewed as ADT's, just as integers, reals, and Booleans are <br />
     data types.
 
 > - Integers, floats, and Booleans have operations associated with them <br />
