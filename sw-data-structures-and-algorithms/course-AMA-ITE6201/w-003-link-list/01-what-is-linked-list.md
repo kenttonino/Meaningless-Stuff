@@ -15,5 +15,4 @@
     that together form a linear ordering.
 
 > - A `linked list`, can contain any type of data, strings, characters, <br />
-    and numberic. The elements can be sorted or unsorted.
-        and numbericc
+    and numeric. The elements can be sorted or unsorted.
