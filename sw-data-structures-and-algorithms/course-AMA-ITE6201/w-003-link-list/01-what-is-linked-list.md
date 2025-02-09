@@ -39,3 +39,8 @@
 
 > - In linked lists we have a choice between linking each node to one or both <br />
     of its immediate neighbors.
+
+| Two Different Data Structures to Study |
+| -------------------------------------- |
+| (1) Singly-linked Lists (SLLs) |
+| (2) Doubly-Linked Lists (DLLs) |
