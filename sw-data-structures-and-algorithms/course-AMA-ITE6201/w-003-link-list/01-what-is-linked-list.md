@@ -30,3 +30,9 @@
 
 > - We can access the element in any node, provided that we have a link to <br />
     that node.
+
+> - We can manipulate the links. This makes it possible to achieve a variety <br />
+    of effects. We can insert and delete nodes, thus varying the linked list <br />
+    length dynamically. We can change the order of the nodes. In fact, we can <br />
+    make arbitrary changes to a linked list structure simply by manipulating <br />
+    the links.
