@@ -36,3 +36,6 @@
     length dynamically. We can change the order of the nodes. In fact, we can <br />
     make arbitrary changes to a linked list structure simply by manipulating <br />
     the links.
+
+> - In linked lists we have a choice between linking each node to one or both <br />
+    of its immediate neighbors.
