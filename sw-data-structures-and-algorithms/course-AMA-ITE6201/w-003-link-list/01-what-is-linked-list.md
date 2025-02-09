@@ -16,3 +16,7 @@
 
 > - A `linked list`, can contain any type of data, strings, characters, <br />
     and numeric. The elements can be sorted or unsorted.
+
+> - A `node successor` is the next node in the sequence, and its predecessor <br />
+    is the previous node in the sequence. The last node in the sequence has <br />
+    no successor, and the first node in the sequence has no predecessor.
