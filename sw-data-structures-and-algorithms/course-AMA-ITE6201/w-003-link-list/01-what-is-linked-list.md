@@ -10,3 +10,10 @@
 | ![linked-list](./images/01-linked-list-structure.png) |
 
 <br />
+
+> - A `linked list`, in its simplest form, is a collection of `nodes` <br />
+    that together form a linear ordering.
+
+> - A `linked list`, can contain any type of data, strings, characters, <br />
+    and numberic. The elements can be sorted or unsorted.
+        and numbericc
