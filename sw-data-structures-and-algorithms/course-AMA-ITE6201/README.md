@@ -1,6 +1,6 @@
 ## Description
 
-> - This course covers overview of `C++`, concepts of data structures, <br />
+> - This course covers overview of `C++`, concepts of Data Structures, <br />
     advance topics in programming including its algorithm of the <br />
     different data structures programs, step by algorithm process.
 
