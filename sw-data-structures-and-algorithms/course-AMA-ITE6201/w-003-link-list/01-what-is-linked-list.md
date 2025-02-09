@@ -24,3 +24,9 @@
 > - A `null link` is used wherever there is no node to link to. Thus every <br />
     node in a linked list contains a link to its successor, but the last <br />
     node contains a null link instead.
+
+> - A `length` of a linked list is the number of nodes (elements) in it. A <br />
+    linked list is empty if it has length of zero.
+
+> - We can access the element in any node, provided that we have a link to <br />
+    that node.
