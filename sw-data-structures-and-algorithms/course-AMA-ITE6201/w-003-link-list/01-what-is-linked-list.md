@@ -20,3 +20,7 @@
 > - A `node successor` is the next node in the sequence, and its predecessor <br />
     is the previous node in the sequence. The last node in the sequence has <br />
     no successor, and the first node in the sequence has no predecessor.
+
+> - A `null link` is used wherever there is no node to link to. Thus every <br />
+    node in a linked list contains a link to its successor, but the last <br />
+    node contains a null link instead.
