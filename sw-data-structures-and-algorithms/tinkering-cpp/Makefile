@@ -5,5 +5,10 @@ build:
 	g++ -o bin/main src/main.cpp
 
 run:
-	make build
-	./bin/main
+	if make create-bin; then \
+		make build; \
+		./bin/main; \
+	else \
+		make build; \
+		./bin/main; \
+	fi
