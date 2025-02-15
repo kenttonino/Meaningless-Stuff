@@ -9,7 +9,7 @@ int main(void) {
 
   // Linear Data Structure: Array examples.
   // Note: Remove the comment if you want to run the program.
-  // array_01_loop();
+  // array_loop();
 
   // Linear Data Structure: Stack examples.
   // Note: Remove the comment if you want to run the program.
