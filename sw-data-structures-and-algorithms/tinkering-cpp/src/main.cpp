@@ -9,7 +9,7 @@ int main(void) {
 
   // Comment out what program you want to show.
   // hello_world();
- array_01_loop();
+  array_01_loop();
 
   // Add new line before the program ends.
   add_new_line();
