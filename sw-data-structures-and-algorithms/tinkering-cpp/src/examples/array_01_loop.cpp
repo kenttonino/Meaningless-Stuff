@@ -1,7 +1,7 @@
 #include <iostream>
 #include <array>
 
-void example_01_array_loop(void) {
+void array_01_loop(void) {
   // Uses aggregate initialization.
   std::array<int, 5> arrayInt = { 1, 2, 3, 4, 5 };
 
