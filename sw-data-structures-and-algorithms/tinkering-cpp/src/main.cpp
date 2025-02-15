@@ -7,13 +7,12 @@ int main(void) {
   add_new_line();
   add_new_line();
 
-  // Default examples.
-  // hello_world();
-
-  // Array examples.
+  // Linear Data Structure: Array examples.
+  // Note: Remove the comment if you want to run the program.
   // array_01_loop();
 
-  // Stack examples.
+  // Linear Data Structure: Stack examples.
+  // Note: Remove the comment if you want to run the program.
   stack_01();
 
   // Add new line before the program ends.
