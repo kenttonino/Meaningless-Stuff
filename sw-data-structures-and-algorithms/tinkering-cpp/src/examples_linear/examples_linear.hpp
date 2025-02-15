@@ -1,5 +1,5 @@
-#ifndef EXAMPLES_H
-#define EXAMPLES_H
+#ifndef EXAMPLES_LINEAR_H
+#define EXAMPLES_LINEAR_H
 #include "./hello_world.cpp"
 #include "./array_01_loop.cpp"
 

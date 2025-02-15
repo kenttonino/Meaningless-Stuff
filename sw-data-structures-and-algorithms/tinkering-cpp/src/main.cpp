@@ -1,5 +1,5 @@
-#include "./examples/examples.hpp"
 #include "./helpers/helpers.hpp"
+#include "./examples_linear/examples_linear.hpp"
 
 int main(void) {
   // Add new line at the start of the program.
