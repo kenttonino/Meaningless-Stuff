@@ -1,3 +1,14 @@
+/*
+ *  Author: Kent Louise G. Tonino
+ *
+ *  This is sample function that demonstrate
+ *  how to create and initialize a stack variable.
+ *
+ *  This also includes how to loop through the
+ *  stack linear data structure.
+ *
+ * */
+
 #include <stack>
 #include <cassert>
 #include <iostream>
