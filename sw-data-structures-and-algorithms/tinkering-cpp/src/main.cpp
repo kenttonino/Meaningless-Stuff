@@ -7,9 +7,14 @@ int main(void) {
   add_new_line();
   add_new_line();
 
-  // Comment out what program you want to show.
+  // Default examples.
   // hello_world();
-  array_01_loop();
+
+  // Array examples.
+  // array_01_loop();
+
+  // Stack examples.
+  stack_01();
 
   // Add new line before the program ends.
   add_new_line();
