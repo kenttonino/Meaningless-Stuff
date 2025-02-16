@@ -37,7 +37,7 @@
 > - `Link` or `pointer` to another node is the next reference inside <br />
     a node.
 
-> - Likewise, is known as link hopping or pointer hopping is moving <br />
+> - Likewise, is known as `link hopping` or `pointer hopping` is moving <br />
     from one node to another by following a next reference.
 
 > - The first node of a linked list is called `head` while the last <br />
