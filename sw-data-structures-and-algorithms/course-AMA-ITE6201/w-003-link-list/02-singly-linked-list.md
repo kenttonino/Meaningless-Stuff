@@ -18,3 +18,11 @@
 
 > - We cannot tell just by examining a node if it is the second, or <br />
     fifth node in the list.
+
+| Aspect | Linked List |
+| ------ | ----------- |
+| `Size` | Size of the list is not fixed. <br /> Size can grow. |
+| `Storage Capacity` | Dynamic: It's node is located during runtime. |
+| `Order and Sorting` | Stored randomly. |
+| `Accessing the Element` | Sequencial access method. <br /> Traverse starting from the first node in the list by pointer. |
+| `Searching` | Linear search. |
