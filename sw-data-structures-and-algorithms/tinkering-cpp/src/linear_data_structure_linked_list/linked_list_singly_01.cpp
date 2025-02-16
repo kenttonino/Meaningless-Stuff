@@ -106,5 +106,4 @@ void linked_list_singly_01(void) {
 
   // Print the values.
   list.print();
-  add_new_line();
 }
