@@ -1,7 +1,7 @@
 /*
  *  Author: Kent Louise G. Tonino
  *
- *  The purspose of this computer program
+ *  The purpose of this computer program
  *  is to demonstrate and on how to implement
  *  a Data Structures and Algorithms in C++.
  *
