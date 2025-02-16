@@ -11,6 +11,7 @@
 #include "./linear_data_structure_array/array.hpp"
 #include "./linear_data_structure_stack/stack.hpp"
 #include "./linear_data_structure_linked_list/linked_list.hpp"
+#include "./linear_data_structure_queue/queue.hpp"
 
 int main(void) {
   // Add new line at the start of the program.
@@ -27,7 +28,10 @@ int main(void) {
   // stack_01();
 
   // Linear Data Structure: Singly Linked List exmaples.
-  linked_list_singly_01();
+  // linked_list_singly_01();
+
+  // Linear Data Structure: Queue examples.
+  queue_01();
 
   // Add new line before the program ends.
   add_new_line();

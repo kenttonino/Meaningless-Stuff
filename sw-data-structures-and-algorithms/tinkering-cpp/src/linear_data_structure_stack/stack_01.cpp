@@ -14,10 +14,12 @@
 #include <stack>
 #include <cassert>
 #include <iostream>
+#include "../helpers//helpers.hpp"
 
 void stack_01(void) {
   // Print function information.
-  std::cout << "STACK EXAMPLE: stack_01.cpp" << std::endl;
+  std::cout << "STACK EXAMPLE: stack_01.cpp";
+  add_new_line();
 
   // Initialize the stack and insert values.
   std::stack<int> stack_integers;
