@@ -1,17 +1,3 @@
-/*
- * Author: Kent Louise G. Tonino
- * Data Structure: Singly Linked List
- * Data Structure Type: Linear
- *
- * This sample function shows how to
- * implement a singly linked list and
- * print its values.
- *
- * Head is the start node of the linked list
- * and Tail is the end node of the linked list.
- *
- * */
-
 #include <iostream>
 #include "../helpers/helpers.hpp"
 

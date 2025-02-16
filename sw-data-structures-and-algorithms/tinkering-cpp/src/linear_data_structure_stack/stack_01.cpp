@@ -1,16 +1,3 @@
-/*
- *  Author: Kent Louise G. Tonino
- *  Data Structure: Stack
- *  Data Structure Type: Linear
- *
- *  This is sample function that demonstrate
- *  how to create and initialize a stack variable.
- *
- *  This also includes how to loop through
- *  the stack.
- *
- * */
-
 #include <stack>
 #include <cassert>
 #include <iostream>

@@ -1,16 +1,3 @@
-/*
- * Author: Kent Louise G. Tonino
- * Data Structure: Array
- * Data Structure Type: Linear
- *
- * This is a sampple function on how to
- * create and initialize an array in C++.
- *
- * This also include one how to loop
- * through the array.
- *
- * */
-
 #include <iostream>
 #include <array>
 
