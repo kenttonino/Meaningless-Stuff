@@ -1,12 +1,3 @@
-/*
- *  Author: Kent Louise G. Tonino
- *
- *  The purpose of this computer program
- *  is to demonstrate and on how to implement
- *  a Data Structures and Algorithms in C++.
- *
- * */
-
 #include "./helpers/helpers.hpp"
 #include "./linear_data_structure_array/array.hpp"
 #include "./linear_data_structure_stack/stack.hpp"
