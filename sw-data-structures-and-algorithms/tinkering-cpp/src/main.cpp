@@ -9,6 +9,8 @@
 
 #include "./helpers/helpers.hpp"
 #include "./examples_linear/examples_linear.hpp"
+#include "./linear_data_structure_array/array.hpp"
+#include "./linear_data_structure_stack/stack.hpp"
 
 int main(void) {
   // Add new line at the start of the program.
