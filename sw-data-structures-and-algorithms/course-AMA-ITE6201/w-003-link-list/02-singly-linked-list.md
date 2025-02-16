@@ -26,3 +26,19 @@
 | `Order and Sorting` | Stored randomly. |
 | `Accessing the Element` | Sequencial access method. <br /> Traverse starting from the first node in the list by pointer. |
 | `Searching` | Linear search. |
+
+> - A `linked list` is a collection of nodes that together form <br />
+    a linear ordering.
+
+> - The ordering is identified as in the `Follow the Leader` in <br />
+    that each node is an object that stores a reference to an <br />
+    element and a reference, called `next`, to another node.
+
+> - `Link` or `pointer` to another node is the next reference inside <br />
+    a node.
+
+> - Likewise, is known as link hopping or pointer hopping is moving <br />
+    from one node to another by following a next reference.
+
+> - The first node of a linked list is called `head` while the last <br />
+    node is called `tail` of the list.
