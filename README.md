@@ -1,3 +1,4 @@
 ## Description
 
-> - Anything I learned related to Computer Engineering.
+> - Anything I learned related to Computer Science
+    <br /> and Electrical Engineering.
