@@ -13,11 +13,11 @@ int main(void) {
 
   // Linear Data Structure: Array examples.
   // Note: Remove the comment if you want to run the program.
-  array_01();
+  // array_01();
 
   // Linear Data Structure: Stack examples.
   // Note: Remove the comment if you want to run the program.
-  // stack_01();
+  stack_01();
 
   // Linear Data Structure: Singly Linked List exmaples.
   // linked_list_singly_01();
