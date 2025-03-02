@@ -3,6 +3,7 @@
 #include "./linear_data_structure_stack/stack.hpp"
 #include "./linear_data_structure_linked_list/linked_list.hpp"
 #include "./linear_data_structure_queue/queue.hpp"
+#include "./linear_data_structure_array/array.hpp"
 
 int main(void) {
   // Add new line at the start of the program.
@@ -12,7 +13,7 @@ int main(void) {
 
   // Linear Data Structure: Array examples.
   // Note: Remove the comment if you want to run the program.
-  // array_loop();
+  array_01();
 
   // Linear Data Structure: Stack examples.
   // Note: Remove the comment if you want to run the program.
@@ -22,7 +23,7 @@ int main(void) {
   // linked_list_singly_01();
 
   // Linear Data Structure: Queue examples.
-  queue_01();
+  // queue_01();
 
   // Add new line before the program ends.
   add_new_line();
