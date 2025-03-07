@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# mod tidy: Automatically download and install the dependencies as needed during build.
-# Then, build the app and generate an executable binary file.
-go mod tidy && go build -o app ./src/main.go
