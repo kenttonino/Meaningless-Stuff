@@ -193,3 +193,8 @@
 > - Instead design broken into smaller modules.
 
 > - Modules are then integrated to implement the system.
+
+> - Most likely, the design based on Heirarchical design.
+
+> - `Heirarchical Design` is a systematic way of organizing complex <br />
+    systems into smaller, more manageable units.
