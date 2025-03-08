@@ -50,3 +50,20 @@
 > - Represented using discrete set of values.
 
 > - Example: ON/OFF switch, audio recording from microphone, etc.
+
+<br />
+<br />
+<br />
+
+
+## Representation of Discrete information
+
+> - Discrete elements of information are represented in digital systems <br />
+    by combinations of binary values (`High (1)` or `Low (0)`).
+
+> - Binary values represented in Digital systems with physical <br />
+    quantities (`Binary Signals`).
+
+> - Examples: voltage signal.
+
+> - Signal has only two discrete values - `High (5V)` & `Low (0V)`.
