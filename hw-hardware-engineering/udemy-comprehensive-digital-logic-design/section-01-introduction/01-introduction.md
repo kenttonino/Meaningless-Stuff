@@ -224,3 +224,20 @@
 | Abstraction Layers |
 | ------------------ |
 | ![04-abstraction-layers](./images/04-abstraction-layers.png) |
+
+> - Operating systems comprise of set of instructions which are specific <br />
+    to processor that are running them.
+
+> - This instructions are called `Instruction Set Architecture (ISA)`.
+
+> - The processor hardware is the specific implementation of the `ISA` <br />
+    and is called the `Microarchitecture`.
+
+> - A `Microarchitecture` is a sequence of transfer between the registers <br />
+    of the processor.
+
+> - These `Register Transfers` can be decomposed into logic operations performed <br />
+    by the logic gates.
+
+> - These `Logic Gates` are electronic circuits which are implemented using <br />
+    a transistor circuits.
