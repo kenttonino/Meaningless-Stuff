@@ -158,3 +158,9 @@
 | Noise on Signals |
 | ---------------- |
 | ![03-signal-noise](./images/03-signal-noise.png) |
+
+<br />
+
+> - In Electronics interference signals are called `Noise`.
+
+> - The digital signal and noise are added which result to `Resultant Signal`.
