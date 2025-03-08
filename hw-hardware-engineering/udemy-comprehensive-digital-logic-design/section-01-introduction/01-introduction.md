@@ -107,3 +107,39 @@
 | ![01-74LS173](./images/01-74LS173.png) |
 | The `ACTIVE HIGH` logic signals are `Q0`, `Q1`, `Q2`, `Q3`, `CLK`, <br /> `GND`, `VCC`, `CLR`, `D0`, `D1`, `D2`, and `D3`. If you provide <br /> `5V` to them they will perform there functionality, if you  <br /> provide `0V` to them they won't perform there functinality. |
 | The `ACTIVE LOW` logic signals are `E2`, `E1`, `OE1`, and `OE2`. <br /> They will perform there functionality if there value is `0V`. |
+
+<br />
+<br />
+<br />
+
+
+
+## Binary Signals
+
+> - Binary values represented by range of voltage values.
+
+<br />
+
+| Example |
+| ------- |
+| ![02-binary-signals](./images/02-binary-signals-samples.png) |
+
+> - Range of output based on image above:
+
+```plaintext
+- (HIGH) 0.9V to 1.0V
+- (LOW) -0.1V to 0.1V
+```
+
+> - Range of input based on image above:
+
+```plaintext
+- Caters for variations due to noise and distortion.
+```
+
+> - Why binary signaling and not multilevel?
+
+```plaintext
+- Multilevel needs to distinguish between smaller voltage ranges.
+- More complex and costly circuitry.
+```
