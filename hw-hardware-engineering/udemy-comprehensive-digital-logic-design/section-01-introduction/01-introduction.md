@@ -198,3 +198,29 @@
 
 > - `Heirarchical Design` is a systematic way of organizing complex <br />
     systems into smaller, more manageable units.
+
+<br />
+<br />
+<br />
+
+
+
+## Abstraction Layers
+
+<br />
+
+`Layers of Abstraction`
+
+> - A mechanism for reducing complexity in computer systems.
+
+> - Processes are divided into several layers of abstraction.
+
+> - Each layer hides the complexity of the layer below.
+
+> - Goal is to hide unnecessary details / reduce complexity.
+
+> - Designer should focus on the problem rather than the unnecessary details.
+
+| Abstraction Layers |
+| ------------------ |
+| ![04-abstraction-layers](./images/04-abstraction-layers.png) |
