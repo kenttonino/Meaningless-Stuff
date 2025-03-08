@@ -164,3 +164,32 @@
 > - In Electronics interference signals are called `Noise`.
 
 > - The digital signal and noise are added which result to `Resultant Signal`.
+
+<br />
+<br />
+<br />
+
+
+
+## Computer System Design
+
+<br />
+
+`Design`
+
+> - Understanding relevant constraints of a problem, these includes, <br />
+    `Functionality`, `Speed`, `Cost`, `Power`, and `Reliability`.
+
+> - Finding a solution that balances those constraints.
+
+<br />
+
+`Complex ICs`
+
+> - Billions of transistors.
+
+> - Not designed transistor by transistor.
+
+> - Instead design broken into smaller modules.
+
+> - Modules are then integrated to implement the system.
