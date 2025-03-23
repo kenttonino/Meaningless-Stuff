@@ -19,6 +19,9 @@ snapcraft clean
 # Build the snap binary with debug flag.
 snapcraft --debug
 
+# Another option if snapcraft --debug will not work with lxd.
+snapcraft --destructive-mode
+
 # Push the app.
 snapcraft push app-name_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
 ```
