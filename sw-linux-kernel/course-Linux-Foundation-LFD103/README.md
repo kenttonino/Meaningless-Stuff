@@ -1,4 +1,4 @@
-# $\textnormal{LFD103 - A Guide to Linux Kernel Development}$
+## LFD103 - A Guide to Linux Kernel Development
 
 > - This free course introduces developers to the Linux Kernel development <br />
     process and teaaches the explicit and implicit `rules of the road`. It <br />
