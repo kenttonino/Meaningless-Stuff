@@ -4,3 +4,5 @@
     `biasing` and `circuit analysis`.
 
 > - Includes also like `BJT`, `FET`, and `Thyristors`.
+
+> - For Spice simulator, I'm using `LTSpice XVII`.
