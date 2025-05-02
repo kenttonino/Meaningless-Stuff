@@ -85,7 +85,7 @@
 
 | `Alessandro Antonio Volta (1745 - 1827)` |
 | ---------------------------------------- |
-| He invented the electric battery, which provies the continuous flow <br /> of electricity - and the capacitor. |
+| He invented the electric battery, which proves the continuous flow <br /> of electricity - and the capacitor. |
 | ![04-voltmeter](./images/04-voltmeter.png) |
 
 <br />
