@@ -113,3 +113,9 @@
 
 ## Sign Convention
 
+| `Direction of Current Flow` |
+| --------------------------- |
+| ![05-current-flow](./images/05-direction-of-current-flow.png) |
+| It shows a given circuit whereas the current direction depends <br /> on the polarity of the source voltage. |
+| Current always flow from `positive (high potential)` to the <br /> `negative (low potential)` side of the source.  |
+| In source, current leaves from the positive terminal and in <br /> load `sink`, current enters to the positive terminal. |
