@@ -104,3 +104,12 @@
 | Can either be resistive, inductive or capacitive nature or <br /> blend of them. |
 | For example, a light bulb is purely resistive load whereas a <br /> transformer is both inductive and resistive. |
 | Another term for circuit load is `sink` since it dissipates and <br /> the voltage or current supply is also known as `source`. |
+
+<br />
+<br />
+<br />
+
+
+
+## Sign Convention
+
