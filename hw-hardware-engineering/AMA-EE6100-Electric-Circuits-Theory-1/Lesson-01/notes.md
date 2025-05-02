@@ -31,3 +31,7 @@
 | `Current (I)` |
 | ------------- |
 | The motion of charge through a conducting material or the time rate of change. |
+| The current is measured in `ampere (A)`. |
+| `Ampere` is the quantity of total charge that passes through an arbitrary cross <br /> section of conducting materials per unit second. |
+| Formula: $I \ = \frac{\normalsize{Q}}{\normalsize{t}}$ |
+| `I` is the current measured in `Ampere (A)`. |
