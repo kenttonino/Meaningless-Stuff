@@ -40,3 +40,9 @@
 | Physical hardware: processors, development boards, System-on-Chips (System-on-Chips), System-on-Modules (SoMs), and other physical systems. |
 | "Soft" IP processor cores that can be loaded into emulators, Field-Programmable Gate Arrays (FPGAs), or implemented in silicion. |
 | The entire software stack, from bootloaders and firmware, up to full operating systems and applications. |
+
+<br />
+
+| `RIS-V Exchange` |
+| ---------------- |
+| https://riscv.org/exchange/ |
