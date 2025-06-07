@@ -58,15 +58,21 @@
 
 ## History of RISC and Open ISAs
 
+| `CISC` |
+| ------ |
+| Stands for __Complex Instruction Set Computers__. |
+| Usually, CISC CPUs have a few registers and a lot of instructions, move of which have access to the memory. |
+| CISC instruction set usually supports lots of instructions, many performing complicated calculations for specific tasks.  |
+| Example: __Intel's 80386__ (the first 32-bit microprocessor) was launched in 1985 and supported over 150 instructions,  |
+
+<br />
+
 | `RISC` |
 | ------ |
 | Stands for __Reduced Instruction Set Computer__. |
 | A Computer Architecture proposed in the early 1980s based on simplicity, as opposed to current processors at the time, __CISC__. |
 | RISC CPUs have lost of registers and a very modest instruction set, with memory access restricted to a few __Load and Store__ instructions. |
+| RISC instruction sets have a modest number of simple, general-purpose instructions. |
+| Example: __RISC-V Base Integer ISA__ was released in 2010 and has only 40 instructions.  |
 
 <br />
-
-| `CISC` |
-| ------ |
-| Stands for __Complex Instruction Set Computers__. |
-| Usually, CISC CPUs have a few registers and a lot of instructions, move of which have access to the memory. |
