@@ -21,17 +21,20 @@
 
 | `ISA` |
 | ----- |
-| Refers to Instruction Set Architecture. |
+| Refers to __Instruction Set Architecture.__ |
 | An abstract model of a computer. |
-| In this case, a `Reduced Instruction Set Computer (RISC)`. |
+| In this case, a __Reduced Instruction Set Computer (RISC)__. |
 
 <br />
 
-> - The specification for this set of instructions is the 5th generation of RISC processors, which have been in development since the 1980s, thus we call it `RISC-V`.
+> - The specification for this set of instructions is the 5th generation of RISC processors, which have been in development since the 1980s, thus we call it __RISC-V__.
+
+<br />
 
 | `RISC-V` |
 | -------- |
 | Developed by community. |
+| Begins at the UC Berkeley Parallel Computing Lab. |
 
 <br />
 
@@ -46,3 +49,24 @@
 | `RIS-V Exchange` |
 | ---------------- |
 | https://riscv.org/exchange/ |
+
+<br />
+<br />
+<br />
+
+
+
+## History of RISC and Open ISAs
+
+| `RISC` |
+| ------ |
+| Stands for __Reduced Instruction Set Computer__. |
+| A Computer Architecture proposed in the early 1980s based on simplicity, as opposed to current processors at the time, __CISC__. |
+| RISC CPUs have lost of registers and a very modest instruction set, with memory access restricted to a few __Load and Store__ instructions. |
+
+<br />
+
+| `CISC` |
+| ------ |
+| Stands for __Complex Instruction Set Computers__. |
+| Usually, CISC CPUs have a few registers and a lot of instructions, move of which have access to the memory. |
