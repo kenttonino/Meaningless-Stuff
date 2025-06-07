@@ -1,4 +1,4 @@
-## About RISC-V
+# About RISC-V
 
 | `RISC Processors` |
 | ----------------- |
@@ -17,7 +17,7 @@
 
 
 
-## The RISC-V ISA and Community
+# The RISC-V ISA and Community
 
 | `ISA` |
 | ----- |
@@ -56,7 +56,7 @@
 
 
 
-## History of RISC and Open ISAs
+# History of RISC and Open ISAs
 
 | `CISC` |
 | ------ |
@@ -76,3 +76,44 @@
 | Example: __RISC-V Base Integer ISA__ was released in 2010 and has only 40 instructions.  |
 
 <br />
+
+| Book | Author |
+| ---- | ------ |
+| Computer Organization and Design | David Patterson & John Hennessy |
+| Computer Architecture: A Quantitative Approach | David Patterson & John Hennessy |
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Origins: UC Berkeley Architecture Research
+
+| Link |
+| ---- |
+| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=5 |
+
+<br />
+<br />
+<br />
+
+
+
+# DARPA Influence
+
+| Link |
+| ---- |
+| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=6 |
+
+<br />
+<br />
+<br />
+
+
+
+# Fun Fact
+
+| Link |
+| ---- |
+| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=7 |
