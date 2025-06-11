@@ -1,9 +1,0 @@
-* Z:\home\nihilistictinkerer\Documents\personal\meaningless-stuff\hw-hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-01-Basic-Concepts\LAB_001_Tonino_Kent_Louise.asc
-R1 N001 0 5
-V1 N001 0 20
-V2 N002 0 20
-R2 N002 P001 5
-R3 P001 0 5
-.tran 20
-.backanno
-.end
