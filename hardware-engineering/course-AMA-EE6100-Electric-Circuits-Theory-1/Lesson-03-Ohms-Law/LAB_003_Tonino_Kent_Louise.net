@@ -1,0 +1,47 @@
+* C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-03-Ohms-Law\LAB_003_Tonino_Kent_Louise.asc
+R1 N005 0 1000
+V1 N005 0 0
+R2 N006 0 1000
+V2 N006 0 2
+R3 N007 0 1000
+V3 N007 0 4
+R4 N001 0 1000
+V4 N001 0 5
+R5 N002 0 1000
+V5 N002 0 10
+R6 N003 0 1000
+V6 N003 0 20
+R7 N004 0 1000
+V7 N004 0 30
+R8 N012 0 6800
+V8 N012 0 0
+R9 N013 0 6800
+V9 N013 0 2
+R10 N014 0 6800
+V10 N014 0 4
+R11 N008 0 6800
+V11 N008 0 5
+R12 N009 0 6800
+V12 N009 0 10
+R13 N010 0 6800
+V13 N010 0 20
+R14 N011 0 6800
+V14 N011 0 30
+.tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+* Table 3.1: 1000 ohm
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+;tran 20
+* Table 3.2: 6800 ohm
+.backanno
+.end
