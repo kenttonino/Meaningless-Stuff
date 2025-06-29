@@ -1,0 +1,12 @@
+* C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-05-Nodal-and-Mesh-Analysis\LAB_006_Tonino_Kent_Louise.asc
+R1 N001 N002 5
+R3 N002 N004 10
+R2 N002 N003 6
+R4 N003 0 4
+V1 N001 0 15
+V2 N004 0 10
+.tran 20
+* I2
+* I1
+.backanno
+.end
