@@ -1,0 +1,21 @@
+Circuit: * C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-07-Superposition-and-Source-Transformation\LAB_008_Superposition.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Jun 30 22:36:23 2025
+Total elapsed time: 0.086 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2101
+traniter = 2098
+tranpoints = 1050
+accept = 1050
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 175 bytes object code size  0.1/0.1/[0.1]
+

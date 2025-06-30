@@ -1,0 +1,8 @@
+* C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-07-Superposition-and-Source-Transformation\LAB_008_Superposition.asc
+V1 N001 0 6
+R1 N002 N001 8
+R2 N002 0 4
+I1 0 N002 3
+.tran 20
+.backanno
+.end
