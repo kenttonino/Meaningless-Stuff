@@ -1,0 +1,21 @@
+Circuit: * C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-08-Thevenin-Norton-Theorem\LAB_009_Thevenins_Theorem.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jul 01 23:26:52 2025
+Total elapsed time: 0.110 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2101
+traniter = 2098
+tranpoints = 1050
+accept = 1050
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1:       6 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

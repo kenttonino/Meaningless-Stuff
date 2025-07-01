@@ -1,0 +1,10 @@
+* C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Lesson-08-Thevenin-Norton-Theorem\LAB_009_Thevenins_Theorem.asc
+V1 N001 0 32
+R1 N002 N001 4
+R2 N002 0 12
+I1 0 N002 2
+R3 N003 N002 1
+R4 N003 0 16
+.tran 20
+.backanno
+.end
