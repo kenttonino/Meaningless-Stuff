@@ -1,9 +1,0 @@
-* C:\users\nihilistictinkerer\Documents\personal\meaningless-stuff\hardware-engineering\course-AMA-EE6100-Electric-Circuits-Theory-1\Course-Project\Course_Project_Tonino_Kent_Louise.asc
-R1 N002 0 4
-V1 N002 0 24
-R2 N001 0 4
-V2 N001 0 12
-.tran 20
-;tran 20
-.backanno
-.end
