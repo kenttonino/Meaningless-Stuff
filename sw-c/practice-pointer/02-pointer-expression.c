@@ -1,7 +1,11 @@
-#include "helpers.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+void add_new_line(void) { printf("\n"); }
+void clear_terminal(void) { system("clear"); }
 
 int main(void) {
-  // Clear terminal.
+  // * Clear terminal.
   clear_terminal();
   add_new_line();
   add_new_line();
@@ -12,7 +16,7 @@ int main(void) {
   printf("Enter a number: ");
   scanf("%d", &num);
 
-  // Assign the locatino of num to the pointer.
+  // * Assign the locatino of num to the pointer.
   num_ptr = &num;
 
   printf("num + 3: %d", *num_ptr + 3);
