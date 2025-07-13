@@ -1,4 +1,4 @@
-## Course Information
+# Course Information
 
 | `Link` |
 | ------ |
@@ -17,7 +17,7 @@
 
 
 
-## Linux Foundation Overview
+# Linux Foundation Overview
 
 | `Link` |
 | ------ |

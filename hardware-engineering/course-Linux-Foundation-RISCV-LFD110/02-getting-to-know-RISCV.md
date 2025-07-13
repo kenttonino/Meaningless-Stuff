@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 | `Link` |
 | ------ |
@@ -9,7 +9,7 @@
 
 
 
-## Exploring RISC-V
+# Exploring RISC-V
 
 | `Link` |
 | ------ |
