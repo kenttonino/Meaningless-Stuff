@@ -13,4 +13,4 @@
 
 | `Link` |
 | ------ |
-| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=1 |
+| [About RISC-V](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=1) |
