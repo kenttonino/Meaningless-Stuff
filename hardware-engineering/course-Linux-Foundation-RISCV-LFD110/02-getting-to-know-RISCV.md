@@ -57,3 +57,4 @@
 | [RISC-V Community Working Model](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=1) |
 | [RISC-V Relationship with the Linux Foundation](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=2) |
 | [RISC-V Ecosystem](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=3) |
+| [Communication Channels](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=4) |
