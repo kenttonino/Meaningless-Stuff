@@ -60,3 +60,4 @@
 | [Communication Channels](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=4) |
 | [The RISC-V Exchange](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=5) |
 | [Contribute to RISC-V](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=6) |
+| [Types of Contributions](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=7) |
