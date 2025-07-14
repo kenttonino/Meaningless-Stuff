@@ -19,6 +19,8 @@
 | ![RV32IMAC](./images/01-RV32IMAC.png) |
 | [RISC-V Instruction Set Architecture Primer](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=3) |
 | [RISC-V Extensions Lifecycle](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=4) |
+| [Organizing the Specifications](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=5) |
+
 
 
 <br />
