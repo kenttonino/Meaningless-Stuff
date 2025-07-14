@@ -6,6 +6,7 @@
 
 <br />
 <br />
+<br />
 
 
 
@@ -27,3 +28,32 @@
 | ------ |
 | Computer Organization and Design |
 | Computer Architecture: A Quantitative Approach |
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V International
+
+| `Link` |
+| ------ |
+| [Introduction to RISC-V International](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/risc-v-international?page=1) |
+| [Evoluation of RISC-V International](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/risc-v-international?page=2) |
+| [RISC-V International Membership](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/risc-v-international?page=3) |
+| [RISC-V International Governance](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/risc-v-international?page=4) |
+
+<br />
+<br />
+<br />
+
+
+
+## The RISC-V Community
+
+| `Link` |
+| ------ |
+| [RISC-V Community Working Model](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=1) |
+| [RISC-V Relationship with the Linux Foundation](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=2) |
+| [RISC-V Ecosystem](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/the-risc-v-community?page=3) |
