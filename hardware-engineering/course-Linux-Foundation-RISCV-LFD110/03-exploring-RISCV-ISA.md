@@ -21,7 +21,12 @@
 | [RISC-V Extensions Lifecycle](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=4) |
 | [Organizing the Specifications](https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=5) |
 
+<br />
 
+| `Documents` |
+| ----------- |
+| [RISC-V ISA Volume 1](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view) |
+| [RISC-V ISA Volume 2](https://drive.google.com/file/d/17GeetSnT5wW3xNuAHI95-SI1gPGd5sJ_/view) |
 
 <br />
 
