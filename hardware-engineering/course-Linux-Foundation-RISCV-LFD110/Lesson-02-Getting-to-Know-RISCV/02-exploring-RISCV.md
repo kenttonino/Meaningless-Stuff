@@ -88,3 +88,33 @@ This ecosystem is composed of a wide variety of elements:
 > - Have a lots of registers and a very modest instruction set, with memory access restricted to a few Load and Store instructions.
 > - RISC instruction sets have a very modest number of simple, general-purpose instructions.
 > - Example is RISC-V Base Integer ISA was released in 2010 and has only 40 instructions.
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Origins: UC Berkeley Architecture Research
+
+> https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=5
+
+<br />
+<br />
+<br />
+
+
+
+# DARPA Influence
+
+> https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=6
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Name
+
+> https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/getting-to-know-risc-v/exploring-risc-v?page=7
