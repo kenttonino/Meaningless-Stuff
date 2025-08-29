@@ -1,4 +1,4 @@
-# Course Information
+# Course Overview, Objectives, Timing, and Assessment
 
 | `Link` |
 | ------ |
@@ -15,10 +15,3 @@
 <br />
 <br />
 
-
-
-# Linux Foundation Overview
-
-| `Link` |
-| ------ |
-| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/course-information/linux-foundation-overview?page=1 |
