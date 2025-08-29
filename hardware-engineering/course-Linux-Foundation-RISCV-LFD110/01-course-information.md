@@ -22,3 +22,26 @@
 | `Link` |
 | ------ |
 | https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/course-information/course-information?page=2 |
+
+<br />
+<br />
+
+
+
+# Course Support and Other Resources
+
+| `Link` |
+| ------ |
+| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/course-information/course-information?page=3 |
+
+<br />
+<br />
+<br />
+
+
+
+# Instructor
+
+| `Link` |
+| ------ |
+| https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/course-information/course-information?page=3|
