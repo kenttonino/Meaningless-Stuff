@@ -41,3 +41,10 @@ In practice, RISC-V can refer to different things depending on context:
 
 <br />
 
+This ecosystem is composed of a wide variety of elements:
+#
+
+> - Physical hardware: Processors, development boards, System-on-Chips (SoCs), System-on-Modules (SoMs), and other physical systems.
+> - Soft IP processor cores that can be loaded into emulators, FPGAs, or implemented in silicon.
+> - The entire software stack, from bootloaders and firmware, up to full OS and applications.
+> - Services including verification, custom board design, and many more.
