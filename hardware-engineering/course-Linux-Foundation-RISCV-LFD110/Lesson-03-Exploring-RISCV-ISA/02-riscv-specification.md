@@ -67,3 +67,22 @@
 > - `M`: The Integer Multiplication and Division extension.
 > - `A`: The Atomic Instruction extension.
 > - `C`: The Compressed Instruction extension, this provides an alternative 16-bit encoding for a special subset of existing RV321 instructions, which are encoded in 32 bits.
+
+<br />
+
+Graphical representation of the unprivileged RV32IMAC instruction set:
+#
+
+![01-RV32IMAC](./images/01-RV32IMAC.png)
+
+<br />
+
+| `RV32IMAC Base Integer ISA Instructions` | `Definition` | `Example` |
+| ------------- | ------------ | --------- |
+| ADD | Addition (register + register) | rd = rs1 + rs2 |
+| SUB | Subtraction (register - register) | rd = rs1 - rs2 |
+| AND | Bitwise AND | rd = rs1 & rs2 |
+| OR | Bitwise OR | rd = rs1 \| rs2 |
+| XOR | Bitwise Exclusive OR | rd = rs1 ^ rs2 |
+| SLL | Shift Left Logical | rd = rs1 << (rs2 & 0x1F) |
+| SRL | Shift Right Logical | rd = rs1 >> (rs2 & 0x1F) |
