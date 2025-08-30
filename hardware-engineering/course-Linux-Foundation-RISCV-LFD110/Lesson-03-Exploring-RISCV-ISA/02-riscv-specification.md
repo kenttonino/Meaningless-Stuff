@@ -26,3 +26,21 @@
 
 > - https://drive.google.com/file/d/17GeetSnT5wW3xNuAHI95-SI1gPGd5sJ_/view
 > - Provides the design of the first privileged architecture.
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V: A Modular ISA
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=2
+
+<br />
+
+`RISC-V`
+#
+
+> - A seasoned architecture designed to succeed where others have failed in the past.
+> - Designed as a modular ISA, as opposed to the traditional incremental ISAs in commercial processors like the ARM Cortex family.
