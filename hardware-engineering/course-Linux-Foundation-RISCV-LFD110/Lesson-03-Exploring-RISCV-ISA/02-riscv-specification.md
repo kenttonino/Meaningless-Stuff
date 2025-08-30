@@ -86,3 +86,6 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 | XOR | Bitwise Exclusive OR | rd = rs1 ^ rs2 |
 | SLL | Shift Left Logical | rd = rs1 << (rs2 & 0x1F) |
 | SRL | Shift Right Logical | rd = rs1 >> (rs2 & 0x1F) |
+| SRA | Shift Right Arithmetic | rd = rs1 >> (rs2 & 0x1F) |
+| SLT | Set Less Than | if (rs1 < rs2) rd = 1; else rd = 0; |
+| SLTU | Set Less Than Unsigned | if ((unsigned)rs1 < (unsigned)rs2) rd = 1; else rd = 0; |
