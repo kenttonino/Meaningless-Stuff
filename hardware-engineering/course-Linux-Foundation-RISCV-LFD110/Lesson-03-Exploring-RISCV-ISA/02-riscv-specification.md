@@ -7,5 +7,5 @@
 `RISC-V ISA`
 #
 
-> It was defined while avoiding implementation details as much as possibble. <br />
-> It should be read as the software-visible interface to a wide variety of implementation rather than as the design of a particular hardware artifact. <br />
+> - It was defined while avoiding implementation details as much as possibble.
+> - It should be read as the software-visible interface to a wide variety of implementation rather than as the design of a particular hardware artifact.
