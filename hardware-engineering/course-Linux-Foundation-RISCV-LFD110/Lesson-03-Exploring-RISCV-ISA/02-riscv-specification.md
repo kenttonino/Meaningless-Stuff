@@ -44,3 +44,26 @@
 
 > - A seasoned architecture designed to succeed where others have failed in the past.
 > - Designed as a modular ISA, as opposed to the traditional incremental ISAs in commercial processors like the ARM Cortex family.
+> - Modularity means that a RISC-V implementation is composed of a mandatory base ISA and a number of ISA extensions so that custom CPUs may be tailored to the needs of the application.
+> - Any extension can be used or left out for a specific implementation.
+
+<br />
+
+`Other ISA`
+#
+
+> - Conversely, an incremental architecture requires an ISA to contain all the ISAs contained in the ISA it extends.
+> - For example, the ARM Cortex-M4 instruction set contains all the instructions in the Cortex-M3 instruction set, and in turn, all those in Cortex-M0+ instruction set.
+> - There is no way an ARM Cortex-M4 processor would only contain instructions from the M4 and M0+ instruction sets, skipping the instructions of the M3 instruction set in the middle.
+
+<br />
+
+`RV32IMAC ISA`
+#
+
+> - A popular RISC-V core for a number of embedded microcontrollers available today implements the RV32IMAC ISA.
+> - The naming convention for custom RISC-V ISAs consists of the letters RV (for RISC-V) followed by the bit-width, and then a series of 1-letter identifiers for the base ISA and its extensions.
+> - `RV32I`: A 32-bit CPU with the Base Integer ISA, this includes the absolutely necessary instructions for basic operation.
+> - `M`: The Integer Multiplication and Division extension.
+> - `A`: The Atomic Instruction extension.
+> - `C`: The Compressed Instruction extension, this provides an alternative 16-bit encoding for a special subset of existing RV321 instructions, which are encoded in 32 bits.
