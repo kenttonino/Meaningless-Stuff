@@ -74,3 +74,11 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 #
 
 ![01-RV32IMAC](./images/01-RV32IMAC.png)
+
+<br />
+
+`RV32IMAFD`
+#
+
+> - Another popular ISA, often abbreviated as RV32G.
+> - The letter G does not represent an ISA extension, but it stands for General.
