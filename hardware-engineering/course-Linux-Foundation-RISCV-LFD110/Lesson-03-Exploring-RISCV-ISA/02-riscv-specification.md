@@ -74,18 +74,3 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 #
 
 ![01-RV32IMAC](./images/01-RV32IMAC.png)
-
-<br />
-
-| `RV32IMAC Base Integer ISA Instructions` | `Definition` | `Example` |
-| ------------- | ------------ | --------- |
-| ADD | Addition (register + register) | rd = rs1 + rs2 |
-| SUB | Subtraction (register - register) | rd = rs1 - rs2 |
-| AND | Bitwise AND | rd = rs1 & rs2 |
-| OR | Bitwise OR | rd = rs1 \| rs2 |
-| XOR | Bitwise Exclusive OR | rd = rs1 ^ rs2 |
-| SLL | Shift Left Logical | rd = rs1 << (rs2 & 0x1F) |
-| SRL | Shift Right Logical | rd = rs1 >> (rs2 & 0x1F) |
-| SRA | Shift Right Arithmetic | rd = rs1 >> (rs2 & 0x1F) |
-| SLT | Set Less Than | if (rs1 < rs2) rd = 1; else rd = 0; |
-| SLTU | Set Less Than Unsigned | if ((unsigned)rs1 < (unsigned)rs2) rd = 1; else rd = 0; |
