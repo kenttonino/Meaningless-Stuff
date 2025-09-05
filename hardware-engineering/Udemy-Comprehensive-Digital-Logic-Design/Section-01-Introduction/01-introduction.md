@@ -42,3 +42,18 @@
 > - Manipulate information having discrete or discontinuous values.
 > - Represented using a discrete set of values.
 > - Example: ON/OFF, audio recording from microphone, etc.
+
+<br />
+
+Examples:
+#
+
+![01-digital-vs-analog](./images/01-digital-vs-analog.png)
+
+<br />
+<br />
+<br />
+
+
+
+#
