@@ -127,3 +127,26 @@ Low  -> -0.1 to 0.4V
 ![04-noise-signals](./images/04-noise-in-signals.png)
 
 > - Variation in binary signals values when undesired noise voltage is added or subtracted.
+
+<br />
+<br />
+<br />
+
+
+
+# Computer System Design
+
+`Design`
+#
+
+> - Understanding relevant constraints (functionality, speed, cost, power, and reliability) of a problem.
+
+<br />
+
+`Complex ICs`
+#
+
+> - Billions of transistors.
+> - Not designed transistor by transistor.
+> - Instead design broken into smaller modules.
+> - Modules are then integrated to implement the system.
