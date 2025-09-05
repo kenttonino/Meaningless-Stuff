@@ -115,3 +115,15 @@ Low  -> -0.1 to 0.4V
 - Multilevel needs to distinguish between smaller voltage ranges.
 - More complex and costly circuitry.
 ```
+
+<br />
+<br />
+<br />
+
+
+
+# Effect of Noise on Signals
+
+![04-noise-signals](./images/04-noise-in-signals.png)
+
+> - Variation in binary signals values when undesired noise voltage is added or subtracted.
