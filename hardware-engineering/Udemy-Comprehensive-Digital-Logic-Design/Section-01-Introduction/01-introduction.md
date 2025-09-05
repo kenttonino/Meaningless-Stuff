@@ -13,5 +13,32 @@
 > - Other Gates: NAND, NOR, XOR, XNOR.
 
 <br />
+
+`Digital Logic Design`:
+#
+
+> - A process in which functional design of a digital circuit is represented in terms of logic operations.
+
 <br />
 <br />
+<br />
+
+
+
+# Digital vs. Analog
+
+`Analog Systems`
+#
+
+> - Process information having continuous values.
+> - Represented using a time-varying quantity such as voltage.
+> - Example, audio recordings and playback, older video signal technologies such as VGA, S-Video, etc.
+
+<br />
+
+`Digital Systems`
+#
+
+> - Manipulate information having discrete or discontinuous values.
+> - Represented using a discrete set of values.
+> - Example: ON/OFF, audio recording from microphone, etc.
