@@ -171,3 +171,28 @@ Low  -> -0.1 to 0.4V
 > - Each layer hides the complexity of the layer below.
 > - Goal is to hide unnecessary details or reduce complexity.
 > - Designer should focus on the problem rather than the unnecessary details.
+
+<br />
+<br />
+<br />
+
+
+
+# Number Systems
+
+`Number System`
+#
+
+> - A mathematical notation for representing numbers.
+
+<br />
+<br />
+<br />
+
+
+
+# Positional Systems
+
+> - An elegant notation for representing numbers (Place Value Notation).
+> - A number is represented by a string of digits.
+> - A digit has an associated value depending on its position in string.
