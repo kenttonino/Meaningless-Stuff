@@ -198,3 +198,19 @@ Low  -> -0.1 to 0.4V
 > - A digit has an associated value depending on its position in string.
 
 ![06-positional-system](./images/06-positional-system.png)
+
+<br />
+
+![07-positional-system](./images/07-positional-system.png)
+
+<br />
+<br />
+<br />
+
+
+
+# Common Occuring Bases
+
+> - The number systems commonly used in computing.
+
+![08-common-bases](./images/08-common-bases.png)
