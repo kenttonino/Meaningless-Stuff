@@ -196,3 +196,5 @@ Low  -> -0.1 to 0.4V
 > - An elegant notation for representing numbers (Place Value Notation).
 > - A number is represented by a string of digits.
 > - A digit has an associated value depending on its position in string.
+
+![06-positional-system](./images/06-positional-system.png)
