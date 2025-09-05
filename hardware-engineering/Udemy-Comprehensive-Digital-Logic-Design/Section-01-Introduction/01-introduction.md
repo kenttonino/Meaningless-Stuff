@@ -56,4 +56,17 @@ Examples:
 
 
 
-#
+# Representation of Discrete Information
+
+> - Discrete elements of information are represented in digital systems by combinations of binary values.
+
+```plaintext
+- High (1) or Low (0)
+```
+
+> - Binary values represented in Digital systems with physical quantities (Binary Signals).
+
+```plaintext
+- Example voltage signal.
+- Signal has only two discrete values - High (5V) and Low (0V).
+```
