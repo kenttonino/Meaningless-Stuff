@@ -150,3 +150,24 @@ Low  -> -0.1 to 0.4V
 > - Not designed transistor by transistor.
 > - Instead design broken into smaller modules.
 > - Modules are then integrated to implement the system.
+
+<br />
+<br />
+<br />
+
+
+
+# Abstraction Layers
+
+![05-abstraction-layers](./images/05-abstraction-layers.png)
+
+<br />
+
+`Layers of Abstractions`
+#
+
+> - A mechanism for reducing complexity in computer systems.
+> - Processes are divided into several layers of abstraction.
+> - Each layer hides the complexity of the layer below.
+> - Goal is to hide unnecessary details or reduce complexity.
+> - Designer should focus on the problem rather than the unnecessary details.
