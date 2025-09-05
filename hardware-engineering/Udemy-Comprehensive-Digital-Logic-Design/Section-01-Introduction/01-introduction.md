@@ -70,3 +70,48 @@ Examples:
 - Example voltage signal.
 - Signal has only two discrete values - High (5V) and Low (0V).
 ```
+
+<br />
+<br />
+<br />
+
+
+
+# Logic Levels
+
+Two types of Logic Levels typically used:
+#
+
+![02-logic-levels](./images/02-logic-levels.png)
+
+<br />
+<br />
+<br />
+
+
+# Binary Signals
+
+![03-binary-signals-IO](./images/01-digital-vs-analog.png)
+
+> - Binary values represented by range of voltage values.
+> - Range of output:
+
+```plaintext
+HIGH -> 0.9 to 1.0V
+LOW  -> -0.1 to 0.1V
+```
+
+> - Range of input:
+
+```plaintext
+High -> 0.6 to 1.0V
+Low  -> -0.1 to 0.4V
+```
+
+> - Input range is wider because we cater for variations due to noise and distortion.
+> - Why binary signaling and not multilevel?
+
+```plaintext
+- Multilevel needs to distinguish between smaller voltage ranges.
+- More complex and costly circuitry.
+```
