@@ -175,3 +175,23 @@ The main steps are summarized as follows:
 > (1). An extension being developed by its proponent and/or the community at large is referred to as in "Open" status. <br />
 > (2). When all the main features of the extension have been developed to the point that no substantial modifications are deemed possible, except for very minimal updates, the extension is referred to as in "Frozen" status. <br />
 > (3). A frozen extension is subject to a period of public review for further refinement and to a final ratification-by-vote, after which the extension is referred to as in "Ratified" status.
+
+<br />
+
+RISC-V development process:
+#
+
+> - https://riscv.atlassian.net/wiki/spaces/TAXX/pages/174522378/RISC-V+Development+Process
+
+<br />
+
+RISC-V development process milestone:
+#
+
+![02-development-process-milestone](./images/02-development-process-milestone.png)
+
+> (1) _The Plan Milestone_ describes the proposed work and schedules. <br />
+> (2) _The Development Milestone_ creates the early versions of the specification and declares them reasonably stable. <br />
+> (3) _The Stable Milestone_ continues specification development until it is self-consistent and stable. <br />
+> (4) _The Freeze Milestone_ brings the document to feature complete, declares that no substantive changes are planned, and prepares the document for Public Review. <br />
+> (5) _The Publication Milestone_ provides the final approval from the Board and publishes the specification externally.
