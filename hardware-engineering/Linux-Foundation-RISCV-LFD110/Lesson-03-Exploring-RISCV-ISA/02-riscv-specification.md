@@ -203,3 +203,88 @@ For full details on this process, refer to the following documents:
 
 > (1) The [RISC-V Development Process](https://riscv.atlassian.net/wiki/spaces/TAXX/pages/174522378/RISC-V+Development+Process) page details the full procedure to ratify an extension. <br />
 > (2) The [Fast Tract Architecture Extension Process](https://riscv.atlassian.net/wiki/spaces/TAXX/pages/174522378/RISC-V+Development+Process#Fast-Track-or-Technical-Committee%3F) presents a reduced faster version of the procedure for small extensions. <br />
+
+<br />
+<br />
+<br />
+
+
+
+# Organizing the Specifications
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=5
+
+<br />
+
+The RISC-V ISA is broken up into two parts:
+#
+
+> - Volume 1, Unprivileged Specification
+> - Volume 2, Privileged Specification
+
+<br />
+
+![03-privilege-rings](./images/03-privileged-rings.png)
+
+> - To understand why the specification is broken up into two different parts, we must first understand a bit about computer architecture and security.
+> - Historically, processors used hierarchical protection domains, often called privilege rings, to protect data and code from malicious actors.
+> - For illustration purposes, the following picture above shows the privilege rings for the x86 processor, by Intel, along with their common uses.
+
+<br />
+
+`Ring 0`
+#
+
+> - The most privileged code runs in this ring.
+> - It has access to the entire system.
+> - The processor will decide which privileges to grant executing code based on the privilege level.
+> - As an example, accessing memory by physical address may be restricted to "Ring 0" such that other rings must reference the virtual address space.
+> - Typically the processor can run in only one of the privilege modes at a time and there are special instructions to move between modes.
+> - All of these details can change from system to system, however they must follow the rules set out in the specification documents of a given architecture.
+
+<br />
+
+RISC-V has three privilege levels:
+#
+
+> (1) User Mode (U-mode) <br />
+> (2) Supervisor Mode (S-mode) <br />
+> (3) Machine Mode (M-mode). <br />
+> You can think of these as Ring 2, Ring 1, and Ring 0 respectively.
+
+<br />
+
+`Hypervisor Mode (H-Mode)`:
+#
+
+> - Available as variations of these 3 basic modes.
+
+<br />
+
+`U-mode`
+#
+
+> - Use for user processes.
+
+<br />
+
+`S-mode`
+#
+
+> - Use for kernel and/or device drivers.
+
+<br />
+
+`M-mode`
+#
+
+> - Use for bootloader and/or firmware.
+
+<br />
+
+`Control and Status Registers (CSRs)`
+#
+
+> - Each privilege level has access to this.
+> - This are special registers that report the state of the sytem, or control its behavior.
+> - Higher privilege levels can access the CSRs of less privileged levels.
