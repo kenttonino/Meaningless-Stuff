@@ -195,3 +195,11 @@ RISC-V development process milestone:
 > (3) _The Stable Milestone_ continues specification development until it is self-consistent and stable. <br />
 > (4) _The Freeze Milestone_ brings the document to feature complete, declares that no substantive changes are planned, and prepares the document for Public Review. <br />
 > (5) _The Publication Milestone_ provides the final approval from the Board and publishes the specification externally.
+
+<br />
+
+For full details on this process, refer to the following documents:
+#
+
+> (1) The [RISC-V Development Process](https://riscv.atlassian.net/wiki/spaces/TAXX/pages/174522378/RISC-V+Development+Process) page details the full procedure to ratify an extension. <br />
+> (2) The [Fast Tract Architecture Extension Process](https://riscv.atlassian.net/wiki/spaces/TAXX/pages/174522378/RISC-V+Development+Process#Fast-Track-or-Technical-Committee%3F) presents a reduced faster version of the procedure for small extensions. <br />
