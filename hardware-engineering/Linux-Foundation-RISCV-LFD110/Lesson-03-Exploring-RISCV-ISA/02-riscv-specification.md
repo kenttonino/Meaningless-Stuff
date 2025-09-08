@@ -151,9 +151,9 @@ Collaborative development model:
 The main steps are summarized as follows:
 #
 
-(1). An extension being developed by its proponent and/or the community at large is referred to as in "Open" status.
-(2). When all the main features of the extension have been developed to the point that no substantial modifications are deemed possible, except for very minimal updates, the extension is referred to as in "Frozen" status.
-(3)>
+> (1). An extension being developed by its proponent and/or the community at large is referred to as in "Open" status. <br />
+> (2). When all the main features of the extension have been developed to the point that no substantial modifications are deemed possible, except for very minimal updates, the extension is referred to as in "Frozen" status. <br />
+> (3). A frozen extension is subject to a period of public review for further refinement and to a final ratification-by-vote, after which the extension is referred to as in "Ratified" status.
 
 <br />
 <br />
