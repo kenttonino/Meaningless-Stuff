@@ -133,3 +133,45 @@ Collaborative development model:
 > - The public is free to submit issues to the Github repository in order to give early feedback on any specification.
 > - Non-ISA specifications and standards (e.g., processor trace, architectural tests, software overlay) are developed in a simialr fashion.
 > - RISC-V Specifications live on Github and are housed alongside dozens of software projects.
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Extensions Lifecycle
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=4
+> - Every module specification of RISC-V goes through a design process, where the maturity of the design is indicated by its status, which may be Open, Frozen, or Ratified.
+> - RISC-V International specifies a procedure to propose an ISA extension that anyone, in principle, can follow.
+
+<br />
+
+The main steps are summarized as follows:
+#
+
+(1). An extension being developed by its proponent and/or the community at large is referred to as in "Open" status.
+(2). When all the main features of the extension have been developed to the point that no substantial modifications are deemed possible, except for very minimal updates, the extension is referred to as in "Frozen" status.
+(3)>
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Extensions Lifecycle
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=4
+> - Every module specification of RISC-V goes through a design process, where the maturity of the design is indicated by its status, which may be Open, Frozen, or Ratified.
+> - RISC-V International specifies a procedure to propose an ISA extension that anyone, in principle, can follow.
+
+<br />
+
+The main steps are summarized as follows:
+#
+
+> (1). An extension being developed by its proponent and/or the community at large is referred to as in "Open" status. <br />
+> (2). When all the main features of the extension have been developed to the point that no substantial modifications are deemed possible, except for very minimal updates, the extension is referred to as in "Frozen" status. <br />
+> (3). A frozen extension is subject to a period of public review for further refinement and to a final ratification-by-vote, after which the extension is referred to as in "Ratified" status.
