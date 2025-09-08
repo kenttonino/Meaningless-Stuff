@@ -89,3 +89,27 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 #
 
 > - [The RISC-V Reader](http://riscvbook.com/)
+
+<br />
+<br />
+<br />
+
+
+
+# RISC-V Instruction Set Architecture Primer
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/risc-v-specification?page=3
+
+<br />
+
+Defining an Instruction Set Architecture (ISA)
+#
+
+> - An instruction set architecture (ISA) is an abstract model of a computer.
+> - It is also referred to as architecture or computer architecture.
+> - A realization of an ISA, such as CPU, is called an implementation.
+> - Some ISAs you may have heard of include x86, ARM, MIPS, PowerPC, or SPARC.
+> - All of this ISAs require a license to implement them.
+> - On the other hand, the RISC-V ISA is provided under open source licenses that do not require fees to use.
+
+<br />
