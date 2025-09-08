@@ -102,7 +102,7 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 
 <br />
 
-Defining an Instruction Set Architecture (ISA)
+Defining an Instruction Set Architecture (ISA):
 #
 
 > - An instruction set architecture (ISA) is an abstract model of a computer.
@@ -113,3 +113,23 @@ Defining an Instruction Set Architecture (ISA)
 > - On the other hand, the RISC-V ISA is provided under open source licenses that do not require fees to use.
 
 <br />
+
+How the RISC-V ISA is different:
+#
+
+> - The most notable difference between RISC-V and other ISAs is that RISC-V is developed by a member organization that is completely free to join and licenses its ISA with permissive open source licenses.
+> - This means that anyone can contribute to the specifications, and no one company or group of companies can drive the direction of the standards.
+> - The Technical Steering Committee (TSC) provides leadership to our technical initiatives and approves technical deliverables for ratification or release.
+
+<br />
+
+Collaborative development model:
+#
+
+> - A RISC-V specification starts its life as a Task Group approved by the Technical Steering Committee (TSC).
+> - Once a Task Group has an approved charter, they begin work publicly on GitHub by writing their documents in AsciiDoc format.
+> - These repositories on Github can only receive pull requests from RISC-V international members. however the work is done publicly and transparently.
+> - For groups who choose to take minutes, those minutes from the Task Group meetings are published publicly as well.
+> - The public is free to submit issues to the Github repository in order to give early feedback on any specification.
+> - Non-ISA specifications and standards (e.g., processor trace, architectural tests, software overlay) are developed in a simialr fashion.
+> - RISC-V Specifications live on Github and are housed alongside dozens of software projects.
