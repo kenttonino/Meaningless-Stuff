@@ -82,3 +82,10 @@ Graphical representation of the unprivileged RV32IMAC instruction set:
 
 > - Another popular ISA, often abbreviated as RV32G.
 > - The letter G does not represent an ISA extension, but it stands for General.
+
+<br />
+
+`Books`
+#
+
+> - [The RISC-V Reader](http://riscvbook.com/)
