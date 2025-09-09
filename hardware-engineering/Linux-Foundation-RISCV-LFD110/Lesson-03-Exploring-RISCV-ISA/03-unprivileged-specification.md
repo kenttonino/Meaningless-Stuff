@@ -61,3 +61,13 @@ This ISA, encoded in 32-bits, includes instructions for:
 <br />
 
 ![04-riscv-symbolic-register-name](./images/04-riscv-symbolic-register-name.png)
+
+<br />
+<br />
+<br />
+
+
+
+# Control and Status Registers (CSRs)
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=3
