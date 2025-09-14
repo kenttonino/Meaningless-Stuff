@@ -1,3 +1,3 @@
 ## Description
 
-> - All things I learned related to Linux Kernel.
+> - Anything related to Linux Kernel.
