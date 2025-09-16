@@ -19,7 +19,7 @@ int main(void) {
 
   // * Allocate the memory based on the provided number of elements.
   // * Typecast to int pointer.
-  elements_array_ptr = (int*) malloc(num_elements * sizeof(int));
+  elements_array_ptr = (int *)malloc(num_elements * sizeof(int));
 
   if (elements_array_ptr == NULL) {
     printf("Memory not allocated.");
