@@ -1,4 +1,4 @@
-## $\textnormal{Life of an Open Source Developer}$
+# Life of an Open Source Developer
 
 > - Here is my view of the life of an open source <br />
     developer, derived from my experience as a <br />
