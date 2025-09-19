@@ -1,4 +1,4 @@
-## Linux Foundation - Introduction to RISC-V (LFD110)
+# Linux Foundation - Introduction to RISC-V (LFD110)
 
 | Link |
 | ---- |
