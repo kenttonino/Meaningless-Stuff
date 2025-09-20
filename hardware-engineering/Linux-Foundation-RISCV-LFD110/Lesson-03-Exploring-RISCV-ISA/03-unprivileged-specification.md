@@ -71,3 +71,23 @@ This ISA, encoded in 32-bits, includes instructions for:
 # Control and Status Registers (CSRs)
 
 > - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=3
+> - CSR are a separate bank of registers with a separate 12-bit address space, limiting their number to 4096.
+> - They usually contain various CPU information, like timers, counters, flags, manufacturer information and other data.
+
+<br />
+
+...
+#
+
+> - CSRs are special registers designed to control and monitor the processor's operation.
+> - They serve as the mechanism through which software interacts with hardware to adjust settings, manage exceptions, and acquire information about the processor's status.
+> - Understanding CSRs is essential for any RISC-V programmer, as they allow precise control over the processor's behavior and enable efficient system programming.
+
+<br />
+
+...
+#
+
+> - The Zicsr extension contains instructions intented for manipulation of CSRs, such as CSRRW (CSR read and write), CSRRS (CSR read and set), and CSRRC (CSR read and clear).
+> - These instructions allow software to read and modify the values in the control and status registers.
+> - The CSR instructions are covered 2.8 of the [Unprivileged Specification Document](https://drive.google.com/file/d/1s0lZxUZaa7eV_O0_WsZzaurFLLww7ou5/view).
