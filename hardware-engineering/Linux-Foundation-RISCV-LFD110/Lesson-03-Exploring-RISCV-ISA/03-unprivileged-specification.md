@@ -97,3 +97,4 @@ This ISA, encoded in 32-bits, includes instructions for:
 | `Few of the most important CSR` | `Function` |
 | ------------------------------- | ---------- |
 | _mstatus_ (Machine Status Register) | This CSR is arguably the most critical one as it controls and monitors the machine's operating mode and privilege level. <br /> It contains fields for controlling interrupt enable/disable status, setting the privilege level (M-mode, S-mode, U-mode), and various flags that that influence the processor's behavior. <br /> It is fundamental for privilege level transitions and interrupt management. |
+| _mepc_ (Machine Exception Program Counter) | Stores the program counter value of the instruction that caused an exception of interrupt in machine mode. <br /> It determines where the program should resume execution after handling the exception. |
