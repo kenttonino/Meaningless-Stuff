@@ -91,3 +91,9 @@ This ISA, encoded in 32-bits, includes instructions for:
 > - The Zicsr extension contains instructions intented for manipulation of CSRs, such as CSRRW (CSR read and write), CSRRS (CSR read and set), and CSRRC (CSR read and clear).
 > - These instructions allow software to read and modify the values in the control and status registers.
 > - The CSR instructions are covered 2.8 of the [Unprivileged Specification Document](https://drive.google.com/file/d/1s0lZxUZaa7eV_O0_WsZzaurFLLww7ou5/view).
+
+<br />
+
+| `Few of the most important CSR` | `Function` |
+| ------------------------------- | ---------- |
+| _mstatus_ (Machine Status Register) | This CSR is arguably the most critical one as it controls and monitors the machine's operating mode and privilege level. <br /> It contains fields for controlling interrupt enable/disable status, setting the privilege level (M-mode, S-mode, U-mode), and various flags that that influence the processor's behavior. <br /> It is fundamental for privilege level transitions and interrupt management. |
