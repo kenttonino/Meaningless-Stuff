@@ -109,3 +109,24 @@ This ISA, encoded in 32-bits, includes instructions for:
 
 > - The above CSRs are fundamental for the operation of a RISC-V processor, enabling privilege mode control, exception handling, and providing information about the processor's capabilities and recent events.
 > - There are many more CSRs that serve important functions, these five are among the most critical for basic processor operation and software development.
+
+<br />
+<br />
+<br />
+
+
+
+# ISA Extensions
+
+> - The unprivileged specification also contains the descriptions of the extensions to these base ISA's.
+> - Again, any extension that does not required M-mode to operate can be described in the unprivileged specification.
+> - Once ratified, the below extensions are added to the unprivileged specification. Up ahead we will go through a few of the most popular RISC-V ISA extensions.
+
+<br />
+
+Each extension to the base ISA is developed and maintained by a task group:
+#
+
+> - _Crypto_: Task group working on cryptograpic extensions which can move many complex cryptographic algorithms into hardware, improving reliability and speed.
+> - _B Extension_: Task group working on bit manipulation extensions which can speed up many common mathematical tasks.
+> - _Vector (V) Extension_: Task group working on vector instructions which are at the heart of many graphical processing computations.
