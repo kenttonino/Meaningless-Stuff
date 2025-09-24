@@ -101,3 +101,11 @@ This ISA, encoded in 32-bits, includes instructions for:
 | _mtvec_ (Machine Trap-Vector Base Address) | Specifies the base address of the trap handler for machine mode, determining where the processor should jump to when an exception occurs. |
 | _mcause_ (Machine Cause Register) | This CSR provides information about the reason for the most recent exception or interrupt. <br /> It distinguishes between exceptions and interrupts and gives a code indicating the specific cause, such as a page fault or a software interrupt. |
 | _misa_ (Machine ISA Register) | Specifies the supported instruction set extensions for the processor, allowing software to determine the capabilities of the RISC-V processor. <br /> It also encodes the bit width of the base ISA (RV32, RV64, or RV128). |
+
+<br />
+
+...
+#
+
+> - The above CSRs are fundamental for the operation of a RISC-V processor, enabling privilege mode control, exception handling, and providing information about the processor's capabilities and recent events.
+> - There are many more CSRs that serve important functions, these five are among the most critical for basic processor operation and software development.
