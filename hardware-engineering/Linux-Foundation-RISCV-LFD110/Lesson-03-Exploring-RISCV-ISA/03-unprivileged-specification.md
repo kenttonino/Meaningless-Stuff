@@ -142,3 +142,4 @@ Each extension to the base ISA is developed and maintained by a task group:
 # The M Extension, for Multiplication
 
 > - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=5
+> - The `RV32M` extension implements 8 instructions to perform multiplication and division on integers (`RV64M` adds 5 instructions to those 8).
