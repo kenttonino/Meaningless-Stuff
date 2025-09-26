@@ -118,6 +118,8 @@ This ISA, encoded in 32-bits, includes instructions for:
 
 # ISA Extensions
 
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=4
 > - The unprivileged specification also contains the descriptions of the extensions to these base ISA's.
 > - Again, any extension that does not required M-mode to operate can be described in the unprivileged specification.
 > - Once ratified, the below extensions are added to the unprivileged specification. Up ahead we will go through a few of the most popular RISC-V ISA extensions.
@@ -130,3 +132,13 @@ Each extension to the base ISA is developed and maintained by a task group:
 > - _Crypto_: Task group working on cryptograpic extensions which can move many complex cryptographic algorithms into hardware, improving reliability and speed.
 > - _B Extension_: Task group working on bit manipulation extensions which can speed up many common mathematical tasks.
 > - _Vector (V) Extension_: Task group working on vector instructions which are at the heart of many graphical processing computations.
+
+<br />
+<br />
+<br />
+
+
+
+# The M Extension, for Multiplication
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=5
