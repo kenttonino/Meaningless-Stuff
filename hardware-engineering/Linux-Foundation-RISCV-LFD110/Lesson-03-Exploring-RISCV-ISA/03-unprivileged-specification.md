@@ -143,3 +143,12 @@ Each extension to the base ISA is developed and maintained by a task group:
 
 > - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=5
 > - The `RV32M` extension implements 8 instructions to perform multiplication and division on integers (`RV64M` adds 5 instructions to those 8).
+> - Chapter 7 of the [unprivileged specification](https://riscv.org/specifications/ratified/) describes hhhow integer multiplication and division should be accomplished.
+
+<br />
+
+...
+#
+
+> - It describes how each of the multiplication instructions will behave, which registers are used for the multiplier and multiplicand, and where the result will be stored.
+> - It does the same for division since functionality one can view division as simply the inverse of multiplication.
