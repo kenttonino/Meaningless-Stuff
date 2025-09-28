@@ -152,3 +152,13 @@ Each extension to the base ISA is developed and maintained by a task group:
 
 > - It describes how each of the multiplication instructions will behave, which registers are used for the multiplier and multiplicand, and where the result will be stored.
 > - It does the same for division since functionality one can view division as simply the inverse of multiplication.
+
+<br />
+
+...
+#
+
+> - It may seem odd that this extension is not required.
+> - However, for many embedded processors, multiplication can be done in software if it is not required very often or even at all.
+> - Removing this logic from a processor saves money on development, keeping the end product cost lower.
+> - It also reduces the area required inside the chip, and energy consumption in the final application.
