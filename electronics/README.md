@@ -1,3 +1,3 @@
 # Description
 
-> - Anything related to Digital Electronics, Logic Circuits, FPGA, Embedded Systems, etc.
+> - Anything related to Digital or Analog Electronics.
