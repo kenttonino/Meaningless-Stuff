@@ -31,3 +31,33 @@ Machine learning uses two approaches:
 (2) **Unsupervised Learning**
 
 ![08-training-sample](../images/08-training-sample.gif)
+
+<br />
+
+`Supervised Learning`
+#
+
+> - Frequently used to make predictions or decisions.
+> - Supervised learning takes in labeled data.
+> - Example a machine learning model that has been trained with loads of examples of fraudulent and legitimate card transactions to predict fraud.
+> - Requires human involvement to label the training data.
+
+![09-supervised-learning](../images/09-supervised-learning.gif)
+
+<br />
+
+`Unsupervised Learning`
+#
+
+> - It tries to discover patterns and relationships within unlabeled data.
+> - A business using unlabelled data to train a machine learning model to group their customers based on age, income and buying behavior.
+
+![10-unsupervised-learning](../images/10-unsupervised-learning.png)
+
+<br />
+
+`Deep Learning`
+#
+
+> - Inspired the way the human brain processes information, a network of artificial neurons is able to learn from data.
+> - Deep learning is a type of machine learning model with multiple layers of neural network.
