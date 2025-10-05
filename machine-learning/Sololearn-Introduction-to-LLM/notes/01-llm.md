@@ -27,5 +27,21 @@ How does AI choose the next word?
 
 > - The language model measures how often words follow other words and sequences in the corpus.
 > - It then calculate the probabilities.
+> - To better understand the predictions, probabilities, are represented with percentages.
+> - Once the language model chooses the next word, that word gets added to the text.
+> - The model repeats this process for each new word, until it has generated the complete output (a sentence, email, story, etc.).
 
 ![02-probabilities](../images/02-probabilties-sample.png)
+
+<br />
+
+`Temperature`
+#
+
+> - It influences how random (or "creative") the outputs are.
+> - Higher temperature results in more random and unpredictable output, because it fattens the probability distribution.
+> - Conversely, a lower temperature makes the output more focused, deterministic, and repetitive by sharpening the probability distribution and favoring the most likely words.
+
+![03-low-temperature](../images/03-low-temperature.png)
+
+![04-high-temperature](../images/04-high-temperature.png)
