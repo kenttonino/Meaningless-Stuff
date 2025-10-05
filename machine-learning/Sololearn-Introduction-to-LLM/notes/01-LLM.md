@@ -42,7 +42,7 @@ How does AI choose the next word?
 #
 
 > - It influences how random (or "creative") the outputs are.
-> - Higher temperature results in more random and unpredictable output, because it fattens the probability distribution.
+> - Higher temperature results in more random and unpredictable output, because it flattens the probability distribution.
 > - Conversely, a lower temperature makes the output more focused, deterministic, and repetitive by sharpening the probability distribution and favoring the most likely words.
 > - At higher temperature, less likely words become more likely, so the model's outputs become more varied.
 
