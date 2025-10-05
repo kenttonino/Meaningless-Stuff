@@ -61,3 +61,6 @@ Machine learning uses two approaches:
 
 > - Inspired the way the human brain processes information, a network of artificial neurons is able to learn from data.
 > - Deep learning is a type of machine learning model with multiple layers of neural network.
+> - Deep learning models require very large amounts of training data and are very effective at tasks such as image recognition, natural language processing and make more accurate predictions.
+
+![12-ml-dl](../images/12-ml-dl.png)

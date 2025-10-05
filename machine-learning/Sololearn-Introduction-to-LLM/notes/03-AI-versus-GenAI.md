@@ -52,4 +52,5 @@
 `Generative AI`
 #
 
+> - A machine learning application that learns from past data to produce new content.
 > - Example is a system that writes product descriptions based on product information and features.
