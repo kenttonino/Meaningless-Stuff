@@ -16,6 +16,8 @@
 
 ![05-artificial-intelligence](../images/05-artificial-intelligence.gif)
 
+![07-artificial-intelligence-2](../images/07-artificial-intelligence-2.png)
+
 <br />
 
 `Rule-based AI`
@@ -28,9 +30,26 @@
 `Machine Learning`
 #
 
+> - Nowadays, most AI is performed using machine learning.
 > - Two types of machine learning:
 
 (1) **Discriminative AI**: Learns boundaries between different classes of data. <br />
 (2) **Generative AI**: Produces new data.
 
 ![06-machine-learning](../images/06-machine-learning.gif)
+
+<br />
+
+`Discriminative AI`
+#
+
+> - Example is a spam filter that sorts emails into spam and non-spam folders.
+> - Example is a business using machine learning to group their customers based on age, income and buying behavior.
+
+
+<br />
+
+`Generative AI`
+#
+
+> - Example is a system that writes product descriptions based on product information and features.
