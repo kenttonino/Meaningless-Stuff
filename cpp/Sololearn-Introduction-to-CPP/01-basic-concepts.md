@@ -64,3 +64,20 @@ int main(void) {
 ```
 
 <br />
+
+`boolean`
+#
+
+> - The **bool** type can only hold values: either **true** or **false**;
+> - The **true** corresponds to **1**, while the value **false** corresponds to **0**.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    bool is_online = false;
+    cout << is_online;
+    return 0;
+}
+```
