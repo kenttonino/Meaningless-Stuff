@@ -44,3 +44,23 @@ int main(void) {
 ```
 
 <br />
+
+
+`char`
+#
+
+> - Used to store a single character.
+> - Similar to declaring string, but uses single quotes for the value.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    char letter = 'A';
+    cout << letter;
+    return 0;
+}
+```
+
+<br />
