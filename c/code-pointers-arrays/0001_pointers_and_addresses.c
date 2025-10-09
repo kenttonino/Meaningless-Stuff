@@ -6,7 +6,7 @@ void new_line(int num_lines) {
   }
 }
 
-void program_descriptoin(void) {
+void program_description(void) {
   printf("+-------------------------------+");
   new_line(1);
   printf("|%*s", 32, "|");
@@ -21,17 +21,31 @@ void program_descriptoin(void) {
 
 int main(void) {
   new_line(2);
-  program_descriptoin();
+  program_description();
 
   int x = 1;
   int y = 2;
   int z[10];
-  int *int_px;
+  int *int_p;
 
-  int_px = &x;
-  printf("x_address: %p", int_px);
+  // Address and value of variable x directly.
+  printf("x_address (direct): %p", &x);
   new_line(1);
-  printf("x_value: %d", *int_px);
+  printf("y_value (direct): %d", x);
+  new_line(2);
+
+  // Address and value of variable x.
+  int_p = &x;
+  printf("x_address: %p", int_p);
+  new_line(1);
+  printf("x_value: %d", *int_p);
+  new_line(2);
+
+  // Reuse the int_p pointer;
+  printf("y_address (before change): %p", &y);
+  new_line(1);
+  printf("y_value (before change): %d", y);
+  new_line(1);
 
   new_line(3);
   return 0;
