@@ -6,9 +6,22 @@ void new_line(int num_lines) {
   }
 }
 
+void program_descriptoin(void) {
+  printf("+-------------------------------+");
+  new_line(1);
+  printf("|%*s", 32, "|");
+  new_line(1);
+  printf("| Pointers & Addresses Examples |");
+  new_line(1);
+  printf("|%*s", 32, "|");
+  new_line(1);
+  printf("+-------------------------------+");
+  new_line(2);
+}
+
 int main(void) {
-  new_line(5);
-  printf("Pointers & Addresses Examples");
+  new_line(2);
+  program_descriptoin();
 
   int x = 1;
   int y = 2;
@@ -16,8 +29,10 @@ int main(void) {
   int *int_px;
 
   int_px = &x;
-  printf("%p", int_px);
-  new_line(3);
+  printf("x_address: %p", int_px);
+  new_line(1);
+  printf("x_value: %d", *int_px);
 
+  new_line(3);
   return 0;
 }
