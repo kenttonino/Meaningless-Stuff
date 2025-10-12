@@ -162,3 +162,23 @@ Each extension to the base ISA is developed and maintained by a task group:
 > - However, for many embedded processors, multiplication can be done in software if it is not required very often or even at all.
 > - Removing this logic from a processor saves money on development, keeping the end product cost lower.
 > - It also reduces the area required inside the chip, and energy consumption in the final application.
+
+<br />
+<br />
+<br />
+
+
+
+# The F and D Extensions for "float" and "double"
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=6
+
+<br />
+
+`F is for float`
+#
+
+> - The **F** extension adds support for single-precision floating-point arithmetic operations.
+> - Single-precision floating-point numbers are typically represented using 32 bits, conforming to the IEEE 754 standard.
+> - This extension introduces single-precision floating-point registers (**f0** to **f31**) and a set of single-precision floating-point instructions for operations suc as addition, subtraction, multiplication, division, and conversions between integer and single-precision floating-point values.
+> - The F extension also includes for handling special values, like **NaN** (Not-a-Number) and infinites, and for comparing and rounding single-precision values.
