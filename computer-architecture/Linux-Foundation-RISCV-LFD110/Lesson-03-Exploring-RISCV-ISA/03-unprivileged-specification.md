@@ -182,3 +182,14 @@ Each extension to the base ISA is developed and maintained by a task group:
 > - Single-precision floating-point numbers are typically represented using 32 bits, conforming to the IEEE 754 standard.
 > - This extension introduces single-precision floating-point registers (**f0** to **f31**) and a set of single-precision floating-point instructions for operations suc as addition, subtraction, multiplication, division, and conversions between integer and single-precision floating-point values.
 > - The F extension also includes for handling special values, like **NaN** (Not-a-Number) and infinites, and for comparing and rounding single-precision values.
+
+<br />
+
+`D is for double`
+#
+
+> - The D extension extends the floating-point capabilities of RISC-V to include double-precision floating-point arithmetic operations.
+> - Double-precision numbers use 64-bits for representation and also follow the IEEE 754 standard for double-precision arithmetic.
+> - With the D extension, double-precision floating-point registers **f0** to **f31** are now 64-bit wide, and it supports instructions for double-precision arithmetic operations, conversions between integer and double-precision values, and handling special values.
+> - Double-precision arithmetic is particularly important for scientific and engineering applications that require higher precision than single-precision arithmetic can provide.
+> - Many embedded applications do no require floating point logic, and hence these extensions are not part of the Base ISAs.
