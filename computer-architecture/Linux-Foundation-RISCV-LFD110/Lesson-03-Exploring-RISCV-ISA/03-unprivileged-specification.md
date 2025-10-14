@@ -238,7 +238,7 @@ This compression is possible because for these special instructions:
 #
 
 > - This allows encoding the instructions for a limited number of registers as operands, specifying only 2 registers instead of 3, using small immediate values, all of this in 16 bits.
-> - By compressing te most frequently used instructions, you have a better chance of compressing your programs significantly.
+> - By compressing the most frequently used instructions, you have a better chance of compressing your programs significantly.
 > - In the following picture below, compare the green block (RV32I) with the orange block (RV32C).
 > - Consider the RV32I instructions are 32 bits wide, while RV32C are 16 bits wide.
 
