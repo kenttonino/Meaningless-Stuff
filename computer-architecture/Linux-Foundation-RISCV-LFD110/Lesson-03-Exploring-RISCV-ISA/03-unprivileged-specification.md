@@ -243,3 +243,13 @@ This compression is possible because for these special instructions:
 > - Consider the RV32I instructions are 32 bits wide, while RV32C are 16 bits wide.
 
 ![RV32IMAC](./images/01-RV32IMAC.png)
+
+<br />
+
+`Pseudoinstructions`
+#
+
+> - Are special instructions added to the assembly language to make programming less cumbersome.
+> - It have a direct translation to machine code, and are supported by assemblers and compiler toolchains.
+> - The C extension provides hardware support for specific versions of existing base ISA instructions.
+> - Thus, one difference is that pseudoinstructions are a logical addition (software), whereas instructions from the c extension represent a logical and a physical addition (software and hardware).
