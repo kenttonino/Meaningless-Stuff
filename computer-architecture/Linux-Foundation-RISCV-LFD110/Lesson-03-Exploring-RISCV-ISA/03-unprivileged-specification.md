@@ -224,3 +224,22 @@ Each extension to the base ISA is developed and maintained by a task group:
 > - As such, with the addition of the C extension to any system, no instructions can raise instruction-address-misaligned instructions.
 
 <br />
+
+This compression is possible because for these special instructions:
+#
+
+1. Some registers are more popular than others (as per the ABI). <br />
+2. One operand is usually overwritten. <br />
+3. There are some preferred immediate values. <br />
+
+<br />
+
+...
+#
+
+> - This allows encoding the instructions for a limited number of registers as operands, specifying only 2 registers instead of 3, using small immediate values, all of this in 16 bits.
+> - By compressing te most frequently used instructions, you have a better chance of compressing your programs significantly.
+> - In the following picture below, compare the green block (RV32I) with the orange block (RV32C).
+> - Consider the RV32I instructions are 32 bits wide, while RV32C are 16 bits wide.
+
+![RV32IMAC](./images/01-RV32IMAC.png)
