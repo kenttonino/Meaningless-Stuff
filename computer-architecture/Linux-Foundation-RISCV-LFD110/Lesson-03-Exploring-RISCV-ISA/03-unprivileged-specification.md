@@ -228,9 +228,9 @@ Each extension to the base ISA is developed and maintained by a task group:
 This compression is possible because for these special instructions:
 #
 
-1. Some registers are more popular than others (as per the ABI). <br />
-2. One operand is usually overwritten. <br />
-3. There are some preferred immediate values. <br />
+> 1. Some registers are more popular than others (as per the ABI). <br />
+> 2. One operand is usually overwritten. <br />
+> 3. There are some preferred immediate values. <br />
 
 <br />
 
