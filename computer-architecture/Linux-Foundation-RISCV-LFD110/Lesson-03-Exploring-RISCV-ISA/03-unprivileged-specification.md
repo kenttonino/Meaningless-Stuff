@@ -53,7 +53,7 @@ This ISA, encoded in 32-bits, includes instructions for:
 #
 
 > - The Base Integer ISA also specifies the 32 CPU registers, which are all 32-bits wide, plus the program counter.
-> - THe only special register is x0, which always reads 0, as implemented in many previous RISC ISAs.
+> - The only special register is x0, which always reads 0, as implemented in many previous RISC ISAs.
 > - Although all registers are available for general purpose, the application binary interface (ABI) specifies a purpose for each of them, according to its calling convention.
 > - This means that some registers are expected to hold temporary or saved data, pointers, return addresses, and so on.
 > - The RV32I register file, showing the hardware register names and their assigned functionality as specified in the RISC-V application binary interface, is presented in the table below.
