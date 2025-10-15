@@ -280,3 +280,23 @@ The open nature of RISC-V allows for a rich proliferation of other extensions th
 > - The **V Extension**, for vector operations.
 > - The **Zicsr Extension**, for manipulating CSR registers.
 > - The **Zifencei Extension**, for instruction memory synchronization.
+
+<br />
+<br />
+<br />
+
+
+
+# Unsupported Instructions
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=9
+
+<br />
+
+What happen when a RISC-V processor is executing a program that contains instructions it done not implement?
+#
+
+> - Suppose an **RV32IAC** processor fetches a multiplication instruction for execution. What is the processor supposed to do with that instruction if it does not implement the **M** extension.
+> - Compilers are informed of the extensions included in the target CPU so that they can generate the best possible code.
+> - If the code contains an instruction from extensions that are missing in the physical CPU, the decoding of the instruction will trigger an illegal instruction exception.
+> - The software running on the CPU will have to handle this exception and take appropriate action, such as emulating the instruction or providing an alternative implementation, possibly from the standard library.
