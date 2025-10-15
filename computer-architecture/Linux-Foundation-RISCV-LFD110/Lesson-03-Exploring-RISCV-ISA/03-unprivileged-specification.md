@@ -253,3 +253,30 @@ This compression is possible because for these special instructions:
 > - It have a direct translation to machine code, and are supported by assemblers and compiler toolchains.
 > - The C extension provides hardware support for specific versions of existing base ISA instructions.
 > - Thus, one difference is that pseudoinstructions are a logical addition (software), whereas instructions from the c extension represent a logical and a physical addition (software and hardware).
+
+<br />
+<br />
+<br />
+
+
+
+# More Extensions
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/unprivileged-specification?page=8
+> - Almost below extensions are ratified, and only the **L** and **P** extensions are still under discussion.
+
+<br />
+
+The open nature of RISC-V allows for a rich proliferation of other extensions that will not be covered:
+#
+
+> - The **A Extension**, for Atomic Memory Operations.
+> - The **Q Extension**, for quad-precision floating-point operation, introducing 128-bit wide floating point integers.
+> - The **B Extension**, for bit manipulation.
+> - The **S Extension**, for supervision operation.
+> - The **H Extension**, for hypervisor operation.
+> - The **L Extension**, for decimal floating-point operation.
+> - The **P Extension**, for Packed-SIMD instructions.
+> - The **V Extension**, for vector operations.
+> - The **Zicsr Extension**, for manipulating CSR registers.
+> - The **Zifencei Extension**, for instruction memory synchronization.
