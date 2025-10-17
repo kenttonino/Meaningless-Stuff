@@ -47,3 +47,11 @@ _S-Type_ <br />
 
 > - Instructions are a subset of _I-Type_ instructions specifically used for storing data into memory.
 > - They involve a source register, an immediate offset, and a base address register to specify the memory location where the data is to be stored.
+
+<br />
+
+_B-Type_ <br />
+
+> - Instructions are used for conditional branching operations.
+> - They compare two registers and, based on the result, determine whether to take a branch instruction or not.
+> - Common _B-Type_ instructions include **beq** (branch equal) and **bne** (branch if not equal).
