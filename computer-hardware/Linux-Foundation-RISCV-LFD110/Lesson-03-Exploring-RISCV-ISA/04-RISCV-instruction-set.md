@@ -29,6 +29,6 @@ The RV32I ISA specifies the following elements:
 `Instruction Encodings with Explanations`
 #
 
-R-Type: <br />
+**R-Type** <br />
 > - Instructions are used for operations that involve two source registers and one destination register.
 > - They typically include arithmetic and logic operations, such as addition, subtraction, bitwise operations, and comparisons.
