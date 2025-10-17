@@ -14,7 +14,7 @@
 
 <br />
 
-`Digital Logic Design`:
+`Digital Logic Design`
 #
 
 > - A process in which functional design of a digital circuit is represented in terms of logic operations.
