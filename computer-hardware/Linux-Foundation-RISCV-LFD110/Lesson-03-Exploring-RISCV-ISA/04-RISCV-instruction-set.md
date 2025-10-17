@@ -55,3 +55,10 @@ _B-Type_ <br />
 > - Instructions are used for conditional branching operations.
 > - They compare two registers and, based on the result, determine whether to take a branch instruction or not.
 > - Common _B-Type_ instructions include **beq** (branch equal) and **bne** (branch if not equal).
+
+<br />
+
+_U-Type_ <br />
+
+> - Instructions are used for setting the upper bits of a register to a constant value, which is often used for initializing pointers or addresses.
+> - The _U-Type_ instructions include **lui** (load upper immediate) and **auipc** (add upper immediate to PC).
