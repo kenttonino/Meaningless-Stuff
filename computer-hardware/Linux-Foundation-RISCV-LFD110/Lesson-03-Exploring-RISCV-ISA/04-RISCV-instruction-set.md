@@ -18,3 +18,17 @@ The RV32I ISA specifies the following elements:
 > - **24** additional unique 32-bit wide privileged instructions in two formats (R and I).
 
 ![05-RV32I-instructions-format](./images/05-RV32I-RISCV-instruction-formats.png)
+
+<br />
+
+> - A key principle of RISC-V that stands out in this table is the fixed instruction length.
+> - All instructions are encoded in 32 bits. No exceptions.
+
+<br />
+
+`Instruction Encodings with Explanations`
+#
+
+R-Type: <br />
+> - Instructions are used for operations that involve two source registers and one destination register.
+> - They typically include arithmetic and logic operations, such as addition, subtraction, bitwise operations, and comparisons.
