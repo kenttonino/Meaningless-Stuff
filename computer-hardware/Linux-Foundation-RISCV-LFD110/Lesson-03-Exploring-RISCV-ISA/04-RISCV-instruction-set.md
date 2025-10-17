@@ -62,3 +62,10 @@ _U-Type_ <br />
 
 > - Instructions are used for setting the upper bits of a register to a constant value, which is often used for initializing pointers or addresses.
 > - The _U-Type_ instructions include **lui** (load upper immediate) and **auipc** (add upper immediate to PC).
+
+<br />
+
+_J-Type_ <br />
+
+> - Instructions are used for unconditional jump operations.
+> - The jump instruction transfers control to a specified target address, like the **jal** (jump and link) instruction used for subroutine calls.
