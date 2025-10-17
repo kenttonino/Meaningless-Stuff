@@ -39,4 +39,11 @@ _R-Type_ <br />
 _I-Type_ <br />
 
 > - Instructions are used for operations that involve an immediate value (a constant) and a source register.
-> - Common __I-Type__ instructions include load operations as well as arithmetic operations with immediate values (e.g. **add1** for "add immediate").
+> - Common _I-Type_ instructions include load operations as well as arithmetic operations with immediate values (e.g. **add1** for "add immediate").
+
+<br />
+
+_S-Type_ <br />
+
+> - Instructions are a subset of _I-Type_ instructions specifically used for storing data into memory.
+> - They involve a source register, an immediate offset, and a base address register to specify the memory location where the data is to be stored.
