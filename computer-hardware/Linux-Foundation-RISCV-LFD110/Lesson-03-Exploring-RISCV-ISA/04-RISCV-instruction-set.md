@@ -255,3 +255,9 @@ _There are lots of basic instructions missing:_
 >   - Instead of a "move register" instruction; moving data can be done by adding contents of the source register with the immediate value 0, and storing the result in the destination register.
 >   - To calculate a register's two's complement, you can simply subtract the register's contents from zero.
 > - All these operations have their pseudoinstructions available in assembly language as if they were actual instructions, because in a way, they are.
+
+_There is no Stack Pointer_
+> - RISC-V itself does not specify a predefined stack pointer register.
+> - While most architectures like **x86**, **MIPS**, and **ARM** include a dedicated stack pointer register, the choice of which register to use as the stack pointer in RISC-V is determined by the ABI (Application Binary Interface).
+> - This flexibility allows different ABIs to select different registers for the stack pointer, which can be advantageous in various implementation scenarios.
+> - Technically, any register other then **x0** can be used as a stack pointer.
