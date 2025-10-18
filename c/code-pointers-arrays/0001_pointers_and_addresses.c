@@ -31,7 +31,13 @@ int main(void) {
   // Address and value of variable x directly.
   printf("x_address (direct): %p", &x);
   new_line(1);
-  printf("y_value (direct): %d", x);
+  printf("x_value (direct): %d", x);
+  new_line(2);
+
+  // Print address and value of variable y directly.
+  printf("y_address (direct): %p", &y);
+  new_line(1);
+  printf("y_value (direct): %d", y);
   new_line(2);
 
   // Address and value of variable x.
