@@ -160,3 +160,49 @@ As shown above, these are the meanings of the bit fields in the encoded instruct
 
 [The RISC-V Reference Card](http://riscvbook.com/greencard-20181213.pdf) <br />
 > - Included in the previously mentioned book titled [The RISC-V Reader](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view?pli=1), by David Patterson and Andrew Waterman.
+
+<br />
+<br />
+<br />
+
+
+
+# Exercise: Using RISC-V Reference Card
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-risc-v-instruction-set?page=5
+
+<br />
+
+Here are the answers to the questions on the previous page:
+#
+
+> 1. Which bitwise logical operations are available? <br />
+> - AND
+> - OR
+> - XOR
+
+<br />
+
+> 2. Which conditional branches are available? <br />
+> - Branch if equal
+> - Branch if not equal
+> - Branch if else than (signed and unsigned)
+> - Branch if greater or equal (signed and unsigned)
+
+<br />
+
+> 3. Which instructions use immediate values?
+> - All except register operations and environment calls.
+
+<br />
+
+> 4. Are there any traditional instructions missing? Yes.
+> - Bitwise not
+> - Branch if less or equal
+> - Branch if greater than
+> - Load immeadiate
+> - No operation (nop)
+> - Unconditional jump
+> - Subroutine call
+> - Subtract immediate
+> - Register Move/Copy
