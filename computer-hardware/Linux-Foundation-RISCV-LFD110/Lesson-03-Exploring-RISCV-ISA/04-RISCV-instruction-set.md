@@ -235,3 +235,8 @@ _There is no way to specify a 32-bit Immediate in a single instruction:_
 > - For example, **lui** is used to set the upper bits of a register, and **addi** can be used to set the lower bits, like this: `lui x1, 0x12345` sets the upper bits of **x1**, and then `addi, x1, x1, 0x678` sets the lower bits, resulting in the 32-bit immediate value **0x12345678** in **x1**.
 >   - This approach simplifies instruction decoding and execution, as opposed to having a single instruction for 32-bit immediates.
 >   - Another reason for this is that all instructions are encoded in the same length, so having to fetch a second word with an immediate would not be very RISC-like.
+
+_There are no dedicated multiple or divide instructions in the base RISC-V ISA:_
+> - Instead, multiplication and division are implemented using regular arithmetic and logical instructions, potentially impacting performance.
+> - However, this decision favors low end embedded microcontrollers, which may not even need multiplication or division.
+> - After all, for processors intended to run applications that might require multiplication or division, the RVM extension can always be included.
