@@ -261,3 +261,7 @@ _There is no Stack Pointer_
 > - While most architectures like **x86**, **MIPS**, and **ARM** include a dedicated stack pointer register, the choice of which register to use as the stack pointer in RISC-V is determined by the ABI (Application Binary Interface).
 > - This flexibility allows different ABIs to select different registers for the stack pointer, which can be advantageous in various implementation scenarios.
 > - Technically, any register other then **x0** can be used as a stack pointer.
+
+_There are no push nor pop instructions:_
+> - RISC-V does not include dedicated push and pop instructions commonly found in most architectures for managing a stack.
+> - Stack operations are typically achieved using a combination of load and store instructions, in conjunction with additions, subtractions, and the stack pointer (as defined by the ABI).
