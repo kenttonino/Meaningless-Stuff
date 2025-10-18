@@ -69,3 +69,23 @@ _J-Type_ <br />
 
 > - Instructions are used for unconditional jump operations.
 > - The jump instruction transfers control to a specified target address, like the **jal** (jump and link) instruction used for subroutine calls.
+
+<br />
+<br />
+<br />
+
+
+
+# Immediate and Address
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-risc-v-instruction-set?page=2
+> - Other than **opcodes** and **registers**, any instruction encoding other than **R-Type** may contain immediates, that is a piece of data encoded directly in the instruction, rather than in memory or in a register.
+> - This data can  represent either constants, to be used for example in arithmetic operations, or as memory addresses or offsets.
+
+<br />
+
+...
+#
+
+> - Different handling of immediates is the exact characteristic that defines the instruction types, but all of them tend to encode the immediates in similar positions in order to simplify the implementation of the hardware immeadiate decoder.
+> - All immediates decode to **32-bit** wide values, but encoding varies by instruction.
