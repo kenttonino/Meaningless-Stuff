@@ -206,3 +206,32 @@ Here are the answers to the questions on the previous page:
 > - Subroutine call
 > - Subtract immediate
 > - Register Move/Copy
+
+<br />
+<br />
+<br />
+
+
+
+# A Few Peculiar RISC-V Design Decisions
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-risc-v-instruction-set?page=7
+
+<br />
+
+`Design Decisions`
+#
+
+_There is no Flag/Condition-Code Register:_
+> - RISC-V does not have dedicated condition code registers, as seen in many other architectures.
+> - Instead, it relies on branch instructions to evalue conditions directly using the contents of general-purpose registers.
+
+_Register x0 is Hardwired to 0:_
+> - In RISC-V, register x0 is hardwired contain the value 0 and cannot be written to.
+> - This design choice simplifies the hardware and eliminates the need to allocate a separate opcode for instructions that perform operations with the constant 0.
+
+_There is no way to specify a 32-bit Immediate in a single instruction:_
+> - Instead, RISC-V uses a sequence of 2 instructions to specify a full 32-bit immediate value.
+> - For example, **lui** is used to set the upper bits of a register, and **addi** can be used to set the lower bits, like this: `lui x1, 0x12345` sets the upper bits of **x1**, and then `addi, x1, x1, 0x678` sets the lower bits, resulting in the 32-bit immediate value **0x12345678** in **x1**.
+>   - This approach simplifies instruction decoding and execution, as opposed to having a single instruction for 32-bit immediates.
+>   - Another reason for this is that all instructions are encoded in the same length, so having to fetch a second word with an immediate would not be very RISC-like.
