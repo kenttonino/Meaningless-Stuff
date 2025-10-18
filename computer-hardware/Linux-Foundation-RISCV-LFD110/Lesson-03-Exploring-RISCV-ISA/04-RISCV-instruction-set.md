@@ -222,6 +222,7 @@ Here are the answers to the questions on the previous page:
 `Design Decisions`
 #
 
+
 _There is no Flag/Condition-Code Register:_
 > - RISC-V does not have dedicated condition code registers, as seen in many other architectures.
 > - Instead, it relies on branch instructions to evalue conditions directly using the contents of general-purpose registers.
@@ -240,3 +241,17 @@ _There are no dedicated multiply or divide instructions in the base RISC-V ISA:_
 > - Instead, multiplication and division are implemented using regular arithmetic and logical instructions, potentially impacting performance.
 > - However, this decision favors low end embedded microcontrollers, which may not even need multiplication or division.
 > - After all, for processors intended to run applications that might require multiplication or division, the RVM extension can always be included.
+
+_There are lots of basic instructions missing:_
+> - These include unconditional jump and branch, no operation, register move, two's complement, and bitwise not.
+> - It turns out that these operations are considered redundant, as they are special cases of existing instructions in the ISA.
+> - Remember: One of the key principles of RISC is a small instruction set.
+> - The fact that some instructions are missing does not mean that the operations they would implement are also missing.
+> - Since these operations can be performed by existing instructions, there is a set of pseudoinstructions defined in the ISA (and thus supported by RISC-V assemblers), which implement these missing operations.
+> - Here are few examples:
+>   - A conditional jump can be performed with a jump-and-link instruction which saves the return address to register **x0**. Remember that writing to this register has no effect, so the jump-and-link instruction ends up performing an unconditional jump.
+>   - Instead of dedicated "nop" instruction, you can use a simple `addi x0, x0, 0` to perform a no-operation. This instruction adds the contents of **x0** (which is 0) to the immediate value 0, and stores this results in register **x0**, which cannot be written to. This effectively accomplishes nothing, just what we expect from a **nop**.
+>   - Bitwise **NOT** can be achieved using an **XOR** instruction with an all-ones immediate value.
+>   - Instead of a "move register" instruction; moving data can be done by adding contents of the source register with the immediate value 0, and storing the result in the destination register.
+>   - To calculate a register's two's complement, you can simply subtract the register's contents from zero.
+> - All these operations have their pseudoinstructions available in assembly language as if they were actual instructions, because in a way, they are.
