@@ -265,3 +265,6 @@ _There is no Stack Pointer_
 _There are no push nor pop instructions:_
 > - RISC-V does not include dedicated push and pop instructions commonly found in most architectures for managing a stack.
 > - Stack operations are typically achieved using a combination of load and store instructions, in conjunction with additions, subtractions, and the stack pointer (as defined by the ABI).
+
+_There are no subroutine "call" or "return" instructions:_
+> - This is very similar to the previous features above: Subroutine call and return instructions are available as pseudoinstructions, which are performed by jump-and-link instructions.
