@@ -1,4 +1,3 @@
-*.asc linguist-generated=true
 *.js linguist-generated=true
 *.py linguist-generated=true
 *.ts linguist-generated=true
