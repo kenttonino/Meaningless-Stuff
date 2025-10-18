@@ -127,3 +127,17 @@ _J-Type_ <br />
 > - Which in turn can be represented as an **R-Type** instruction with the following fields:
 
 ![06-add-instruction](./images/06-add-instruction.png)
+
+<br />
+
+As shown above, these are the meanings of the bit fields in the encoded instruction:
+#
+
+**funct7**: _0000000_ <br />
+**rs2**: _00011_: _x3_ <br />
+**rs1**: _00010_: _x2_ <br />
+**funct3**: _000_ <br />
+**rd**: _00001_: _x1_ <br />
+**opcode**: _0110011_: _add_ <br />
+
+> - Keep in mind that mnemonics are used both instructions and pseudoinstructions, which the assembler converts to machine instuctions.
