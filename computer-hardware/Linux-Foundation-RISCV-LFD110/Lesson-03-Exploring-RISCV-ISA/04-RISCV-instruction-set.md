@@ -176,14 +176,14 @@ As shown above, these are the meanings of the bit fields in the encoded instruct
 Here are the answers to the questions on the previous page:
 #
 
-> 1. Which bitwise logical operations are available? <br />
+> 1. Which bitwise logical operations are available?
 > - AND
 > - OR
 > - XOR
 
 <br />
 
-> 2. Which conditional branches are available? <br />
+> 2. Which conditional branches are available?
 > - Branch if equal
 > - Branch if not equal
 > - Branch if else than (signed and unsigned)
