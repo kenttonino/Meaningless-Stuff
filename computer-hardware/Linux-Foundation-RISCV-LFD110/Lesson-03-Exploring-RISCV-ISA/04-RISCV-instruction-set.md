@@ -141,3 +141,22 @@ As shown above, these are the meanings of the bit fields in the encoded instruct
 **opcode**: _0110011_: _add_ <br />
 
 > - Keep in mind that mnemonics are used both instructions and pseudoinstructions, which the assembler converts to machine instuctions.
+
+<br />
+<br />
+<br />
+
+
+
+# The RISC-V Instruction Set Reference Documents
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-risc-v-instruction-set?page=4
+> - The instruction set is divided throughout the RISC-V base ISAs and extensions.
+> - Therefore, it is a good idea to have [The RISC-V Instruction Set Manual Volume 1: Unprivileged ISA](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view?usp=drive_link) handy in case you need to review some of the instructions in detail.
+> - However, this document is very thorough and specifc, so a simpler alternative like a quick reference document may be more convenient.
+
+[A RISC-V Reference Card](https://github.com/jameslzhu/riscv-card/releases/download/latest/riscv-card.pdf) <br />
+> - Help to get familiar with the instructions RV32I and many extensions.
+
+[The RISC-V Reference Card](http://riscvbook.com/greencard-20181213.pdf) <br />
+> - Included in the previously mentioned book titled [The RISC-V Reader](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view?pli=1), by David Patterson and Andrew Waterman.
