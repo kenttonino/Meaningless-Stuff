@@ -225,7 +225,7 @@ Here are the answers to the questions on the previous page:
 
 _There is no Flag/Condition-Code Register:_
 > - RISC-V does not have dedicated condition code registers, as seen in many other architectures.
-> - Instead, it relies on branch instructions to evalue conditions directly using the contents of general-purpose registers.
+> - Instead, it relies on branch instructions to evaluate conditions directly using the contents of general-purpose registers.
 
 _Register x0 is Hardwired to 0:_
 > - In RISC-V, register x0 is hardwired contain the value 0 and cannot be written to.
