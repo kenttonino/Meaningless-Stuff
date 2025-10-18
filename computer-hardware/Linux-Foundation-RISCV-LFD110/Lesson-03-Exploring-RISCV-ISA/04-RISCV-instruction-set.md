@@ -89,3 +89,41 @@ _J-Type_ <br />
 
 > - Different handling of immediates is the exact characteristic that defines the instruction types, but all of them tend to encode the immediates in similar positions in order to simplify the implementation of the hardware immeadiate decoder.
 > - All immediates decode to **32-bit** wide values, but encoding varies by instruction.
+
+<br />
+<br />
+<br />
+
+
+
+# Instructions in Assembly Language
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-risc-v-instruction-set?page=3
+> - Instruction mnemonics are used in RISC-V assembly language to represent specific instructions in a more human-readable from.
+> - A mnemonic is a short string of letters that represents a specific instruction.
+
+<br />
+
+...
+#
+
+> - For example, in the instruction `add x1, x2, x3`, **add** is the mnemonic that represents the add instruction.
+> - Functionality, that instruction means _"add the contents of x2 with contents of x3, and store the result in x1"_.
+
+<br />
+
+...
+#
+
+> - When an assembler encounters a mnemonic in the source code, it will use that mnemonic to translate the instruction into the corresponding machine code representation of the instruction, along with the encoding of the operands.
+
+<br />
+
+...
+#
+
+> - For example, the instruction `add x1, x2, x3` is translated by the assembler by the machine code instruction `0x003100B3`.
+> - This long hexadecimal number can be extended to binary: `0000 0000 0011 0001 0000 0000 1011 0011`.
+> - Which in turn can be represented as an **R-Type** instruction with the following fields:
+
+![06-add-instruction](./images/06-add-instruction.png)
