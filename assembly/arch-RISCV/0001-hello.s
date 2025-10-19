@@ -3,7 +3,7 @@
 
 # The message to print.
 message:
-	.ascii "Hello from RISC-V Universe!\n"
+	.ascii "Hello, RISC-V Universe!\n"
 
 # Compute the string length (current address - message).
 length = . - message
