@@ -7,18 +7,19 @@ message:
 
 # Compute the string length (current address - message).
 length = . - message
-		# Start of code section.
-    .section .text
-		# Tell the linker our entry point is called "_main".
-    .globl _main
+	# Start of code section.
+  .section .text
 
-_main:
-    li a7, 64               # Syscall number for write.
-    li a0, 1                # File descriptor 1 = stdout.
-    la a1, message          # Load address of message into a1.
-    li a2, length           # Load message length into a2.
-    ecall                   # Make the system call.
+	# Tell the linker our entry point is called "_start".
+  .globl _start
 
-    li a7, 93               # Syscall number for exit.
-    li a0, 0                # Exit code 0 (success).
-    ecall                   # Make the system call.
+_start:
+  addi a7, x0, 64        # SYS_write
+  addi a0, x0, 1         # stdout
+  la   a1, message       # load address of message
+  addi a2, x0, length    # length
+  ecall
+
+  addi a7, x0, 93        # SYS_exit
+  addi a0, x0, 0
+  ecall
