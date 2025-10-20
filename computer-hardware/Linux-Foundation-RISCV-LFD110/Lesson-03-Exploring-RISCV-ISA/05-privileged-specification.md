@@ -43,3 +43,12 @@ Important Features of M-mode:
 > - Each NMI will have a **mcause** register associated with it.
 > - This allows implementations to decide hhow they wish to handle these interrupts and allows them to define many possible causes.
 > - NMIs do not reset processor state which enables diagnosis, reporting, and possible containment of the hardware error.
+
+`Physical Memory Attributes (PMA)`
+> - The physical memory map for a system includes address ranges like memory regions, memory-mapped control registers, and empty holes in the address space.
+> - Some memory regions might not support reads, write, or execution; some might not support subword or subblock accesses; some might not support atomic operations; and some might not support cache coherence or might have different memory models.
+> - In RISC-V systems, these properties and capabilities of each region of the machine's physical address space are termed physical memory attributes (PMAs).
+> - The PMAs of some memory regions are fixed at chip design time - for example, for an on-chip ROM.
+> - Others are fixed at board design time, depending, for example, on which other chips are connected to off-chip buses.
+> - Some devices might be configurable at run time to support different uses that imply different PMAs - for example, an on-chip scratchpad RAM might be cached privately by one core in one end-application, or accessed as a shared non-cached memory in another end-application.
+> - Most systems will require that at least some PMAs are dynamically checked in hardware later in the execution pipeline after the physical address is known, as some operations will not be supported at all physical memory addresses, and some operations require knowing the current setting of a configurable PMA attribute.
