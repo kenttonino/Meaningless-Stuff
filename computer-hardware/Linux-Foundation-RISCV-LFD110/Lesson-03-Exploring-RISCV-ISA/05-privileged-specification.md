@@ -22,3 +22,24 @@
 # Machine-Level (M-Mode) ISA, Version 1.12
 
 > - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-privileged-specification?page=2
+
+...
+#
+
+> - This chapter describes the machine-level features available in machine-mode (M-mode).
+> - M-mode is used for low-level access to a hardware platform and is the first mode entered at reset, when the processor finishes initializing and is ready to execute code.
+> - M-mode can also be used to implement features that are too difficult or expensive to implement in hardware directly.
+> - A good example of this would be a watchdog timer implemented in low level software (firmware) which helps the system recover from faults.
+
+<br />
+
+Important Features of M-mode:
+#
+
+`Non-maskable Interrupts`
+> - Non-maskable interrupts (NMIs) are only used for hardware error conditions.
+> - When fired, they cause an immediate jump to an NMI handler running in M-mode, regardless of how that hardware thread has its interrupt enable bit set.
+> - In other words, that interrupt will be serviced without a way to block the service in configuration.
+> - Each NMI will have a **mcause** register associated with it.
+> - This allows implementations to decide hhow they wish to handle these interrupts and allows them to define many possible causes.
+> - NMIs do not reset processor state which enables diagnosis, reporting, and possible containment of the hardware error.
