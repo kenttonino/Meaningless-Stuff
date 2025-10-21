@@ -1,3 +1,3 @@
 # Description
 
-> - Anything related to Digital or Analog Electronics.
+> - Anything related to Analog Electronics, Digital Electronics, or Computer Architecture.
