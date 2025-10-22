@@ -52,3 +52,5 @@ Important Features of M-mode:
 > - Others are fixed at board design time, depending, for example, on which other chips are connected to off-chip buses.
 > - Some devices might be configurable at run time to support different uses that imply different PMAs - for example, an on-chip scratchpad RAM might be cached privately by one core in one end-application, or accessed as a shared non-cached memory in another end-application.
 > - Most systems will require that at least some PMAs are dynamically checked in hardware later in the execution pipeline after the physical address is known, as some operations will not be supported at all physical memory addresses, and some operations require knowing the current setting of a configurable PMA attribute.
+> - For RISC-V, we separate out specification and checking of PMAs into a separate hardware structure, the "PMA checker".
+> - In many cases, the attributes are known at system design time for each physical address region, and can be hardwired into the PMA checker.
