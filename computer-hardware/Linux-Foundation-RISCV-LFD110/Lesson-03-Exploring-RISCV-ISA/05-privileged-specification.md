@@ -76,3 +76,13 @@ Important Features of M-mode:
 > - The PMP values are checked in parallel with the PMA checks we covered in the last section.
 > - The granularity of PMP access control settings are platform-specific and within a platform may vary by physical memory region, but the standard PMP encoding supports regions as small as four bytes.
 > - The privileges of certain regions can be hardwired - for example, some regions might only ever be visible in machine mode but in no lower-privilege layers.
+
+<br />
+<br />
+<br />
+
+
+
+# Supervisor-Level (S-Mode) ISA, Version 1.12
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-privileged-specification?page=3
