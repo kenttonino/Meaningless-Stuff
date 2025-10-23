@@ -48,9 +48,14 @@ Important Features of M-mode:
 > - The physical memory map for a system includes address ranges like memory regions, memory-mapped control registers, and empty holes in the address space.
 > - Some memory regions might not support reads, write, or execution; some might not support subword or subblock accesses; some might not support atomic operations; and some might not support cache coherence or might have different memory models.
 > - In RISC-V systems, these properties and capabilities of each region of the machine's physical address space are termed physical memory attributes (PMAs).
+
+<br />
+
 > - The PMAs of some memory regions are fixed at chip design time - for example, for an on-chip ROM.
 > - Others are fixed at board design time, depending, for example, on which other chips are connected to off-chip buses.
 > - Some devices might be configurable at run time to support different uses that imply different PMAs - for example, an on-chip scratchpad RAM might be cached privately by one core in one end-application, or accessed as a shared non-cached memory in another end-application.
 > - Most systems will require that at least some PMAs are dynamically checked in hardware later in the execution pipeline after the physical address is known, as some operations will not be supported at all physical memory addresses, and some operations require knowing the current setting of a configurable PMA attribute.
 > - For RISC-V, we separate out specification and checking of PMAs into a separate hardware structure, the "PMA checker".
 > - In many cases, the attributes are known at system design time for each physical address region, and can be hardwired into the PMA checker.
+> - Where the attributes are run-time configurable, platform-specific memory-mapped control registers can be provided to specify these attributes at a granularity appropriate to each region on the platform (e.g. for an on-chip static random-access memory (SRAM) that can be flexibly divided between cacheable and uncacheable uses).
+> - The details of PMAs are described in section 3.5 of the [privileged specification](https://riscv.org/specifications/ratified/).
