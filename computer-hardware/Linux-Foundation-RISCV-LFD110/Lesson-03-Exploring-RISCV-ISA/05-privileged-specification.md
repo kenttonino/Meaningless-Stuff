@@ -44,6 +44,8 @@ Important Features of M-mode:
 > - This allows implementations to decide hhow they wish to handle these interrupts and allows them to define many possible causes.
 > - NMIs do not reset processor state which enables diagnosis, reporting, and possible containment of the hardware error.
 
+<br />
+
 `Physical Memory Attributes (PMA)`
 > - The physical memory map for a system includes address ranges like memory regions, memory-mapped control registers, and empty holes in the address space.
 > - Some memory regions might not support reads, write, or execution; some might not support subword or subblock accesses; some might not support atomic operations; and some might not support cache coherence or might have different memory models.
