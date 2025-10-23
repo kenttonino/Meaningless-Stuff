@@ -59,3 +59,18 @@ Important Features of M-mode:
 > - In many cases, the attributes are known at system design time for each physical address region, and can be hardwired into the PMA checker.
 > - Where the attributes are run-time configurable, platform-specific memory-mapped control registers can be provided to specify these attributes at a granularity appropriate to each region on the platform (e.g. for an on-chip static random-access memory (SRAM) that can be flexibly divided between cacheable and uncacheable uses).
 > - The details of PMAs are described in section 3.5 of the [privileged specification](https://riscv.org/specifications/ratified/).
+
+<br />
+
+`Physical Memory Protection (PMP)`
+> - A common feature of most modern processors is some way of performing secure remote computation or a "trusted execution environment".
+> - Examples of this technology include Intel Software Guard Extensions (SGX), AMD Secure Encrypted Virtualization (SEV), and Arm TrustZone.
+> - While the RISC-V ISA does not provide an end-to-end solution for Trusted Execution Environments, the Physical Memory Protection (PMP) capabilities are a solid foundation on which one might construct such a system.
+
+<br />
+
+> - RISC-V PMP Limits the physical addresses accessible by software running on a hart (hardware thread).
+> - An optional PMP unit provides per-hart machine-mode control registers to allow physical memory access privileges (read, write, execute) to be specified for each physical memory region.
+> - The PMP values are checked in parallel with the PMA checks we covered in the last section.
+> - The granularity of PMP access control settings are platform-specific and within a platform may vary by physical memory region, but the standard PMP encoding supports regions as small as four bytes.
+> - The privileges of certain regions can be hardwired - for example, some regions might only ever be visible in machine mode but in no lower-privilege layers.
