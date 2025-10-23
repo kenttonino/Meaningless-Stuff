@@ -41,7 +41,7 @@ Important Features of M-mode:
 > - When fired, they cause an immediate jump to an NMI handler running in M-mode, regardless of how that hardware thread has its interrupt enable bit set.
 > - In other words, that interrupt will be serviced without a way to block the service in configuration.
 > - Each NMI will have a **mcause** register associated with it.
-> - This allows implementations to decide hhow they wish to handle these interrupts and allows them to define many possible causes.
+> - This allows implementations to decide how they wish to handle these interrupts and allows them to define many possible causes.
 > - NMIs do not reset processor state which enables diagnosis, reporting, and possible containment of the hardware error.
 
 <br />
