@@ -86,3 +86,23 @@ Important Features of M-mode:
 # Supervisor-Level (S-Mode) ISA, Version 1.12
 
 > - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/exploring-the-risc-v-instruction-set-architecture/the-privileged-specification?page=3
+
+<br />
+
+...
+#
+
+> - This chapter describes the RISC-V supervisor-level architecture, which contains a common core that is used with various supervisor-level address translation and protection schemes.
+> - Supervisor mode is deliberately restricted in terms of interactions with underlying physical hardware, such as physical memory device interrupts, to support clean virtualization.
+> - In this spirit, certain supervisor-level facilities, including requests for timer and inter-processor interrupts, are provided by implementation-specific mechanisms.
+> - In some systems, a `Supervisor Execution Environment` (SEE) provides these facilities in a manner specified by a `Supervisor Binary Interface` (SBI).
+> - Other systems supply these facilities directly, through some other implementation-defined mechanism.
+
+<br />
+
+...
+#
+
+> - RISC-V supports Page-Based 32-bit, 39-bit, and 48-bit virtual memory addressing.
+> - The supervisor (S-Mode) memory-management fense instruction (SPENCE.VMA) is used to synchronize updates to in-memory memory-management data structures with current execution.
+> - Executing this instruction guarantees that any previous stores already visible to the current RISC-V hart (hardware thread) are ordered before all subsequent implicit references from that hart to te memory-management data structures.
