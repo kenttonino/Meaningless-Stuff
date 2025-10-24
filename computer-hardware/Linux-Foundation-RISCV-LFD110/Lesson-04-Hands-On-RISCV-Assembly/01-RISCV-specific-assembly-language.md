@@ -38,3 +38,23 @@
 
 > - Assembly code is at a lower level of abstraction with respect to high level programming language like C or Python.
 > - Although most of the code is usually written in a high level language, sometimes one has no choice but to code directly in assembly language.
+
+<br />
+<br />
+<br />
+
+
+
+# Features
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/hands-on-risc-v-assembly-language/risc-v-specific-assembly-language?page=2
+
+...
+#
+
+> - The RISC-V assembly language as a number of features that go hand in hand with te features of the RISC-V ISA.
+> - Among the other features, we have the following:
+>   - The language was designed with simplicity in mind.
+>   - In general, binary operations like addition, **AND**, **XOR**, **multiplication**, and so on, specify 3 operands: 2 source registers with read access, and 1 result register with write access.
+>   - Support of pseudoinstructions to ease the task of writing assembly code.
+>   - Direct translation between assembly language and machine language.
