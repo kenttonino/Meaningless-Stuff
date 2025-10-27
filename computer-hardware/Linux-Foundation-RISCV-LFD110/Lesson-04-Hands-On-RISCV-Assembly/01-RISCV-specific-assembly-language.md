@@ -60,3 +60,20 @@
 >   - In general, binary operations like addition, **AND**, **XOR**, **multiplication**, and so on, specify 3 operands: 2 source registers with read access, and 1 result register with write access.
 >   - Support of pseudoinstructions to ease the task of writing assembly code.
 >   - Direct translation between assembly language and machine language.
+
+<br />
+<br />
+<br />
+
+
+
+# How the RISC-V Assembly Language Works
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/hands-on-risc-v-assembly-language/risc-v-specific-assembly-language?page=3
+
+<br />
+
+...
+#
+
+> - The syntax of the RISC-V assembly language can vary depending on the specific variant or extension of the architecture and the assembler being used (the program that reads a text file with assembly code, and produces machine code).
