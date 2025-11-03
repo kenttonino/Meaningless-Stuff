@@ -205,3 +205,17 @@ _.equ_:
 
 _.string_:
 > - Defines a string of ASCII characters with a null terminator.
+
+<br />
+<br />
+<br />
+
+
+
+# Reminder: The RISC-V Instruction Set
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/hands-on-risc-v-assembly-language/risc-v-specific-assembly-language?page=6
+> - Since we are about to see a few coding examples, it’s a good idea to have [“The RISC-V Instruction Set Manual Volume I: Unprivileged ISA”](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view) handy in case you need to review some of the instructions in the code.
+> - Also remember to have a quick reference document handy. Here are the links to the documents we recommended earlier:
+>   - A [RISC-V Reference Card](https://github.com/jameslzhu/riscv-card/releases/download/latest/riscv-card.pdf), by James Zhu.
+>   - The [RISC-V reference card](http://riscvbook.com/greencard-20181213.pdf) included in The [RISC-V Reader](http://riscvbook.com/).
