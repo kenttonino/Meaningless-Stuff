@@ -151,3 +151,57 @@ string1:                    # label for first string
 string2:                    # label for second string
   .string "world"           # Directive: null-terminated string
 ```
+
+<br />
+<br />
+<br />
+
+
+
+# Assembler Directives
+
+> - https://trainingportal.linuxfoundation.org/learn/course/introduction-to-risc-v-lfd110/hands-on-risc-v-assembly-language/risc-v-specific-assembly-language?page=5
+
+<br />
+
+...
+#
+
+> - RISC-V assembler directives are non-CPU instructions that provide information to the assembler (the program that produces machine code from a text file), but are not executed as machine instructions.
+> - They control the assembly process, specify data locations and provide information to linkers.
+> - These are some of the most popular RISC-V assembler directives, but there are many more. Consult the RISC-V ISA manual or the [specific assembler documentation](https://github.com/riscv-non-isa/riscv-asm-manual/blob/lpad_hash/riscv-asm.md) for a complete list.
+
+<br />
+
+`Common RISC-V Assembler Directives`
+#
+
+_.align_:
+> - Aligns the location counter to a specified power of 2 boundary.
+
+_.section_:
+> - Specifies the section of the output file where the following data should be placed.
+
+_.byte_:
+> - Defines an array of 8-bit values.
+
+_.half_:
+> - Defines an array of 16-bit values.
+
+_.word_:
+> - Defines an array of 32-bit values.
+
+_.data_:
+> - Specifies the start of the data section where initialized data is stored.
+
+_.text_:
+> - Specifies the start of the code section where instructions are stored.
+
+_.globl_:
+> - Declares a symbol as global and accessible from other files.
+
+_.equ_:
+> - Assigns a value to a symbol, useful for constants.
+
+_.string_:
+> - Defines a string of ASCII characters with a null terminator.
