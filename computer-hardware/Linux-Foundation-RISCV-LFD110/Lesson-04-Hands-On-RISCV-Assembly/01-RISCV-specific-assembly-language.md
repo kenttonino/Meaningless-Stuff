@@ -77,3 +77,31 @@
 #
 
 > - The syntax of the RISC-V assembly language can vary depending on the specific variant or extension of the architecture and the assembler being used (the program that reads a text file with assembly code, and produces machine code).
+
+<br />
+
+`RISC-V Assembly Language Elements`
+#
+
+_Instructions_:
+> - A set of basic operations, such as **arithmetic**, **load/store**, and **control flow**, that are executed by the processor.
+> - In general, instructions consist of mnemonic (a short but descriptive instruction name) and a series of operands (the registers or data to operate upon).
+
+_Registers_:
+> - Processor-internal memory locations used to store intermediate results and control information.
+
+_Labels_:
+> - Symbolic names for memory locations that can be used as targets for branch and jumps instructions.
+
+_Directives_:
+> - Special commands used to control the behavior of the assembler, such as setting memory regions or defining constants.
+
+_Macros_:
+> - User-defined sequences of instructions that can be invoked with a single macro call.
+
+_Pseudoinstructions_:
+> - Synthetic instructions that are translated by the assembler into one or more real instructions, allowing for a higher-level, more concise representation of the code.
+
+<br />
+
+> - These elements are combined to create RISC-V assembly programs, which are then assembled into machine code and executed by the processor.
